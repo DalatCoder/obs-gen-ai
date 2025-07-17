@@ -101,14 +101,16 @@ Khóa học toàn diện về kỹ thuật prompting hiệu quả với 4 module
 
 #### 🚀 Module 4: Kỹ thuật nâng cao và AI Agents
 
-- **Giải quyết tác vụ phức tạp** với AI → [[04 - 01 - Use AI to untangle complex tasks]]
-- **Prompt Chaining** - kỹ thuật chuỗi prompt → [[04 - 02 - Discover prompt chaining]]
-- **Chain-of-Thought và Tree-of-Thought** prompting → [[04 - 03 - Explore Chain-of-thought and Tree-of-though prompting]]
-- **Đơn giản hóa dự án đa bước** → [[04 - 04 - Simplify multi-step projects with prompt chaining]]
-- **Meta-prompting** - tạo prompt từ AI → [[04 - 06 - Use meta-prompting to improve and generate new prompts]]
-- **Tạo AI Agents** cho mô phỏng → [[04 - 07 - Create an AI agent for simulations]]
-- **AI Agents cho phản hồi chuyên gia** → [[04 - 08 - Create an AI agent for expert feedback]]
-- **Xây dựng thư viện prompt** cá nhân → [[04 - 11 - Build a prompt library]]
+- **Phân tích tác vụ phức tạp** và chia nhỏ thành các bước khả thi → [[04 - 01 - Use AI to untangle complex tasks]]
+- **Prompt Chaining** - kỹ thuật chuỗi prompt liên tiếp để xử lý tác vụ đa bước → [[04 - 02 - Discover prompt chaining]]
+- **Chain-of-Thought Prompting** - hướng dẫn AI giải thích quá trình suy luận từng bước → [[04 - 03 - Explore Chain-of-thought and Tree-of-though prompting]]
+- **Tree-of-Thought Prompting** - khám phá nhiều đường giải quyết song song → [[04 - 03 - Explore Chain-of-thought and Tree-of-though prompting]]
+- **Ứng dụng Prompt Chaining** trong quản lý dự án thực tế → [[04 - 04 - Simplify multi-step projects with prompt chaining]]
+- **Meta-prompting** - sử dụng AI để cải thiện và tạo ra prompt mới → [[04 - 06 - Use meta-prompting to improve and generate new prompts]]
+- **Simulation Agents** - tạo AI agents cho mô phỏng và luyện tập → [[04 - 07 - Create an AI agent for simulations]]
+- **Expert Feedback Agents** - phát triển AI agents cung cấp phản hồi chuyên môn → [[04 - 08 - Create an AI agent for expert feedback]]
+- **Personal Prompt Library** - xây dựng và quản lý thư viện prompt cá nhân → [[04 - 11 - Build a prompt library]]
+- **Prompt Versioning** - theo dõi và tối ưu hóa các phiên bản prompt → [[04 - 11 - Build a prompt library]]
 
 ### 🧠 Google AI Essentials
 
@@ -146,19 +148,26 @@ Task (Nhiệm vụ) → Context (Ngữ cảnh) → References (Tham khảo) → 
 
 > 🔗 **Tìm hiểu**: [[04 - 02 - Discover prompt chaining]] | [[04 - 04 - Simplify multi-step projects with prompt chaining]]
 
-- **Prompt Chaining** - kết nối các prompt liên tiếp → [[Glossary - Thuật ngữ Gen AI#Prompt Chaining|Tìm hiểu Prompt Chaining]]
-- **Chain-of-Thought** - giải thích quá trình suy luận → [[Glossary - Thuật ngữ Gen AI#Chain of Thought|Chain of Thought]]
-- **Tree-of-Thought** - khám phá nhiều giải pháp cùng lúc → [[Glossary - Thuật ngữ Gen AI#Tree of Thought|Tree of Thought]]
-- **Meta-prompting** - dùng AI để tạo prompt → [[Glossary - Thuật ngữ Gen AI#Meta-Prompting|Meta-Prompting]]
+- **Prompt Chaining** - kết nối các prompt liên tiếp để xử lý tác vụ phức tạp → [[Glossary - Thuật ngữ Gen AI#Prompt Chaining|Tìm hiểu Prompt Chaining]]
+- **Chain-of-Thought** - hướng dẫn AI giải thích từng bước suy luận → [[Glossary - Thuật ngữ Gen AI#Chain of Thought|Chain of Thought]]
+- **Tree-of-Thought** - khám phá nhiều giải pháp song song và đánh giá → [[Glossary - Thuật ngữ Gen AI#Tree of Thought|Tree of Thought]]
+- **Meta-prompting** - sử dụng AI để tối ưu hóa và tạo prompt mới → [[Glossary - Thuật ngữ Gen AI#Meta-Prompting|Meta-Prompting]]
+- **Sequential Processing** - xử lý tuần tự các bước trong quy trình phức tạp
+- **Multi-step Reasoning** - suy luận đa bước cho bài toán logic phức tạp
 
 ### 🤖 AI Agents và Ứng dụng nâng cao
 
 > 🔗 **Khám phá**: [[04 - 07 - Create an AI agent for simulations]] | [[04 - 08 - Create an AI agent for expert feedback]]
 
-- Tạo **AI Agents** cho mô phỏng và thực hành → [[Glossary - Thuật ngữ Gen AI#AI Agent|AI Agent]]
-- **Simulation Agents** - luyện tập kỹ năng an toàn
-- **Expert Feedback Agents** - nhận tư vấn chuyên gia
-- **Thư viện Prompt** cá nhân → [[04 - 11 - Build a prompt library]]
+- Tạo **AI Agents** chuyên biệt cho các tác vụ cụ thể → [[Glossary - Thuật ngữ Gen AI#AI Agent|AI Agent]]
+- **Simulation Agents** - mô phỏng tình huống thực tế để luyện tập kỹ năng an toàn
+- **Expert Feedback Agents** - cung cấp phản hồi chuyên môn từ góc nhìn chuyên gia
+- **Role-Playing Agents** - đóng vai các nhân vật khác nhau trong kịch bản
+- **Collaborative Agents** - làm việc nhóm với nhiều AI agents
+- **Personal Assistant Agents** - hỗ trợ công việc cá nhân hàng ngày
+- **Thư viện Prompt** cá nhân với phiên bản quản lý → [[04 - 11 - Build a prompt library]]
+- **Prompt Versioning** - theo dõi hiệu suất các phiên bản prompt khác nhau
+- **Template Library** - bộ sưu tập template cho các tình huống thường gặp
 
 ## 📖 Cách sử dụng
 
@@ -187,12 +196,16 @@ Task (Nhiệm vụ) → Context (Ngữ cảnh) → References (Tham khảo) → 
 ## 🌟 Tính năng nổi bật
 
 - **Cấu trúc có hệ thống**: Tổ chức theo 4 modules chuyên sâu với [[01 - 04 - Course overview|tổng quan rõ ràng]]
+- **Progression logic**: Từ [[01 - 05 - Use the 5-step prompt framework|framework cơ bản]] → [[04 - 02 - Discover prompt chaining|prompt chaining]] → [[04 - 07 - Create an AI agent for simulations|AI agents]] phức tạp
 - **Liên kết thông minh**: Sử dụng Obsidian để tạo [[Glossary - Thuật ngữ Gen AI#Knowledge Graph|knowledge graph]] liên kết các khái niệm
+- **Kỹ thuật nâng cao**: Bao gồm [[04 - 03 - Explore Chain-of-thought and Tree-of-though prompting|Chain-of-Thought & Tree-of-Thought]], [[04 - 06 - Use meta-prompting to improve and generate new prompts|Meta-prompting]]
+- **Ứng dụng đa dạng**: Từ [[02 - 03 - Write emails with gen AI|viết email]] → [[03 - 07 - Bring data to life with visualizations|phân tích dữ liệu]] → [[04 - 11 - Build a prompt library|xây dựng thư viện prompt]]
+- **AI Agents chuyên biệt**: [[04 - 07 - Create an AI agent for simulations|Simulation agents]] và [[04 - 08 - Create an AI agent for expert feedback|Expert feedback agents]]
 - **Nội dung tiếng Việt**: Dễ hiểu và áp dụng cho người Việt Nam
 - **Cập nhật liên tục**: Theo dõi xu hướng mới nhất trong [[Glossary - Thuật ngữ Gen AI#Gen AI|Gen AI]]
 - **Thực hành định hướng**: Tập trung vào ứng dụng thực tế với [[01 - 03 - AI IRL - Unlock your relationship with AI through prompting|các tình huống thực tế]]
-- **Từ cơ bản đến nâng cao**: Progression từ [[01 - 05 - Use the 5-step prompt framework|framework cơ bản]] đến [[04 - 07 - Create an AI agent for simulations|AI agents]] phức tạp
-- **Ứng dụng đa dạng**: Từ [[02 - 03 - Write emails with gen AI|viết email]] đến [[03 - 07 - Bring data to life with visualizations|phân tích dữ liệu]] và [[04 - 11 - Build a prompt library|xây dựng thư viện prompt]]
+- **Quản lý prompt**: Hệ thống [[04 - 11 - Build a prompt library|versioning và library]] để tối ưu hóa prompt
+- **Multi-modal support**: Từ text đến [[01 - 12 - Create images with gen AI|hình ảnh]] và [[01 - 15 - Understand multimodal prompting|đa phương tiện]]
 
 ## 🎓 Nguồn tham khảo
 
@@ -294,35 +307,48 @@ Task (Nhiệm vụ) → Context (Ngữ cảnh) → References (Tham khảo) → 
 
 ## 🚀 Lộ trình phát triển
 
-- [x] Hoàn thành [[01 - 01 - Welcome to Google Prompting Essentials|Google Prompting Essentials Module 1]] - Framework cơ bản
-- [x] Hoàn thành **Module 2** - Ứng dụng AI trong công việc hàng ngày
-- [x] Hoàn thành **Module 3** - Phân tích dữ liệu và thuyết trình
-- [x] Hoàn thành **Module 4** - Kỹ thuật nâng cao và AI Agents
-- [ ] Phát triển [[Glossary - Thuật ngữ Gen AI#Google AI Essentials|Google AI Essentials]]
-- [ ] Thêm các [[Glossary - Thuật ngữ Gen AI#Case Studies|case studies]] thực tế
-- [ ] Xây dựng [[Glossary - Thuật ngữ Gen AI#Prompt Templates|prompt templates]] và [[Glossary - Thuật ngữ Gen AI#Prompting Checklist|prompting checklist]]
-- [ ] Bổ sung video và hình ảnh minh họa
-- [ ] Tạo [[Glossary - Thuật ngữ Gen AI#MOC|MOC]] (Maps of Content) cho từng chủ đề
-- [ ] Phát triển [[Glossary - Thuật ngữ Gen AI#Personal Prompt Library|prompt library]] cá nhân
+- [x] Hoàn thành [[01 - 01 - Welcome to Google Prompting Essentials|Google Prompting Essentials Module 1]] - Framework cơ bản và Prompting essentials
+- [x] Hoàn thành **Module 2** - Ứng dụng AI trong công việc hàng ngày (email, brainstorming, tables)
+- [x] Hoàn thành **Module 3** - Phân tích dữ liệu và thuyết trình (insights, visualizations, presentations)
+- [x] Hoàn thành **Module 4** - Kỹ thuật nâng cao và AI Agents (prompt chaining, meta-prompting, AI agents)
+- [ ] Phát triển [[Glossary - Thuật ngữ Gen AI#Google AI Essentials|Google AI Essentials]] - Kiến thức nền tảng về AI
+- [ ] Thêm các [[Glossary - Thuật ngữ Gen AI#Case Studies|case studies]] thực tế từ doanh nghiệp Việt Nam
+- [ ] Xây dựng [[Glossary - Thuật ngữ Gen AI#Prompt Templates|prompt templates]] chuyên biệt cho từng lĩnh vực
+- [ ] Phát triển [[Glossary - Thuật ngữ Gen AI#Prompting Checklist|prompting checklist]] và quality assessment tools
+- [ ] Bổ sung video demo và hình ảnh minh họa cho các kỹ thuật
+- [ ] Tạo [[Glossary - Thuật ngữ Gen AI#MOC|MOC]] (Maps of Content) chuyên sâu cho từng chủ đề
+- [ ] Phát triển Advanced Prompting Techniques (Few-shot, Zero-shot, In-context learning)
+- [ ] Xây dựng Community Prompt Library với đóng góp từ cộng đồng
 
 ## 📖 Thuật ngữ quan trọng
 
 Một số thuật ngữ quan trọng trong vault này:
 
+**Khái niệm cơ bản:**
+
 - [[Glossary - Thuật ngữ Gen AI#Gen AI|Gen AI]] - Trí tuệ nhân tạo tạo sinh
 - [[Glossary - Thuật ngữ Gen AI#Prompting|Prompting]] - Kỹ thuật viết lệnh cho AI
-- [[Glossary - Thuật ngữ Gen AI#Framework|Framework]] - Khung mẫu làm việc
-- [[Glossary - Thuật ngữ Gen AI#Iteration|Iteration]] - Phương pháp điều chỉnh
+- [[Glossary - Thuật ngữ Gen AI#Framework|Framework]] - Khung mẫu làm việc (TCREI)
+- [[Glossary - Thuật ngữ Gen AI#Iteration|Iteration]] - Phương pháp điều chỉnh và cải thiện
 - [[Glossary - Thuật ngữ Gen AI#Persona|Persona]] - Vai trò được gán cho AI
 - [[Glossary - Thuật ngữ Gen AI#Context|Context]] - Ngữ cảnh thông tin
 - [[Glossary - Thuật ngữ Gen AI#References|References]] - Tài liệu tham khảo
-- [[Glossary - Thuật ngữ Gen AI#Hallucinations|Hallucinations]] - Hiện tượng AI tạo thông tin sai
-- [[Glossary - Thuật ngữ Gen AI#Multimodal|Multimodal]] - Đa phương tiện
-- [[Glossary - Thuật ngữ Gen AI#Responsible AI|Responsible AI]] - AI có trách nhiệm
-- [[Glossary - Thuật ngữ Gen AI#Prompt Chaining|Prompt Chaining]] - Kỹ thuật chuỗi prompt
-- [[Glossary - Thuật ngữ Gen AI#AI Agent|AI Agent]] - Tác nhân AI thông minh
-- [[Glossary - Thuật ngữ Gen AI#Meta-Prompting|Meta-Prompting]] - Dùng AI để tạo prompt
+
+**Kỹ thuật nâng cao:**
+
+- [[Glossary - Thuật ngữ Gen AI#Prompt Chaining|Prompt Chaining]] - Kỹ thuật chuỗi prompt liên tiếp
+- [[Glossary - Thuật ngữ Gen AI#Chain of Thought|Chain-of-Thought]] - Suy luận từng bước có giải thích
+- [[Glossary - Thuật ngữ Gen AI#Tree of Thought|Tree-of-Thought]] - Khám phá nhiều giải pháp song song
+- [[Glossary - Thuật ngữ Gen AI#Meta-Prompting|Meta-Prompting]] - Dùng AI để tạo và cải thiện prompt
+- [[Glossary - Thuật ngữ Gen AI#AI Agent|AI Agent]] - Tác nhân AI thông minh chuyên biệt
 - [[Glossary - Thuật ngữ Gen AI#Personal Prompt Library|Personal Prompt Library]] - Thư viện prompt cá nhân
+
+**Ứng dụng và an toàn:**
+
+- [[Glossary - Thuật ngữ Gen AI#Multimodal|Multimodal]] - Đa phương tiện (text, image, audio)
+- [[Glossary - Thuật ngữ Gen AI#Hallucinations|Hallucinations]] - Hiện tượng AI tạo thông tin sai
+- [[Glossary - Thuật ngữ Gen AI#Responsible AI|Responsible AI]] - AI có trách nhiệm và đạo đức
+- [[Glossary - Thuật ngữ Gen AI#Bias|Bias]] - Thiên lệch trong kết quả AI
 
 > 📚 **Xem thêm**: [[Glossary - Thuật ngữ Gen AI|Bảng thuật ngữ đầy đủ]]
 
