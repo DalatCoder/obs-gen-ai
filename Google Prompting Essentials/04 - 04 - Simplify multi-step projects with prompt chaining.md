@@ -1,6 +1,10 @@
-# Đơn giản hóa các dự án đa bước với Prompt Chaining
+# Đơn giản hóa các dự án đa bước với [[Glossary - Thuật ngữ Gen AI#Prompt Chaining|Prompt Chaining]]
 
-## Tổng quan về Prompt Chaining
+> 🧭 **Navigation**: [[04 - 03 - Explore Chain-of-thought and Tree-of-though prompting|← Trước]] | [[MOC - Google Prompting Essentials|📚 Mục lục]] | [[04 - 05 - AI IRL - Enlist AI as your though partner|Tiếp theo →]]
+
+---
+
+## Tổng quan về [[Glossary - Thuật ngữ Gen AI#Prompt Chaining|Prompt Chaining]]
 
 Một số dự án **quá lớn để hoàn thành cùng lúc** - công việc nhiều phần thường được hoàn thành từng bước một. Khi làm việc với các công cụ trí tuệ nhân tạo tạo sinh (Gen AI), một số thách thức được giải quyết tốt nhất bằng cách **chia nhỏ thành các nhiệm vụ nhỏ hơn và liên kết với nhau**. Việc thực hiện từng bước cũng duy trì **cách tiếp cận có con người tham gia** (human-in-the-loop approach), giúp bạn đánh giá các prompt và kết quả khi tiếp tục kết nối chúng để phát hiện các ảo giác (hallucinations).
 
@@ -91,9 +95,7 @@ _(Dựa trên văn bản đính kèm, tạo một đồ họa tràn đầy năng
 Sử dụng các **cụm từ khóa** như:
 
 - `"explain your reasoning"` (giải thích lý luận của bạn)
-    
 - `"go step by step"` (thực hiện từng bước)
-    
 
 ## Ví dụ thực hành
 
@@ -114,11 +116,8 @@ text
 ## Lợi ích
 
 - **Điều chỉnh hướng quyết định** từ một bước cụ thể
-    
 - **Xác định nguồn gốc nhầm lẫn** khi kết quả không đạt mục tiêu
-    
 - **Hiểu lý do** tại sao trí tuệ nhân tạo tạo sinh (Gen AI) đưa ra những quyết định như vậy
-    
 
 ## 2. Tree-of-Thought Prompting (TOT)
 
@@ -127,11 +126,8 @@ text
 ## Cách thức hoạt động
 
 - **Tạo ra nhiều nhánh** giải pháp
-    
 - **Đánh giá và chọn lọc** những nhánh tốt nhất
-    
 - **Quay lại nhánh trước** nếu không hài lòng với kết quả
-    
 
 ## Ví dụ thực hành
 
@@ -141,11 +137,11 @@ text
 
 `Imagine three different designers are pitching their design to me. All designers will write down one step of their thinking, then share it with the group. Then all experts will go on to the next step, etc. If any expert realizes they're wrong at any point, then they leave. The question is: Generate an image that's visually energetic, and features images of art supplies and computers. Show me three suggestions in very different styles from simple to detailed and complex.`
 
-*(Hãy tưởng tượng ba nhà thiết kế khác nhau đang trình bày thiết kế của họ cho tôi.
+\*(Hãy tưởng tượng ba nhà thiết kế khác nhau đang trình bày thiết kế của họ cho tôi.
 
 Tất cả các nhà thiết kế sẽ viết ra một bước suy nghĩ của họ, sau đó chia sẻ với nhóm. Sau đó tất cả các chuyên gia sẽ chuyển sang bước tiếp theo, v.v. Nếu bất kỳ chuyên gia nào nhận ra họ đang sai vào bất kỳ thời điểm nào, thì họ sẽ rời khỏi.
 
-Câu hỏi là: Tạo một hình ảnh tràn đầy năng lượng và có hình ảnh đồ dùng nghệ thuật và máy tính. Cho tôi xem ba đề xuất theo phong cách rất khác nhau từ đơn giản đến chi tiết và phức tạp.)*
+Câu hỏi là: Tạo một hình ảnh tràn đầy năng lượng và có hình ảnh đồ dùng nghệ thuật và máy tính. Cho tôi xem ba đề xuất theo phong cách rất khác nhau từ đơn giản đến chi tiết và phức tạp.)\*
 
 ## Kết hợp kỹ thuật
 
@@ -160,11 +156,16 @@ Câu hỏi là: Tạo một hình ảnh tràn đầy năng lượng và có hìn
 ## Phương pháp tối ưu
 
 - **Thử nghiệm xác nhận kết quả tốt nhất**
-    
 - **Lặp lại prompt với các mô hình khác nhau**
-    
 - **So sánh đầu ra** của chúng
-    
+
+---
+
+> 📚 **Thuật ngữ liên quan**: [[Glossary - Thuật ngữ Gen AI#Multi-step Projects|Multi-step Projects]] | [[Glossary - Thuật ngữ Gen AI#Human-in-the-loop|Human-in-the-loop]] | [[Glossary - Thuật ngữ Gen AI#Onboarding|Onboarding]]
+>
+> 🔗 **Xem thêm**: [[04 - 02 - Discover prompt chaining|Prompt chaining cơ bản]] | [[04 - 03 - Explore Chain-of-thought and Tree-of-though prompting|Chain-of-thought prompting]]
+>
+> 🎯 **Thực hành**: [[04 - 05 - AI IRL - Enlist AI as your though partner|AI thought partner]] | [[04 - 06 - Use meta-prompting to improve and generate new prompts|Meta-prompting]]
 
 ## Kết luận
 

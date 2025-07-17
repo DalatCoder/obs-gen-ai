@@ -1,4 +1,8 @@
-# Prompt Chaining - Kỹ thuật Chuỗi Prompt
+# [[Glossary - Thuật ngữ Gen AI#Prompt Chaining|Prompt Chaining]] - Kỹ thuật Chuỗi Prompt
+
+> 🧭 **Navigation**: [[04 - 01 - Use AI to untangle complex tasks|← Trước]] | [[MOC - Google Prompting Essentials|📚 Mục lục]] | [[04 - 03 - Explore Chain-of-thought and Tree-of-though prompting|Tiếp theo →]]
+
+---
 
 ## Khái niệm cơ bản
 
@@ -11,11 +15,8 @@ Prompt chaining là kỹ thuật **hướng dẫn trí tuệ nhân tạo tạo s
 Khi bạn nghỉ phép và cần cập nhật công việc:
 
 1. **Bước 1**: Prompt AI tóm tắt email và tài liệu nhận được
-    
 2. **Bước 2**: Sau khi xem xét đầu ra, prompt tiếp để tập trung vào các yêu cầu cấp thiết
-    
 3. **Bước 3**: Nếu phát hiện vấn đề khẩn cấp, prompt thêm để tìm giải pháp xử lý
-    
 
 **Điểm khác biệt**: Với kỹ thuật này, bạn không chỉ đơn thuần lặp lại, mà **mỗi prompt và phản hồi đều xây dựng dựa trên cái trước đó**, tạo thành một chuỗi prompt liên tiếp trong một chuỗi duy nhất.
 
@@ -70,20 +71,23 @@ _(Tạo kế hoạch quảng bá sáu tuần cho book tour, bao gồm những đ
 **Prompt chaining khác với iteration:**
 
 - **Iteration** (lặp lại): Tập trung vào việc điều chỉnh một prompt cụ thể để cải thiện kết quả
-    
 - **Prompt chaining**: Sử dụng đầu ra của AI làm **khối xây dựng** cho các yêu cầu phức tạp hơn, mở rộng dựa trên những gì AI đã tạo ra trước đó
-    
 
 ## Lợi ích của kỹ thuật này
 
-Với chỉ một chuỗi prompt, bạn có thể hướng dẫn mô hình Gemini trong AI Studio tạo ra:
+Với chỉ một chuỗi prompt, bạn có thể hướng dẫn mô hình [[Glossary - Thuật ngữ Gen AI#Gemini|Gemini]] trong [[Glossary - Thuật ngữ Gen AI#Google AI Studio|AI Studio]] tạo ra:
 
 - **Tagline** hấp dẫn
-    
 - **Bản tóm tắt** chi tiết
-    
 - **Kế hoạch book tour** hoàn chỉnh
-    
+
+---
+
+> 📚 **Thuật ngữ liên quan**: [[Glossary - Thuật ngữ Gen AI#Prompt Chaining|Prompt Chaining]] | [[Glossary - Thuật ngữ Gen AI#Long Context Window|Long Context Window]] | [[Glossary - Thuật ngữ Gen AI#Sequential Prompting|Sequential Prompting]]
+>
+> 🔗 **Xem thêm**: [[04 - 03 - Explore Chain-of-thought and Tree-of-though prompting|Chain-of-thought prompting]] | [[04 - 04 - Simplify multi-step projects with prompt chaining|Multi-step projects]]
+>
+> 🎯 **Thực hành**: [[01 - 09 - Practice 4 iteration methods|Phương pháp iteration]] | [[04 - 06 - Use meta-prompting to improve and generate new prompts|Meta-prompting]]
 
 Tất cả đều được xây dựng dựa trên **long context window** (cửa sổ ngữ cảnh dài), giúp mô hình ghi nhớ cuộc hội thoại và phân tích bản thảo một cách liên tục.
 

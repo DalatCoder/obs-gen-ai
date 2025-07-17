@@ -76,3 +76,11 @@ Giống như việc chuẩn bị bữa ăn cho gia đình:
 - Suy nghĩ về tất cả các prompt đã tạo trong khóa học
 - Tạo ra **các phiên bản khác nhau** phù hợp với nhu cầu cá nhân
 - Phát triển thư viện prompt cá nhân dựa trên kinh nghiệm thực tế
+
+---
+
+> 📚 **Thuật ngữ liên quan**: [[Glossary - Thuật ngữ Gen AI#Prompt Versioning|Prompt Versioning]] | [[Glossary - Thuật ngữ Gen AI#Personal Prompt Library|Personal Prompt Library]] | [[Glossary - Thuật ngữ Gen AI#Prompt Templates|Prompt Templates]]
+>
+> 🔗 **Xem thêm**: [[04 - 06 - Use meta-prompting to improve and generate new prompts|Meta-prompting]] | [[04 - 12 - AI IRL - Build AI with your community|Xây dựng AI với cộng đồng]]
+>
+> 🎯 **Thực hành**: [[01 - 05 - Use the 5-step prompt framework|Framework prompting]] | [[04 - 13 - Congratulations on completing the course|Hoàn thành khóa học]]
