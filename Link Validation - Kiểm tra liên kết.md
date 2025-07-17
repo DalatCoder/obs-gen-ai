@@ -159,5 +159,11 @@ Chuỗi liên kết học tập:
 
 _Tài liệu này nên được cập nhật mỗi khi có thay đổi lớn về cấu trúc vault._
 
-**Ngày kiểm tra cuối**: 2025-07-17  
+**Ngày kiểm tra cuối**: 2025-07-18  
 **Trạng thái**: ✅ Tất cả liên kết đã được cập nhật và kiểm tra
+**Lỗi đã sửa**:
+
+- ✅ Sửa header bị lỗi trong README
+- ✅ Loại bỏ self-references trong Glossary
+- ✅ Khôi phục cấu trúc MOC bị hỏng
+- ✅ Cập nhật ngày tháng thống nhất

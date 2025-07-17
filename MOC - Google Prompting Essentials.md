@@ -4,16 +4,7 @@
 
 ## 🗺️ Tổng quan khóa học
 
-[[01 -### 🎯 Chuyên sâu
-
-1. Tất cả các bài "[[01 - 03 - AI IRL - Unlock your relationship with AI through prompting|AI IRL]]" để thực hành
-2. Xây dựng [[Glossary - Thuật ngữ Gen AI#Personal Prompt Library|Personal Prompt Library]]
-3. Áp dụng vào dự án thực tế
-4. Chia sẻ kinh nghiệm với [[Glossary - Thuật ngữ Gen AI#AI Community|cộng đồng]]
-
----
-
-*Cập nhật lần cuối: 2025-07-17*ome to Google Prompting Essentials|Chào mừng đến với Google Prompting Essentials]] là khóa học chính thức từ Google về kỹ thuật [[Prompting]] hiệu quả. Khóa học này được thiết kế để giúp người dùng tạo ra những [[prompt]] chất lượng cao cho các công cụ [[Gen AI]].
+[[01 - 01 - Welcome to Google Prompting Essentials|Chào mừng đến với Google Prompting Essentials]] là khóa học chính thức từ Google về kỹ thuật prompting hiệu quả. Khóa học này được thiết kế để giúp người dùng tạo ra những prompt chất lượng cao cho các công cụ trí tuệ nhân tạo tạo sinh.
 
 ## 🎯 Cấu trúc khóa học
 
@@ -26,14 +17,14 @@
 
 ### 🎨 Module 2: Framework cơ bản
 
-- [[01 - 05 - Use the 5-step prompt framework]] - Framework 5 bước [[TCREI]]
+- [[01 - 05 - Use the 5-step prompt framework]] - Framework 5 bước TCREI
 - [[01 - 06 - Put the prompt framework into action]] - Thực hành framework
-- [[01 - 07 - AI IRL - Improve your prompts by adding context and persona]] - Cải thiện [[Context]] và [[Persona]]
+- [[01 - 07 - AI IRL - Improve your prompts by adding context and persona]] - Cải thiện Context và Persona
 - [[01 - 08 - Get the most out of AI with the prompt framework]] - Tối ưu hóa framework
 
 ### 🔄 Module 3: Iteration và cải thiện
 
-- [[01 - 09 - Practice 4 iteration methods]] - 4 phương pháp [[Iteration]]
+- [[01 - 09 - Practice 4 iteration methods]] - 4 phương pháp Iteration
 - [[01 - 10 - Generate better outputs through iteration]] - Cải thiện kết quả
 - [[01 - 11 - AI IRL - Iterate on your prompts to succeed]] - Thực hành iteration
 
@@ -42,12 +33,12 @@
 - [[01 - 12 - Create images with gen AI]] - Tạo hình ảnh với AI
 - [[01 - 13 - AI IRL - Refine your creative vision]] - Tinh chỉnh tầm nhìn sáng tạo
 - [[01 - 14 - use images, documents, and more in prompts]] - Sử dụng đa phương tiện
-- [[01 - 15 - Understand multimodal prompting]] - Hiểu [[Multimodal]] prompting
+- [[01 - 15 - Understand multimodal prompting]] - Hiểu Multimodal prompting
 
 ### ⚖️ Module 5: Sử dụng có trách nhiệm
 
 - [[01 - 16 - Use gen Ai responsibly]] - Sử dụng AI có trách nhiệm
-- [[01 - 17 - AI IRL - Discover strategies to mitigate hallucinations]] - Giảm thiểu [[Hallucinations]]
+- [[01 - 17 - AI IRL - Discover strategies to mitigate hallucinations]] - Giảm thiểu Hallucinations
 - [[01 - 18 - Tips for responsible prompting]] - Mẹo prompting có trách nhiệm
 
 ## 🔑 Khái niệm cốt lõi
@@ -145,11 +136,11 @@ Danh sách kiểm tra khi tạo prompt ([[Glossary - Thuật ngữ Gen AI#Prompt
 
 ### 🎯 Chuyên sâu
 
-1. Tất cả các bài "AI IRL" để thực hành
-2. Xây dựng [[Personal Prompt Library]]
+1. Tất cả các bài "[[01 - 03 - AI IRL - Unlock your relationship with AI through prompting|AI IRL]]" để thực hành
+2. Xây dựng [[Glossary - Thuật ngữ Gen AI#Personal Prompt Library|Personal Prompt Library]]
 3. Áp dụng vào dự án thực tế
-4. Chia sẻ kinh nghiệm với cộng đồng
+4. Chia sẻ kinh nghiệm với [[Glossary - Thuật ngữ Gen AI#AI Community|cộng đồng]]
 
 ---
 
-_Cập nhật lần cuối: {{date:YYYY-MM-DD}}_
+_Cập nhật lần cuối: 2025-07-18_

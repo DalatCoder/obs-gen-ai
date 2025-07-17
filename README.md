@@ -1,8 +1,8 @@
-# 🤖 Bộ sưu tập kiến thức về Trí tuệ nhân tạo tạo sin### 🧠 Google AI Essentials
+# 🤖 Bộ sưu tập kiến thức về Trí tuệ nhân tạo tạo sinh (Gen AI)
 
-_Đang được phát triển - Sẽ bao gồm các kiến thức cơ bản về AI_
+## 📋 Tổng quan dự án
 
-> 🔗 **Liên quan**: [[Glossary - Thuật ngữ Gen AI#Goog## 📞 Liên hệ
+Dự án này là một bộ sưu tập kiến thức tổng hợp về **Trí tuệ nhân tạo tạo sinh (Generative AI)**, được tổ chức dưới d## 📞 Liên hệ
 
 Nếu bạn có góp ý hoặc muốn đóng góp cho dự án, vui lòng tạo issue hoặc pull request.
 
@@ -14,11 +14,7 @@ Nếu bạn có góp ý hoặc muốn đóng góp cho dự án, vui lòng tạo 
 
 ---
 
-*Được tạo với ❤️ để chia sẻ kiến thức về Gen AI cho cộng đồng Việt Nam*ssentials|Tìm hiểu thêm về AI Essentials]]Gen AI)
-
-## 📋 Tổng quan dự án
-
-Dự án này là một bộ sưu tập kiến thức tổng hợp về **Trí tuệ nhân tạo tạo sinh (Generative AI)**, được tổ chức dưới dạng vault Obsidian để dễ dàng tra cứu và liên kết thông tin. Mục tiêu chính là tạo ra một tài liệu tham khảo toàn diện về Gen AI, từ những khái niệm cơ bản đến các kỹ thuật nâng cao.
+*Được tạo với ❤️ để chia sẻ kiến thức về Gen AI cho cộng đồng Việt Nam*lt Obsidian để dễ dàng tra cứu và liên kết thông tin. Mục tiêu chính là tạo ra một tài liệu tham khảo toàn diện về Gen AI, từ những khái niệm cơ bản đến các kỹ thuật nâng cao.
 
 ## 🎯 Mục tiêu
 
@@ -66,6 +62,14 @@ Khóa học chuyên sâu về kỹ thuật prompting hiệu quả, bao gồm:
   3. Đánh giá kết quả và tiết lộ việc sử dụng
 - Nhận biết và giảm thiểu hiện tượng [[Glossary - Thuật ngữ Gen AI#Hallucinations|Hallucinations]] → [[01 - 17 - AI IRL - Discover strategies to mitigate hallucinations]]
 - Đánh giá [[Glossary - Thuật ngữ Gen AI#Bias|bias]] và độ chính xác → [[01 - 18 - Tips for responsible prompting]]
+
+### 🧠 Google AI Essentials
+
+_Đang được phát triển - Sẽ bao gồm các kiến thức cơ bản về AI_
+
+> 🔗 **Liên quan**: [[Glossary - Thuật ngữ Gen AI#Google AI Essentials|Tìm hiểu thêm về AI Essentials]]
+
+## 🛠️ Công cụ và Framework
 
 ### 🧠 Google AI Essentials
 
@@ -132,8 +136,8 @@ Task (Nhiệm vụ) → Context (Ngữ cảnh) → References (Tham khảo) → 
 ## 🎓 Nguồn tham khảo
 
 - **[[01 - 01 - Welcome to Google Prompting Essentials|Google Prompting Essentials]]**: Khóa học chính thức từ Google
-- **[[Google AI Essentials]]**: Khóa học cơ bản về AI từ Google
-- Các tài liệu và nghiên cứu cập nhật từ cộng đồng [[AI Community]]
+- **[[Glossary - Thuật ngữ Gen AI#Google AI Essentials|Google AI Essentials]]**: Khóa học cơ bản về AI từ Google
+- Các tài liệu và nghiên cứu cập nhật từ cộng đồng [[Glossary - Thuật ngữ Gen AI#AI Community|AI Community]]
 
 ## 📚 Tài liệu chính
 

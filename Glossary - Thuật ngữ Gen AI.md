@@ -1,10 +1,12 @@
 # Glossary - Thuật ngữ Gen AI
 
-> 📚 **Bảng thuật ngữ** các khái niệm quan trọng trong lĩnh vực [[Gen AI]] và [[Prompting]]
+> 📚 **Bảng thuật ngữ** các khái niệm quan trọng trong lĩnh vực Trí tuệ nhân tạo tạo sinh và kỹ thuật Prompting
 
 ## 🤖 AI và Machine Learning
 
-### Gen AI
+#- **Ký hiệu >**: Tạo blockquote để làm nổi bật thông tin
+
+*Cập nhật lần cuối: 2025-07-18*Gen AI
 
 **Trí tuệ nhân tạo tạo sinh** - Loại AI sử dụng các mô hình tạo sinh để tạo ra nội dung mới như văn bản, hình ảnh, âm nhạc từ các đầu vào của người dùng.
 
@@ -34,7 +36,7 @@
 
 ### Framework
 
-**Khung mẫu làm việc** - Cấu trúc có hệ thống để tổ chức và thực hiện các tác vụ, như [[TCREI]] trong prompting.
+**Khung mẫu làm việc** - Cấu trúc có hệ thống để tổ chức và thực hiện các tác vụ, như Framework TCREI trong prompting.
 
 > 🔗 **Tài liệu liên quan**: [[01 - 08 - Get the most out of AI with the prompt framework]]
 
