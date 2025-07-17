@@ -2,19 +2,7 @@
 
 ## 📋 Tổng quan dự án
 
-Dự án này là một bộ sưu tập kiến thức tổng hợp về **Trí tuệ nhân tạo tạo sinh (Generative AI)**, được tổ chức dưới d## 📞 Liên hệ
-
-Nếu bạn có góp ý hoặc muốn đóng góp cho dự án, vui lòng tạo issue hoặc pull request.
-
-## 🔧 Maintenance
-
-- [[Link Validation - Kiểm tra liên kết]] - Kiểm tra tính chính xác của các hyperlink
-- Cập nhật định kỳ các liên kết và nội dung
-- Theo dõi phản hồi từ người dùng
-
----
-
-*Được tạo với ❤️ để chia sẻ kiến thức về Gen AI cho cộng đồng Việt Nam*lt Obsidian để dễ dàng tra cứu và liên kết thông tin. Mục tiêu chính là tạo ra một tài liệu tham khảo toàn diện về Gen AI, từ những khái niệm cơ bản đến các kỹ thuật nâng cao.
+Dự án này là một bộ sưu tập kiến thức tổng hợp về **Trí tuệ nhân tạo tạo sinh (Generative AI)**, được tổ chức dưới dạng vault Obsidian để dễ dàng tra cứu và liên kết thông tin. Mục tiêu chính là tạo ra một tài liệu tham khảo toàn diện về Gen AI, từ những khái niệm cơ bản đến các kỹ thuật nâng cao.
 
 ## 🎯 Mục tiêu
 
@@ -68,12 +56,6 @@ Khóa học chuyên sâu về kỹ thuật prompting hiệu quả, bao gồm:
 _Đang được phát triển - Sẽ bao gồm các kiến thức cơ bản về AI_
 
 > 🔗 **Liên quan**: [[Glossary - Thuật ngữ Gen AI#Google AI Essentials|Tìm hiểu thêm về AI Essentials]]
-
-## 🛠️ Công cụ và Framework
-
-### 🧠 Google AI Essentials
-
-_Đang được phát triển - Sẽ bao gồm các kiến thức cơ bản về AI_
 
 ## 🛠️ Công cụ và Framework
 
@@ -176,15 +158,29 @@ Task (Nhiệm vụ) → Context (Ngữ cảnh) → References (Tham khảo) → 
 ```
 📁 gen-ai/
 ├── 📄 README.md
-├── 📁 Google AI Essentials/
+├── �️ MOC - Google Prompting Essentials.md
+├── 📚 Glossary - Thuật ngữ Gen AI.md
+├── 🔧 Link Validation - Kiểm tra liên kết.md
+├── �📁 Google AI Essentials/
 │   └── (Đang phát triển)
 └── 📁 Google Prompting Essentials/
-    ├── 📄 01 - 01 - Welcome to Google Prompting Essentials.md
-    ├── 📄 01 - 02 - Discover how AI can help at work.md
-    ├── 📄 01 - 05 - Use the 5-step prompt framework.md
-    ├── 📄 01 - 09 - Practice 4 iteration methods.md
-    ├── 📄 01 - 16 - Use gen Ai responsibly.md
-    └── ...
+    ├── � Module 1: Cơ bản (01-01 → 01-18)
+    │   ├── �📄 01 - 01 - Welcome to Google Prompting Essentials.md
+    │   ├── 📄 01 - 05 - Use the 5-step prompt framework.md
+    │   ├── 📄 01 - 09 - Practice 4 iteration methods.md
+    │   └── 📄 01 - 16 - Use gen Ai responsibly.md
+    ├── 💼 Module 2: Ứng dụng công việc (02-01 → 02-12)
+    │   ├── 📄 02 - 01 - Save time at work by using AI.md
+    │   ├── 📄 02 - 03 - Write emails with gen AI.md
+    │   └── 📄 02 - 09 - Summarize lengthly documents.md
+    ├── 📊 Module 3: Phân tích dữ liệu (03-01 → 03-11)
+    │   ├── 📄 03 - 01 - Find and present insights with AI.md
+    │   ├── 📄 03 - 02 - Use AI to uncover hidden patterns in data.md
+    │   └── 📄 03 - 07 - Bring data to life with visualizations.md
+    └── 🚀 Module 4: Kỹ thuật nâng cao (04-01 → 04-13)
+        ├── 📄 04 - 02 - Discover prompt chaining.md
+        ├── 📄 04 - 11 - Build a prompt library.md
+        └── 📄 04 - 13 - Congratulations on completing the course.md
 ```
 
 ## 🚀 Lộ trình phát triển
@@ -217,6 +213,12 @@ Một số thuật ngữ quan trọng trong vault này:
 ## 📞 Liên hệ
 
 Nếu bạn có góp ý hoặc muốn đóng góp cho dự án, vui lòng tạo issue hoặc pull request.
+
+## 🔧 Maintenance
+
+- [[Link Validation - Kiểm tra liên kết]] - Kiểm tra tính chính xác của các hyperlink
+- Cập nhật định kỳ các liên kết và nội dung
+- Theo dõi phản hồi từ người dùng
 
 ---
 

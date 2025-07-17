@@ -1,19 +1,18 @@
-## Phương pháp điều chỉnh Prompt hiệu quả (Iteration Methods)
+# 4 Phương pháp điều chỉnh Prompt hiệu quả (Iteration Methods)
 
-Khi prompt chưa cho kết quả mong muốn, không nhất thiết phải bỏ toàn bộ công sức và bắt đầu lại từ đầu. Thay vào đó, hãy nhớ nguyên tắc **ABI (Always Be Iterating)** – luôn luôn điều chỉnh và cải thiện từng bước một.
+> 🔗 **Navigation**: [[01 - 08 - Get the most out of AI with the prompt framework|⬅️ Bài trước]] | [[01 - 10 - Generate better outputs through iteration|➡️ Bài tiếp theo]] | [[MOC - Google Prompting Essentials|📋 Tổng quan]]
+
+Khi [[Glossary - Thuật ngữ Gen AI#Prompt|prompt]] chưa cho kết quả mong muốn, không nhất thiết phải bỏ toàn bộ công sức và bắt đầu lại từ đầu. Thay vào đó, hãy nhớ nguyên tắc **[[Glossary - Thuật ngữ Gen AI#ABI|ABI (Always Be Iterating)]]** – luôn luôn điều chỉnh và cải thiện từng bước một.
 
 ### **Có 4 phương pháp điều chỉnh prompt chính:**
 
-### 1. Quay lại framework và bổ sung thêm chi tiết
+### 1. Quay lại [[01 - 05 - Use the 5-step prompt framework|framework]] và bổ sung thêm chi tiết
 
 Hãy đảm bảo prompt của bạn đủ **cụ thể và chi tiết** ở các yếu tố:
 
 - **Nhiệm vụ (Task)**
-    
-- **Ngữ cảnh (Context)**
-    
-- **Tài liệu tham khảo (References)**
-    
+- **Ngữ cảnh ([[Glossary - Thuật ngữ Gen AI#Context|Context]])**
+- **Tài liệu tham khảo ([[Glossary - Thuật ngữ Gen AI#References|References]])**
 
 **Ví dụ trước khi điều chỉnh:**
 
@@ -35,11 +34,8 @@ Thay vì viết một prompt dài gồm nhiều nhiệm vụ cùng lúc, hãy ch
 **Chia thành các prompt nhỏ hơn:**
 
 - Prompt 1: “Summarize the key data points and information in this report.” (Tổng hợp các điểm dữ liệu quan trọng trong báo cáo.)
-    
 - Prompt 2: “Create visual graphs with the data you summarized.” (Tạo biểu đồ trực quan từ dữ liệu vừa tóm tắt.)
-    
 - Prompt 3: “Shorten the key information you summarized into bullets.” (Rút gọn thông tin quan trọng thành dạng gạch đầu dòng.)
-    
 
 Kết quả của từng bước nhỏ này thường chính xác hơn vì Gen AI dễ dàng xử lý một nhiệm vụ cụ thể mỗi lần.
 
@@ -78,16 +74,22 @@ Các constraints này giúp AI tạo ra kết quả sáng tạo, độc đáo, s
 
 ---
 
-### Tóm tắt nhanh các phương pháp Iteration hiệu quả:
+### Tóm tắt nhanh các phương pháp [[Glossary - Thuật ngữ Gen AI#Iteration|Iteration]] hiệu quả:
 
-|Phương pháp|Tác dụng|
-|---|---|
-|Thêm chi tiết vào prompt|Kết quả đầu ra cụ thể, sát hơn với mong muốn.|
-|Chia nhỏ prompt thành nhiều câu ngắn|Kết quả chính xác, dễ theo dõi từng bước nhỏ.|
-|Thay đổi góc nhìn/nhiệm vụ tương tự|Thúc đẩy sự sáng tạo, đa dạng hóa kết quả.|
-|Thêm các ràng buộc cụ thể|Tập trung vào kết quả mới lạ, phù hợp sở thích cá nhân.|
+| Phương pháp                          | Tác dụng                                                |
+| ------------------------------------ | ------------------------------------------------------- |
+| Thêm chi tiết vào prompt             | Kết quả đầu ra cụ thể, sát hơn với mong muốn.           |
+| Chia nhỏ prompt thành nhiều câu ngắn | Kết quả chính xác, dễ theo dõi từng bước nhỏ.           |
+| Thay đổi góc nhìn/nhiệm vụ tương tự  | Thúc đẩy sự sáng tạo, đa dạng hóa kết quả.              |
+| Thêm các ràng buộc cụ thể            | Tập trung vào kết quả mới lạ, phù hợp sở thích cá nhân. |
 
 ---
+
+> 📚 **Bài học liên quan**:
+>
+> - [[01 - 10 - Generate better outputs through iteration|Cải thiện kết quả qua iteration]]
+> - [[01 - 11 - AI IRL - Iterate on your prompts to succeed|Thực hành iteration thành công]]
+> - [[01 - 05 - Use the 5-step prompt framework|Framework 5 bước cơ bản]]
 
 Luôn nhớ:  
 **ABI (Always Be Iterating) – Luôn luôn điều chỉnh, cải thiện từng bước một.**

@@ -41,6 +41,25 @@
 - [[01 - 17 - AI IRL - Discover strategies to mitigate hallucinations]] - Giảm thiểu Hallucinations
 - [[01 - 18 - Tips for responsible prompting]] - Mẹo prompting có trách nhiệm
 
+### 💼 Module 6: Ứng dụng thực tế trong công việc
+
+- [[02 - 01 - Save time at work by using AI]] - Tiết kiệm thời gian với AI
+- [[02 - 03 - Write emails with gen AI]] - Viết email với Gen AI
+- [[02 - 05 - Brainstorm ideas that buzz]] - Brainstorming hiệu quả
+- [[02 - 09 - Summarize lengthly documents]] - Tóm tắt tài liệu dài
+
+### 📊 Module 7: Phân tích dữ liệu và insight
+
+- [[03 - 01 - Find and present insights with AI]] - Tìm và trình bày insight
+- [[03 - 02 - Use AI to uncover hidden patterns in data]] - Khám phá pattern ẩn
+- [[03 - 07 - Bring data to life with visualizations]] - Trực quan hóa dữ liệu
+
+### 🚀 Module 8: Kỹ thuật nâng cao
+
+- [[04 - 02 - Discover prompt chaining]] - Khám phá prompt chaining
+- [[04 - 03 - Explore Chain-of-thought and Tree-of-though prompting]] - Chain-of-thought prompting
+- [[04 - 11 - Build a prompt library]] - Xây dựng thư viện prompt
+
 ## 🔑 Khái niệm cốt lõi
 
 ### 📝 Framework TCREI
