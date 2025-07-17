@@ -1,6 +1,10 @@
-# Prompt với Cá tính: Điều chỉnh Trí tuệ nhân tạo tạo sinh (Gen AI) theo Phong cách Viết của Bạn
+# Prompt với Cá tính: Điều chỉnh [[Glossary - Thuật ngữ Gen AI#Gen AI|Gen AI]] theo Phong cách Viết của Bạn
 
-## Cách Các Công cụ Gen AI Xử lý Giọng điệu và Phong cách
+> 🧭 **Navigation**: [[02 - 03 - Write emails with gen AI|← Trước]] | [[MOC - Google Prompting Essentials|📚 Mục lục]] | [[02 - 05 - Brainstorm ideas that buzz|Tiếp theo →]]
+
+---
+
+## Cách Các Công cụ [[Glossary - Thuật ngữ Gen AI#Gen AI|Gen AI]] Xử lý [[Glossary - Thuật ngữ Gen AI#Tone|Giọng điệu]] và Phong cách
 
 Bạn có từng nhận ra rằng đôi khi nội dung do AI tạo ra có thể nghe rất máy móc, nhưng đôi khi lại có cảm giác như đang trò chuyện với một người bạn hoặc giáo sư? Lý do của điều này nằm ở cách các công cụ trí tuệ nhân tạo tạo sinh (Gen AI) xử lý giọng điệu (tone) và phong cách (style). Các công cụ này thực hiện điều này theo nhiều cách khác nhau, nhưng bài đọc này sẽ tập trung vào chỉ một phương pháp.
 
@@ -11,17 +15,11 @@ Hãy tưởng tượng một chatbot Gen AI được huấn luyện trên một 
 Điều này nhờ vào **hiểu biết ngữ cảnh (contextual understanding)**, cho phép công cụ Gen AI diễn giải thông tin trong một bối cảnh cụ thể và sử dụng sự hiểu biết đó để tạo ra đầu ra. Điều này giúp công cụ:
 
 - **Xác định đối tượng** (identify audiences)
-    
 - **Nhận biết các tín hiệu ngôn ngữ** (recognize linguistic cues), như dấu chấm hỏi ở cuối câu
-    
 - **Học ngôn ngữ từ các tài liệu tham khảo** được cung cấp
-    
 - **Thích ứng với sở thích** của bạn
-    
 - **Duy trì tính nhất quán** trong ngôn ngữ sử dụng
-    
 - **Hiểu đầu vào và tạo đầu ra** theo giọng điệu và phong cách bạn cung cấp
-    
 
 ## Chiến lược về Giọng điệu và Phong cách trong Prompting
 
@@ -56,15 +54,10 @@ Các đầu vào của bạn sẽ tiếp tục ảnh hưởng đến đầu ra k
 Thay vì sử dụng các thuật ngữ chung chung, hãy cụ thể hóa:
 
 - **Academic** → "scholarly and in-depth, like a professor" _(học thuật và sâu sắc, như một giáo sư)_
-    
 - **Persuasive** → "compelling and convincing" _(thuyết phục và có sức thuyết phục)_
-    
 - **Sarcastic** → "dryly funny, like a wry comedian" _(hài hước khô khan, như một diễn viên hài châm biếm)_
-    
 - **Inspirational** → "motivating and uplifting" _(động viên và nâng đỡ)_
-    
 - **Simple** → "like you're a kindergarten teacher explaining this to their students" _(như bạn là cô giáo mẫu giáo giải thích điều này cho học sinh)_
-    
 
 Cuối cùng, bạn có thể muốn thêm các **ràng buộc (constraints)** trong prompt đầu tiên để đảm bảo ngôn ngữ đi đúng hướng, chẳng hạn như:
 
@@ -108,15 +101,23 @@ text
 
 _(Tôi cần mô tả dòng sản phẩm này nói đến trái tim của những người leo núi trẻ tuổi thuộc mọi loại hình. Tôi muốn khơi gợi niềm đam mê vượt qua giới hạn của họ cả trong nhà và ngoài trời. Áo sơ mi, áo khoác, quần dài, quần ngắn, áo tank và móc leo núi giúp các nhà leo núi thể hiện phong cách cá nhân mà không phải hy sinh chất lượng, sự thoải mái hay độ bền, đảm bảo họ trông thật sắc sảo và leo núi thông minh. Hãy thể hiện tinh thần của những huyền thoại leo núi, và truyền cảm hứng cho họ đạt đến những đỉnh cao mới. Làm cho ngôn ngữ ít táo bạo hơn và tôn kính môn thể thao hơn.)_
 
-**Nhớ rằng: Luôn Luôn Lặp lại (Always Be Iterating)!** Việc tiếp tục tinh chỉnh prompt cung cấp cho công cụ Gen AI nhiều thông tin hơn để bạn có thể đến gần hơn với đầu ra cuối cùng phù hợp với nhu cầu của mình.
+**Nhớ rằng: [[Glossary - Thuật ngữ Gen AI#Always Be Iterating|Luôn Luôn Lặp lại]] (Always Be Iterating)!** Việc tiếp tục tinh chỉnh prompt cung cấp cho công cụ [[Glossary - Thuật ngữ Gen AI#Gen AI|Gen AI]] nhiều thông tin hơn để bạn có thể đến gần hơn với đầu ra cuối cùng phù hợp với nhu cầu của mình.
 
-## Tại sao Prompting về Giọng điệu và Phong cách Quan trọng
+## Tại sao [[Glossary - Thuật ngữ Gen AI#Prompting|Prompting]] về [[Glossary - Thuật ngữ Gen AI#Tone|Giọng điệu]] và Phong cách Quan trọng
 
-Dù bạn đang soạn thảo một email chuyên nghiệp, bài đăng mạng xã hội vui vẻ, hay một bài luận thuyết phục, giọng điệu và phong cách phù hợp có thể tạo ra sự khác biệt lớn trong cách thông điệp của bạn được truyền đạt và tiếp nhận.
+Dù bạn đang soạn thảo một email chuyên nghiệp, bài đăng mạng xã hội vui vẻ, hay một bài luận thuyết phục, [[Glossary - Thuật ngữ Gen AI#Tone|giọng điệu]] và phong cách phù hợp có thể tạo ra sự khác biệt lớn trong cách thông điệp của bạn được truyền đạt và tiếp nhận.
 
-Khi bạn xác định giọng nói và giọng điệu trong prompt, công cụ Gen AI sẽ sử dụng hiểu biết ngữ cảnh để tìm hiểu ý nghĩa của bạn và khớp đầu ra với giọng nói bạn hy vọng. Nếu nó không phải là những gì bạn muốn, bạn luôn có thể cung cấp tài liệu tham khảo và lặp lại.
+Khi bạn xác định giọng nói và [[Glossary - Thuật ngữ Gen AI#Tone|giọng điệu]] trong prompt, công cụ [[Glossary - Thuật ngữ Gen AI#Gen AI|Gen AI]] sẽ sử dụng hiểu biết ngữ cảnh để tìm hiểu ý nghĩa của bạn và khớp đầu ra với giọng nói bạn hy vọng. Nếu nó không phải là những gì bạn muốn, bạn luôn có thể cung cấp [[Glossary - Thuật ngữ Gen AI#References|tài liệu tham khảo]] và [[Glossary - Thuật ngữ Gen AI#Iteration|lặp lại]].
 
-**Để có kết quả tốt nhất từ công cụ Gen AI, hãy đối xử với nó như bạn đang đưa ra chỉ dẫn cho một diễn viên** - càng rõ ràng hướng dẫn của bạn, diễn viên càng có thể thể hiện tốt nhân vật bạn hình dung.
+**Để có kết quả tốt nhất từ công cụ [[Glossary - Thuật ngữ Gen AI#Gen AI|Gen AI]], hãy đối xử với nó như bạn đang đưa ra chỉ dẫn cho một diễn viên** - càng rõ ràng hướng dẫn của bạn, diễn viên càng có thể thể hiện tốt nhân vật bạn hình dung.
+
+---
+
+> 📚 **Thuật ngữ liên quan**: [[Glossary - Thuật ngữ Gen AI#Persona|Persona]] | [[Glossary - Thuật ngữ Gen AI#Contextual Understanding|Contextual Understanding]] | [[Glossary - Thuật ngữ Gen AI#Writing Style|Writing Style]]
+>
+> 🔗 **Xem thêm**: [[01 - 07 - AI IRL - Improve your prompts by adding context and persona|Context và Persona]] | [[02 - 03 - Write emails with gen AI|Viết email với AI]]
+>
+> 🎯 **Thực hành**: [[01 - 09 - Practice 4 iteration methods|Phương pháp iteration]] | [[02 - 05 - Brainstorm ideas that buzz|Brainstorming với AI]]
 
 ## Kết luận
 

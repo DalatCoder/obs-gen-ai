@@ -1,38 +1,34 @@
-# Sử dụng Trí tuệ nhân tạo tạo sinh (Gen AI) để Tạo Bảng tính và Lên lịch
+# Sử dụng [[Glossary - Thuật ngữ Gen AI#Gen AI|Gen AI]] để Tạo Bảng tính và Lên lịch
+
+> 🧭 **Navigation**: [[02 - 05 - Brainstorm ideas that buzz|← Trước]] | [[MOC - Google Prompting Essentials|📚 Mục lục]] | [[02 - 07 - Supercharge your work with Gemini for Google Workspace|Tiếp theo →]]
+
+---
 
 ## Vấn đề thực tế với Bảng tính
 
 Đối với những người làm marketing sáng tạo, bảng tính (spreadsheets) không phải là công cụ ưa thích. Việc làm việc với các ô (cells) và công thức (formulas) có thể tốn thời gian và phức tạp. Tuy nhiên, có những lúc chúng ta thực sự cần sử dụng bảng tính để:
 
 - **Tạo bảng biểu** (create tables)
-    
 - **Theo dõi timeline dự án** (track project timeline)
-    
 
 ## Giải pháp từ Trí tuệ nhân tạo tạo sinh (Gen AI)
 
 Việc sử dụng trí tuệ nhân tạo tạo sinh (Gen AI) đã làm cho việc tạo bảng trở nên:
 
 - **Dễ dàng hơn** (much easier)
-    
 - **Tiết kiệm thời gian hơn** (less time consuming)
-    
 
 ## Tầm quan trọng của việc tổ chức thông tin
 
 Khả năng chuyển đổi thông tin thành **kế hoạch có tổ chức** (organized plan) là một sự hỗ trợ to lớn trong mọi môi trường làm việc. Các tài liệu như:
 
 - **Lịch trình** (schedule)
-    
 - **Trình theo dõi dự án** (project tracker)
-    
 
 Những tài liệu này quan trọng vì chúng giúp:
 
 - Giữ các thành viên trong nhóm **nhận thức về vai trò và trách nhiệm** của họ
-    
 - Duy trì **timeline và deliverables** đúng tiến độ
-    
 
 ## Ví dụ thực hành: Tạo lịch phân ca nhân viên
 
@@ -54,13 +50,13 @@ text
 
 `There should always be two employees scheduled for the morning shift and two employees scheduled for the afternoon shift. Employees should not be scheduled for a morning shift on the following day after they were scheduled for an afternoon shift. Employees should not be scheduled for both the morning and afternoon shifts on the same day. Every employee should have roughly the same number of total shifts per week.`
 
-*(Luôn phải có hai nhân viên được xếp lịch cho ca sáng và hai nhân viên được xếp lịch cho ca chiều.
+\*(Luôn phải có hai nhân viên được xếp lịch cho ca sáng và hai nhân viên được xếp lịch cho ca chiều.
 
 Nhân viên không được xếp lịch ca sáng vào ngày hôm sau sau khi họ được xếp lịch ca chiều.
 
 Nhân viên không được xếp lịch cho cả ca sáng và ca chiều trong cùng một ngày.
 
-Mỗi nhân viên nên có số ca làm việc tương đương nhau mỗi tuần.)*
+Mỗi nhân viên nên có số ca làm việc tương đương nhau mỗi tuần.)\*
 
 ## Kết quả và Tích hợp
 
@@ -69,26 +65,18 @@ Mỗi nhân viên nên có số ca làm việc tương đương nhau mỗi tuầ
 Chỉ trong vài giây, Gemini đã tạo ra một **lịch phân ca** (staffing schedule) với định dạng dễ theo dõi. Kết quả bao gồm:
 
 - **Tuân thủ các ràng buộc** đã thêm vào prompt
-    
 - **Đảm bảo không ai phải làm ca kép** (double shift)
-    
 - **Định dạng dễ theo dõi** (easy to track format)
-    
 
 ## Tích hợp với Google Sheets
 
 Lợi ích bổ sung:
 
 - **Xuất lịch trình ra Google Sheets** để tiếp tục làm việc
-    
 - **Prompt Gemini trong Sheets** để:
-    
-    - Tóm tắt lịch trình
-        
-    - Tạo lịch trình mới
-        
-    - Tạo công thức để phân tích thông tin nhanh chóng
-        
+  - Tóm tắt lịch trình
+  - Tạo lịch trình mới
+  - Tạo công thức để phân tích thông tin nhanh chóng
 
 ## Lưu ý về Bảo mật Dữ liệu
 
@@ -99,15 +87,20 @@ Lợi ích bổ sung:
 ## Ví dụ về biện pháp bảo mật
 
 - **Không nhập thông tin cụ thể về nhân viên**
-    
 - **Sử dụng số nhân viên ẩn danh** (anonymous employee numbers) thay vì tên thật
-    
-- **Tham khảo chính sách tổ chức** về dữ liệu nhạy cảm và việc sử dụng trí tuệ nhân tạo tạo sinh (Gen AI)
-    
+- **Tham khảo chính sách tổ chức** về dữ liệu nhạy cảm và việc sử dụng [[Glossary - Thuật ngữ Gen AI#Gen AI|trí tuệ nhân tạo tạo sinh]]
 
 ## Khuyến nghị
 
-**Luôn luôn tham khảo chính sách của tổ chức** về dữ liệu nhạy cảm và việc sử dụng trí tuệ nhân tạo tạo sinh (Gen AI) trước khi áp dụng công cụ Gen AI cho công việc.
+**Luôn luôn tham khảo chính sách của tổ chức** về dữ liệu nhạy cảm và việc sử dụng [[Glossary - Thuật ngữ Gen AI#Gen AI|trí tuệ nhân tạo tạo sinh]] trước khi áp dụng công cụ [[Glossary - Thuật ngữ Gen AI#Gen AI|Gen AI]] cho công việc.
+
+---
+
+> 📚 **Thuật ngữ liên quan**: [[Glossary - Thuật ngữ Gen AI#Tables|Tables]] | [[Glossary - Thuật ngữ Gen AI#Project Tracker|Project Tracker]] | [[Glossary - Thuật ngữ Gen AI#Data Security|Data Security]]
+>
+> 🔗 **Xem thêm**: [[01 - 16 - Use gen Ai responsibly|Sử dụng AI có trách nhiệm]] | [[02 - 08 - Capture meeting notes instantly|Ghi chú cuộc họp]]
+>
+> 🎯 **Thực hành**: [[02 - 07 - Supercharge your work with Gemini for Google Workspace|Gemini cho Workspace]] | [[02 - 11 - Practice advanced summarization techniques|Kỹ thuật tóm tắt nâng cao]]
 
 ## Kết luận
 

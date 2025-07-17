@@ -1,4 +1,8 @@
-# Viết Email Hiệu Quả với Trí Tuệ Nhân Tạo Tạo Sinh (Gen AI)
+# Viết Email Hiệu Quả với [[Glossary - Thuật ngữ Gen AI#Gen AI|Trí Tuệ Nhân Tạo Tạo Sinh]]
+
+> 🧭 **Navigation**: [[02 - 02 - AI IRL - Tackle your to-do list with the help of AI|← Trước]] | [[MOC - Google Prompting Essentials|📚 Mục lục]] | [[02 - 04 - Prompt with personality - match gen AI to your writing style|Tiếp theo →]]
+
+---
 
 ## Giới thiệu giảng viên
 
@@ -11,11 +15,8 @@ Clara đã gửi rất nhiều email và đôi khi không nhận được phản
 Các công cụ Gen AI có thể hỗ trợ bạn:
 
 - **Soạn thảo email**: Tạo ra nội dung email hiệu quả
-    
 - **Điều chỉnh tone và phong cách viết**: Thay đổi giọng điệu phù hợp với từng đối tượng
-    
 - **Đưa ra ý tưởng**: Gợi ý cách thay đổi approach trong giao tiếp
-    
 
 ## Ví dụ thực hành với Prompt Framework
 
@@ -40,11 +41,8 @@ Email đầu tiên được tạo ra có tất cả thông tin về thay đổi 
 Việc điều chỉnh này hữu ích khi bạn muốn:
 
 - **Casual hơn** cho team nhỏ thân thiết
-    
 - **Formal hơn** cho executives
-    
 - **Hoàn toàn khác** cho đối tượng khác
-    
 
 ## Prompt điều chỉnh
 
@@ -63,25 +61,29 @@ Email mới có tone **vui vẻ, thân thiện và truyền cảm hứng**, ph�
 Bài tập này hữu ích cho nhiều vai trò:
 
 - **Copywriter** làm việc trên ad campaign
-    
 - **Speech writer** soạn thảo talking points cho executive
-    
 - **Gym manager** thông báo thay đổi lịch trình
-    
 
 ## Kết luận và lưu ý quan trọng
 
-## Tầm quan trọng của iteration
+## Tầm quan trọng của [[Glossary - Thuật ngữ Gen AI#Iteration|iteration]]
 
-Chỉ với **một extra prompt**, bạn có thể hoàn toàn thay đổi email cho đối tượng mới mà không mất đi thông tin quan trọng. Thông qua việc iterations (lặp lại) task và context, bạn có thể tinh chỉnh writing để truyền tải thông điệp theo cách mong muốn.
+Chỉ với **một extra prompt**, bạn có thể hoàn toàn thay đổi email cho đối tượng mới mà không mất đi thông tin quan trọng. Thông qua việc [[Glossary - Thuật ngữ Gen AI#Iteration|iterations]] task và [[Glossary - Thuật ngữ Gen AI#Context|context]], bạn có thể tinh chỉnh writing để truyền tải thông điệp theo cách mong muốn.
 
-## Lưu ý khi sử dụng Gen AI
+## Lưu ý khi sử dụng [[Glossary - Thuật ngữ Gen AI#Gen AI|Gen AI]]
 
-Khi soạn thảo bất kỳ hình thức giao tiếp nào với sự hỗ trợ của công cụ Gen AI:
+Khi soạn thảo bất kỳ hình thức giao tiếp nào với sự hỗ trợ của công cụ [[Glossary - Thuật ngữ Gen AI#Gen AI|Gen AI]]:
 
 - **Đảm bảo output chính xác về mặt sự thật**
-    
+
+---
+
+> 📚 **Thuật ngữ liên quan**: [[Glossary - Thuật ngữ Gen AI#Email Writing|Email Writing]] | [[Glossary - Thuật ngữ Gen AI#Persona|Persona]] | [[Glossary - Thuật ngữ Gen AI#Tone|Tone]]
+>
+> 🔗 **Xem thêm**: [[01 - 05 - Use the 5-step prompt framework|Framework prompting]] | [[01 - 09 - Practice 4 iteration methods|Phương pháp iteration]]
+>
+> 🎯 **Thực hành**: [[02 - 04 - Prompt with personality - match gen AI to your writing style|Điều chỉnh phong cách viết]] | [[02 - 07 - Supercharge your work with Gemini for Google Workspace|Gemini for Workspace]]
+
 - **Điều chỉnh prompt** để nhận được thông tin hữu ích nhất cho bạn
-    
 
 Clara kết thúc bằng câu hỏi khiến người học suy ngẫm: "Bạn có thể nghĩ ra lúc nào bạn gặp khó khăn trong việc tìm ra tone phù hợp cho nội dung đã viết không?"

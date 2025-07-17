@@ -1,4 +1,8 @@
-# Sử dụng Trí tuệ nhân tạo tạo sinh (Gen AI) để Tạo ý tưởng và Brainstorming
+# Sử dụng [[Glossary - Thuật ngữ Gen AI#Gen AI|Gen AI]] để Tạo ý tưởng và [[Glossary - Thuật ngữ Gen AI#Brainstorming|Brainstorming]]
+
+> 🧭 **Navigation**: [[02 - 04 - Prompt with personality - match gen AI to your writing style|← Trước]] | [[MOC - Google Prompting Essentials|📚 Mục lục]] | [[02 - 06 - Build tables and trackers effortlessly|Tiếp theo →]]
+
+---
 
 ## Ứng dụng thực tế trong môi trường làm việc
 
@@ -11,11 +15,8 @@ Khi có nhân viên mới gia nhập đội ngũ, việc tổ chức buổi gặ
 Trí tuệ nhân tạo tạo sinh (Gen AI) có thể hỗ trợ trong nhiều tình huống:
 
 - **Dẫn dắt các hoạt động gắn kết nhóm** (team bonding experience)
-    
 - **Tạo ý tưởng cho dự án công việc**
-    
 - **Tạo ra các giải pháp brainstorming** để đưa ra quyết định thông minh hơn
-    
 
 ## Nguyên tắc cơ bản khi tạo prompt
 
@@ -24,11 +25,8 @@ Trí tuệ nhân tạo tạo sinh (Gen AI) có thể hỗ trợ trong nhiều t�
 Để có kết quả tốt nhất, bạn cần:
 
 1. **Thêm bối cảnh nhiệm vụ** (task context)
-    
 2. **Bao gồm các tài liệu tham khảo liên quan**
-    
 3. **Đánh giá và lặp lại** (evaluate and iterate)
-    
 
 ## Ví dụ thực hành: Lập kế hoạch ra mắt game
 
@@ -57,11 +55,8 @@ _(Cung cấp một timeline sơ bộ cho năm trước khi ra mắt. Cũng cung 
 Prompt này có các yếu tố quan trọng:
 
 - **Persona**: Công ty ra mắt game
-    
 - **Bối cảnh**: Game nhập vai fantasy thời trung cổ
-    
 - **Nhiệm vụ**: Tạo timeline cho việc ra mắt và cung cấp ý tưởng tạo tiếng vang
-    
 
 ## Quá trình đánh giá và lặp lại
 
@@ -82,26 +77,27 @@ _(Bây giờ cung cấp các ý tưởng trước khi ra mắt sẽ thu hút đ�
 Các ý tưởng được tạo ra sẽ:
 
 - **Phù hợp với đối tượng toàn cầu**
-    
 - **Thú vị và hấp dẫn**
-    
 - **Bao gồm các tham chiếu văn hóa** trong game để liên kết với người chơi trên khắp thế giới
-    
 
-## Tầm quan trọng của việc đánh giá và lặp lại
+## Tầm quan trọng của việc [[Glossary - Thuật ngữ Gen AI#Evaluation|đánh giá]] và [[Glossary - Thuật ngữ Gen AI#Iteration|lặp lại]]
 
-**Đánh giá và lặp lại** (Evaluating and iterating) giống như việc có một cuộc trò chuyện với công cụ trí tuệ nhân tạo tạo sinh (Gen AI), liên tục hướng dẫn nó để tạo ra kết quả mong muốn của chúng ta.
+**[[Glossary - Thuật ngữ Gen AI#Evaluation|Đánh giá]] và [[Glossary - Thuật ngữ Gen AI#Iteration|lặp lại]]** (Evaluating and iterating) giống như việc có một cuộc trò chuyện với công cụ [[Glossary - Thuật ngữ Gen AI#Gen AI|trí tuệ nhân tạo tạo sinh]], liên tục hướng dẫn nó để tạo ra kết quả mong muốn của chúng ta.
 
-## Lợi ích của việc sử dụng Gen AI trong brainstorming
+## Lợi ích của việc sử dụng [[Glossary - Thuật ngữ Gen AI#Gen AI|Gen AI]] trong [[Glossary - Thuật ngữ Gen AI#Brainstorming|brainstorming]]
 
 - **Hỗ trợ tạo ý tưởng mới** cho nhiều tình huống khác nhau
-    
 - **Cung cấp góc nhìn đa dạng** và sáng tạo
-    
 - **Tiết kiệm thời gian** trong quá trình lên ý tưởng
-    
 - **Có thể tùy chỉnh theo nhu cầu cụ thể** của dự án
-    
+
+---
+
+> 📚 **Thuật ngữ liên quan**: [[Glossary - Thuật ngữ Gen AI#Brainstorming|Brainstorming]] | [[Glossary - Thuật ngữ Gen AI#Icebreakers|Icebreakers]] | [[Glossary - Thuật ngữ Gen AI#Team Building|Team Building]]
+>
+> 🔗 **Xem thêm**: [[01 - 05 - Use the 5-step prompt framework|Framework prompting]] | [[02 - 02 - AI IRL - Tackle your to-do list with the help of AI|Xử lý to-do list]]
+>
+> 🎯 **Thực hành**: [[02 - 06 - Build tables and trackers effortlessly|Tạo bảng và tracker]] | [[02 - 07 - Supercharge your work with Gemini for Google Workspace|Gemini for Workspace]]
 
 ## Kết luận
 
