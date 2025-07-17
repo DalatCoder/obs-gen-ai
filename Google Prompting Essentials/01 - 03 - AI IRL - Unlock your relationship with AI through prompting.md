@@ -1,80 +1,64 @@
-# Cuộc trò chuyện với chuyên gia Google về tầm quan trọng của Prompting
+# AI IRL - Mở khóa mối quan hệ với AI thông qua prompting
+
+> 🔗 **Navigation**: [[01 - 02 - Discover how AI can help at work|⬅️ Bài trước]] | [[MOC - Google Prompting Essentials|📋 Tổng quan khóa học]] | [[01 - 04 - Course overview|➡️ Bài tiếp theo]]
+
+## Cuộc trò chuyện với chuyên gia Google về tầm quan trọng của [[Glossary - Thuật ngữ Gen AI#Prompting|Prompting]]
 
 ## Giới thiệu diễn giả
 
 ## Mira - Giám đốc Cấp cao Công nghệ và Xã hội tại Google
 
 - **Vai trò:** Senior Director in Technology and Society tại Google
-    
-- **Nhiệm vụ nhóm:** Tưởng tượng và khám phá khả năng sử dụng trí tuệ nhân tạo (AI) để mang lại lợi ích cho con người và xã hội
-    
-- **Định dạng khóa học:** Sẽ ngồi trò chuyện với các chuyên gia tại Google để đi sâu vào những chủ đề thú vị nhất liên quan đến AI
-    
+- **Nhiệm vụ nhóm:** Tưởng tượng và khám phá khả năng sử dụng [[Glossary - Thuật ngữ Gen AI#AI|trí tuệ nhân tạo (AI)]] để mang lại lợi ích cho con người và xã hội
+- **Định dạng khóa học:** Sẽ ngồi trò chuyện với các chuyên gia tại Google để đi sâu vào những chủ đề thú vị nhất liên quan đến [[Glossary - Thuật ngữ Gen AI#AI|AI]]
 
 ## Tris - Giám đốc Quản lý Sản phẩm tại Google DeepMind
 
 - **Vai trò:** Director of Product Management tại Google DeepMind
-    
 - **Chuyên môn:** Phát triển và quản lý các sản phẩm trí tuệ nhân tạo tiên tiến
-    
 
-## Tại sao việc học prompting lại quan trọng ngay bây giờ?
+## Tại sao việc học [[Glossary - Thuật ngữ Gen AI#Prompting|prompting]] lại quan trọng ngay bây giờ?
 
-## Prompting là hoàn toàn mới mẻ
+## [[Glossary - Thuật ngữ Gen AI#Prompting|Prompting]] là hoàn toàn mới mẻ
 
-**Tris nhấn mạnh:** "Prompting hoàn toàn mới. Chúng ta chưa bao giờ có thể tương tác với máy tính theo cách này trước đây."
+**Tris nhấn mạnh:** "[[Glossary - Thuật ngữ Gen AI#Prompting|Prompting]] hoàn toàn mới. Chúng ta chưa bao giờ có thể tương tác với máy tính theo cách này trước đây."
 
-## AI đang trở thành phần không thể thiếu trong cuộc sống
+## [[Glossary - Thuật ngữ Gen AI#AI|AI]] đang trở thành phần không thể thiếu trong cuộc sống
 
-**Sự phổ biến ngày càng tăng của AI:**
+**Sự phổ biến ngày càng tăng của [[Glossary - Thuật ngữ Gen AI#AI|AI]]:**
 
-- **Điện thoại thông minh** - AI tích hợp trong các ứng dụng hàng ngày
-    
+- **Điện thoại thông minh** - [[Glossary - Thuật ngữ Gen AI#AI|AI]] tích hợp trong các ứng dụng hàng ngày
 - **Máy tính cá nhân** - Hỗ trợ trong công việc và học tập
-    
 - **Thiết bị gia đình** - Smart home và các device thông minh
-    
-- **AI của người khác** - Tương tác với các hệ thống AI trong môi trường công cộng và làm việc
-    
+- **[[Glossary - Thuật ngữ Gen AI#AI|AI]] của người khác** - Tương tác với các hệ thống [[Glossary - Thuật ngữ Gen AI#AI|AI]] trong môi trường công cộng và làm việc
 
-## Prompting là "ngôn ngữ mới" để giao tiếp với máy tính
+## [[Glossary - Thuật ngữ Gen AI#Prompting|Prompting]] là "ngôn ngữ mới" để giao tiếp với máy tính
 
-**Đặc điểm của ngôn ngữ prompting:**
+**Đặc điểm của ngôn ngữ [[Glossary - Thuật ngữ Gen AI#Prompting|prompting]]:**
 
-- **Ngôn ngữ giao tiếp mới** (new language) để trò chuyện với máy tính[1](https://onlydeadfish.co.uk/2025/04/14/is-it-worth-learning-how-to-prompt/)[2](https://www.linkedin.com/pulse/prompting-new-programming-graham-medcalf-wsn7c)
-    
+- **Ngôn ngữ giao tiếp mới** (new language) để trò chuyện với máy tính
 - **Lần đầu tiên** máy tính thực sự lắng nghe chúng ta
-    
 - **Máy tính nói theo cách** mà chúng ta muốn nói
-    
-- **Tự nhiên và trực quan** hơn so với các phương pháp lập trình truyền thống[2](https://www.linkedin.com/pulse/prompting-new-programming-graham-medcalf-wsn7c)
-    
+- **Tự nhiên và trực quan** hơn so với các phương pháp lập trình truyền thống
 
 ## Cần hiểu rõ cách thức hoạt động hiệu quả
 
 **Thách thức hiện tại:**
 
-- Vẫn cần **tìm hiểu cách làm việc tốt nhất** với prompting
-    
-- **Prompting chính là việc tìm hiểu** những gì hoạt động hiệu quả nhất[1](https://onlydeadfish.co.uk/2025/04/14/is-it-worth-learning-how-to-prompt/)[3](https://dev.to/wafa_bergaoui/why-you-should-learn-prompt-engineering-right-now-ia4)
-    
+- Vẫn cần **tìm hiểu cách làm việc tốt nhất** với [[Glossary - Thuật ngữ Gen AI#Prompting|prompting]]
+- **[[Glossary - Thuật ngữ Gen AI#Prompting|Prompting]] chính là việc tìm hiểu** những gì hoạt động hiệu quả nhất
 - Cần **kỹ năng và kinh nghiệm** để tối ưu hóa kết quả
-    
 
-## Cơ hội mang tính cách và mong muốn cá nhân vào AI
+## Cơ hội mang tính cách và mong muốn cá nhân vào [[Glossary - Thuật ngữ Gen AI#AI|AI]]
 
-**Tính cá nhân hóa trong prompting:**
+**Tính cá nhân hóa trong [[Glossary - Thuật ngữ Gen AI#Prompting|prompting]]:**
 
-- **Thể hiện cá tính riêng** (your own personality) trong tương tác với AI
-    
-- **Truyền đạt mong muốn cá nhân** (your own desires) trực tiếp cho AI
-    
+- **Thể hiện cá tính riêng** (your own personality) trong tương tác với [[Glossary - Thuật ngữ Gen AI#AI|AI]]
+- **Truyền đạt mong muốn cá nhân** (your own desires) trực tiếp cho [[Glossary - Thuật ngữ Gen AI#AI|AI]]
 - **Ứng dụng trong mọi lĩnh vực** (all manner of fields)
-    
-- **Democratizing AI** - Làm cho AI dễ tiếp cận hơn với người dùng không có nền tảng kỹ thuật[3](https://dev.to/wafa_bergaoui/why-you-should-learn-prompt-engineering-right-now-ia4)[2](https://www.linkedin.com/pulse/prompting-new-programming-graham-medcalf-wsn7c)
-    
+- **Democratizing [[Glossary - Thuật ngữ Gen AI#AI|AI]]** - Làm cho [[Glossary - Thuật ngữ Gen AI#AI|AI]] dễ tiếp cận hơn với người dùng không có nền tảng kỹ thuật
 
-## Thời điểm lý tưởng để học prompting
+## Thời điểm lý tưởng để học [[Glossary - Thuật ngữ Gen AI#Prompting|prompting]]
 
 **Tại sao ngay bây giờ là thời điểm tốt nhất:**
 
@@ -82,54 +66,27 @@
 
 **Lý do thời điểm quan trọng:**
 
-- **AI đang bùng nổ** - Sự phát triển nhanh chóng của các mô hình ngôn ngữ lớn (LLMs)[3](https://dev.to/wafa_bergaoui/why-you-should-learn-prompt-engineering-right-now-ia4)[4](https://www.forbes.com/sites/joemckendrick/2025/06/28/the-joy-of-prompting-ai-cant-read-minds-so-learn-to-spell-things-out/)
-    
-- **Nhu cầu kỹ năng tăng cao** - Các tổ chức đang tìm kiếm những người thành thạo prompting[3](https://dev.to/wafa_bergaoui/why-you-should-learn-prompt-engineering-right-now-ia4)
-    
-- **Cơ hội nghề nghiệp** - Kỹ năng prompting đang trở thành yêu cầu quan trọng trong nhiều ngành[3](https://dev.to/wafa_bergaoui/why-you-should-learn-prompt-engineering-right-now-ia4)[5](https://element451.com/blog/6-reasons-to-master-prompt-engineering)
-    
-- **Tương lai công việc** - Prompting được coi là "ngôn ngữ lập trình" mới[2](https://www.linkedin.com/pulse/prompting-new-programming-graham-medcalf-wsn7c)[6](https://www.qodequay.com/prompt-engineering-as-the-new-coding)
-    
+- **[[Glossary - Thuật ngữ Gen AI#AI|AI]] đang bùng nổ** - Sự phát triển nhanh chóng của các mô hình ngôn ngữ lớn (LLMs)
+- **Nhu cầu kỹ năng tăng cao** - Các tổ chức đang tìm kiếm những người thành thạo [[Glossary - Thuật ngữ Gen AI#Prompting|prompting]]
+- **Cơ hội nghề nghiệp** - Kỹ năng [[Glossary - Thuật ngữ Gen AI#Prompting|prompting]] đang trở thành yêu cầu quan trọng trong nhiều ngành
+- **Tương lai công việc** - [[Glossary - Thuật ngữ Gen AI#Prompting|Prompting]] được coi là "ngôn ngữ lập trình" mới
 
 ## Ý nghĩa và tác động
 
-## Prompting như một kỹ năng cốt lõi
+## [[Glossary - Thuật ngữ Gen AI#Prompting|Prompting]] như một kỹ năng cốt lõi
 
-- **Kỹ năng cơ bản của thế kỷ 21** cho việc tương tác với AI7
-    
-- **Cầu nối** giữa ý định của con người và khả năng hiểu của máy móc[8](https://www.zetamicron.com/prompt-engineering-the-new-language-of-coders-in-the-ai-era/)
-    
-- **Công cụ tăng năng suất** và cải thiện hiệu quả công việc[1](https://onlydeadfish.co.uk/2025/04/14/is-it-worth-learning-how-to-prompt/)[4](https://www.forbes.com/sites/joemckendrick/2025/06/28/the-joy-of-prompting-ai-cant-read-minds-so-learn-to-spell-things-out/)
-    
+- **Kỹ năng cơ bản của thế kỷ 21** cho việc tương tác với [[Glossary - Thuật ngữ Gen AI#AI|AI]]
+- **Cầu nối** giữa ý định của con người và khả năng hiểu của máy móc
+- **Công cụ tăng năng suất** và cải thiện hiệu quả công việc
 
-## Tính chất đột phá của prompting
+## Tính chất đột phá của [[Glossary - Thuật ngữ Gen AI#Prompting|prompting]]
 
-- **Thay đổi cách giao tiếp** từ lệnh cứng nhắc sang ngôn ngữ tự nhiên[2](https://www.linkedin.com/pulse/prompting-new-programming-graham-medcalf-wsn7c)
-    
-- **Trao quyền cho người dùng** không cần kỹ năng lập trình truyền thống[4](https://www.forbes.com/sites/joemckendrick/2025/06/28/the-joy-of-prompting-ai-cant-read-minds-so-learn-to-spell-things-out/)
-    
-- **Mở ra khả năng sáng tạo** và giải quyết vấn đề mới[1](https://onlydeadfish.co.uk/2025/04/14/is-it-worth-learning-how-to-prompt/)[9](https://usewinslow.com/glossary/prompting/)
-    
+- **Thay đổi cách giao tiếp** từ lệnh cứng nhắc sang ngôn ngữ tự nhiên
+- **Trao quyền cho người dùng** không cần kỹ năng lập trình truyền thống
+- **Mở ra khả năng sáng tạo** và giải quyết vấn đề mới
 
-_Cuộc trò chuyện này làm nổi bật tầm quan trọng của việc nắm vững kỹ năng prompting trong bối cảnh AI đang trở thành một phần không thể thiếu trong cuộc sống và công việc hàng ngày._
+---
 
-1. [https://onlydeadfish.co.uk/2025/04/14/is-it-worth-learning-how-to-prompt/](https://onlydeadfish.co.uk/2025/04/14/is-it-worth-learning-how-to-prompt/)
-2. [https://www.linkedin.com/pulse/prompting-new-programming-graham-medcalf-wsn7c](https://www.linkedin.com/pulse/prompting-new-programming-graham-medcalf-wsn7c)
-3. [https://dev.to/wafa_bergaoui/why-you-should-learn-prompt-engineering-right-now-ia4](https://dev.to/wafa_bergaoui/why-you-should-learn-prompt-engineering-right-now-ia4)
-4. [https://www.forbes.com/sites/joemckendrick/2025/06/28/the-joy-of-prompting-ai-cant-read-minds-so-learn-to-spell-things-out/](https://www.forbes.com/sites/joemckendrick/2025/06/28/the-joy-of-prompting-ai-cant-read-minds-so-learn-to-spell-things-out/)
-5. [https://element451.com/blog/6-reasons-to-master-prompt-engineering](https://element451.com/blog/6-reasons-to-master-prompt-engineering)
-6. [https://www.qodequay.com/prompt-engineering-as-the-new-coding](https://www.qodequay.com/prompt-engineering-as-the-new-coding)
-7. [https://www.youtube.com/watch?v=KcUqxab-M5o](https://www.youtube.com/watch?v=KcUqxab-M5o)
-8. [https://www.zetamicron.com/prompt-engineering-the-new-language-of-coders-in-the-ai-era/](https://www.zetamicron.com/prompt-engineering-the-new-language-of-coders-in-the-ai-era/)
-9. [https://usewinslow.com/glossary/prompting/](https://usewinslow.com/glossary/prompting/)
-10. [https://www.reddit.com/r/ChatGPT/comments/127tex7/in_your_opinion_how_valuable_a_skill_will/](https://www.reddit.com/r/ChatGPT/comments/127tex7/in_your_opinion_how_valuable_a_skill_will/)
-11. [https://www.scc.com/insights/it-solutions/why-prompt-engineering-is-the-new-must-have-it-skill/](https://www.scc.com/insights/it-solutions/why-prompt-engineering-is-the-new-must-have-it-skill/)
-12. [https://the-decoder.com/deepminds-promptbreeder-automates-prompt-engineering/](https://the-decoder.com/deepminds-promptbreeder-automates-prompt-engineering/)
-13. [https://www.linkedin.com/pulse/pedagogy-prompting-we-students-now-mark-jsnhe](https://www.linkedin.com/pulse/pedagogy-prompting-we-students-now-mark-jsnhe)
-14. [https://thesequence.substack.com/p/inside-opro-google-deepminds-new](https://thesequence.substack.com/p/inside-opro-google-deepminds-new)
-15. [https://learnprompting.org](https://learnprompting.org/)
-16. [https://pub.towardsai.net/inside-promptbreeder-google-deepmind-new-self-improving-prompt-technique-672d06094e6e?gi=c7eacc32d1d1](https://pub.towardsai.net/inside-promptbreeder-google-deepmind-new-self-improving-prompt-technique-672d06094e6e?gi=c7eacc32d1d1)
-17. [https://www.mindbowser.com/prompt-engineering-importance-learning/](https://www.mindbowser.com/prompt-engineering-importance-learning/)
-18. [https://www.linkedin.com/posts/ali-arsanjani_here-is-promptbreeder-from-google-deepmind-activity-7133651694017552384-Dmji](https://www.linkedin.com/posts/ali-arsanjani_here-is-promptbreeder-from-google-deepmind-activity-7133651694017552384-Dmji)
-19. [https://deepmind.google/research/publications/90773/](https://deepmind.google/research/publications/90773/)
-20. [https://101blockchains.com/importance-of-ai-prompt-engineering/](https://101blockchains.com/importance-of-ai-prompt-engineering/)
+> 📚 **Xem thêm**: [[01 - 05 - Use the 5-step prompt framework|Framework 5 bước]] | [[Glossary - Thuật ngữ Gen AI|Bảng thuật ngữ]] | [[01 - 02 - Discover how AI can help at work|AI hỗ trợ công việc]]
+
+_Cuộc trò chuyện này làm nổi bật tầm quan trọng của việc nắm vững kỹ năng [[Glossary - Thuật ngữ Gen AI#Prompting|prompting]] trong bối cảnh [[Glossary - Thuật ngữ Gen AI#AI|AI]] đang trở thành một phần không thể thiếu trong cuộc sống và công việc hàng ngày._
