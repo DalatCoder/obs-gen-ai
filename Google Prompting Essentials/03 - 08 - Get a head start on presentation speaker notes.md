@@ -1,15 +1,16 @@
-# Sử dụng Trí tuệ nhân tạo tạo sinh (Gen AI) để Tạo Bài thuyết trình và Hình ảnh
+# Sử dụng [[Glossary - Thuật ngữ Gen AI#Gen AI|Gen AI]] để Tạo Bài thuyết trình và Hình ảnh
+
+> 🧭 **Navigation**: [[03 - 07 - Bring data to life with visualizations|← Trước]] | [[MOC - Google Prompting Essentials|📚 Mục lục]] | [[03 - 09 - Receive instant feedback on a presentation|Tiếp theo →]]
+
+---
 
 ## Tầm quan trọng của Kể chuyện trong Giao tiếp
 
 **Giao tiếp không chỉ đơn thuần là chia sẻ thông tin**. Bạn cần phải kể một câu chuyện. Câu chuyện là cách để thông tin **lưu lại trong tâm trí** của mọi người. Các công cụ trí tuệ nhân tạo tạo sinh (Gen AI) có thể hỗ trợ:
 
 - Tổ chức bài thuyết trình (presentations) thành những câu chuyện hấp dẫn
-    
 - Xây dựng các điểm thảo luận (talking points)
-    
 - Tạo ra hình ảnh để giữ chân khán giả
-    
 
 ## Tình huống Thực tế: Thuyết trình về Tai nghe
 
@@ -44,13 +45,9 @@ _(Tôi nên cấu trúc bài thuyết trình như thế nào? Liệt kê chủ �
 Gemini đã đề xuất một cấu trúc bài thuyết trình bao gồm:
 
 - **Slide tiêu đề** (title slide)
-    
 - **Phần giới thiệu** để đặt nền tảng
-    
 - **Chi tiết về ba tính năng** mà khán giả quan tâm
-    
 - **Lời kêu gọi hành động** (call to action) ở cuối bài thuyết trình
-    
 
 ## Tạo Hình ảnh với Trí tuệ nhân tạo tạo sinh (Gen AI)
 
@@ -63,13 +60,9 @@ Khi sử dụng trí tuệ nhân tạo tạo sinh (Gen AI) để tạo hình ả
 ## Các yếu tố cần chỉ định:
 
 - **Kích thước** (size)
-    
 - **Màu sắc** (color)
-    
 - **Vị trí** của các đối tượng trong hình ảnh
-    
 - **Thẩm mỹ tổng thể** (overall aesthetic)
-    
 
 ## Ví dụ Prompt Tạo ảnh
 
@@ -86,13 +79,9 @@ _(Tạo hình ảnh cận cảnh của một cặp tai nghe bạc bóng mượt 
 Gemini tạo ra **nhiều hình ảnh** để bạn lựa chọn, với các phong cách khác nhau:
 
 - **Nhiếp ảnh** (photography)
-    
 - **Nghệ thuật vector** (vector art)
-    
 - **Phác thảo** (sketches)
-    
 - **Màu nước** (watercolors)
-    
 
 ## Đánh giá và Sử dụng Có trách nhiệm
 
@@ -101,15 +90,20 @@ Gemini tạo ra **nhiều hình ảnh** để bạn lựa chọn, với các pho
 **Đánh giá đầu ra** giống như khi tạo văn bản:
 
 - Kiểm tra hình ảnh để đảm bảo bạn nhận được những gì mong muốn
-    
 - Tìm kiếm lỗi như dây tai nghe không được cắm vào hoặc bất kỳ điều gì khác có vẻ không đúng
-    
 
 ## Sử dụng Có trách nhiệm
 
-**Trách nhiệm của người dùng Gen AI** là tiết lộ khi đã sử dụng các công cụ này:
+**Trách nhiệm của người dùng [[Glossary - Thuật ngữ Gen AI#Gen AI|Gen AI]]** là tiết lộ khi đã sử dụng các công cụ này:
+
+---
+
+> 📚 **Thuật ngữ liên quan**: [[Glossary - Thuật ngữ Gen AI#Presentation|Presentation]] | [[Glossary - Thuật ngữ Gen AI#Storytelling|Storytelling]] | [[Glossary - Thuật ngữ Gen AI#Image Generation|Image Generation]]
+>
+> 🔗 **Xem thêm**: [[01 - 12 - Create images with gen AI|Tạo hình ảnh với AI]] | [[03 - 09 - Receive instant feedback on a presentation|Phản hồi thuyết trình]]
+>
+> 🎯 **Thực hành**: [[01 - 05 - Use the 5-step prompt framework|Framework prompting]] | [[01 - 16 - Use gen Ai responsibly|Sử dụng AI có trách nhiệm]]
 
 - **Thêm tuyên bố miễn trừ** (disclaimer) khi bao gồm hình ảnh được tạo bởi AI trong công việc của bạn
-    
 
 _Ghi chú: Nội dung này được tổng hợp từ khóa học Google Prompting Essentials trên Coursera, tập trung vào việc ứng dụng trí tuệ nhân tạo tạo sinh (Gen AI) để tạo bài thuyết trình và hình ảnh hiệu quả._

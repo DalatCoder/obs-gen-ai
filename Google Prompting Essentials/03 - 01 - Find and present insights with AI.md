@@ -1,4 +1,8 @@
-# Module: Sử dụng Trí tuệ nhân tạo tạo sinh (Gen AI) cho Quản lý và Phân tích Dữ liệu
+# Module: Sử dụng [[Glossary - Thuật ngữ Gen AI#Gen AI|Gen AI]] cho Quản lý và Phân tích Dữ liệu
+
+> 🧭 **Navigation**: [[02 - 12 - Summarization best practices|← Trước]] | [[MOC - Google Prompting Essentials|📚 Mục lục]] | [[03 - 02 - Use AI to uncover hidden patterns in data|Tiếp theo →]]
+
+---
 
 ## Giới thiệu Module
 
@@ -13,13 +17,9 @@ Bạn có nhớ lần đội ngũ của mình ra mắt một sản phẩm mới 
 **Giải pháp:** Các công cụ trí tuệ nhân tạo tạo sinh (Gen AI) có thể giúp bạn:
 
 - **Quản lý** (manage) dữ liệu
-    
 - **Phân tích** (analyze) dữ liệu
-    
 - **Trực quan hóa** (visualize) dữ liệu
-    
 - **Trình bày** (present) dữ liệu
-    
 
 ## Nội dung Module
 
@@ -30,11 +30,8 @@ Bạn có nhớ lần đội ngũ của mình ra mắt một sản phẩm mới 
 **Trọng tâm:**
 
 - Kỹ thuật prompting để phân tích dữ liệu
-    
 - Cách đặt câu hỏi đúng với AI để tìm ra patterns và trends
-    
 - Phương pháp trích xuất thông tin quan trọng từ dataset
-    
 
 ## 2. Trực quan hóa Dữ liệu
 
@@ -43,11 +40,8 @@ Bạn có nhớ lần đội ngũ của mình ra mắt một sản phẩm mới 
 **Nội dung:**
 
 - Tạo biểu đồ và đồ thị từ dữ liệu
-    
 - Chọn định dạng trực quan phù hợp
-    
 - Sử dụng AI để tạo visualizations hiệu quả
-    
 
 ## 3. Tạo Presentation Thuyết phục
 
@@ -56,11 +50,8 @@ Bạn có nhớ lần đội ngũ của mình ra mắt một sản phẩm mới 
 **Kỹ năng phát triển:**
 
 - Kết cấu presentation từ insights và visualizations
-    
 - Kỹ thuật storytelling với dữ liệu
-    
 - Trình bày findings một cách hấp dẫn và thuyết phục
-    
 
 ## Tầm quan trọng của Module
 
@@ -69,27 +60,27 @@ Bạn có nhớ lần đội ngũ của mình ra mắt một sản phẩm mới 
 Module này giúp bạn chuyển đổi:
 
 - **Từ:** Những con số khô khan trên bảng tính
-    
 - **Thành:** Những câu chuyện có ý nghĩa với insights có giá trị
-    
 
 ## Quy trình Hoàn chỉnh
 
 1. **Quản lý và phân tích** dữ liệu bằng AI
-    
 2. **Trực quan hóa** findings
-    
 3. **Trình bày** một cách thuyết phục
-    
 
 ## Ứng dụng Thực tế
 
 - **Phân tích hiệu suất sản phẩm** trong các khu vực khác nhau
-    
 - **Khám phá nhu cầu khách hàng** từ dữ liệu khảo sát
-    
 - **Tạo báo cáo** có tác động mạnh mẽ đến quyết định kinh doanh
-    
+
+---
+
+> 📚 **Thuật ngữ liên quan**: [[Glossary - Thuật ngữ Gen AI#Data Analysis|Data Analysis]] | [[Glossary - Thuật ngữ Gen AI#Data Visualization|Data Visualization]] | [[Glossary - Thuật ngữ Gen AI#Insights|Insights]]
+>
+> 🔗 **Xem thêm**: [[03 - 02 - Use AI to uncover hidden patterns in data|Khám phá patterns trong dữ liệu]] | [[03 - 07 - Bring data to life with visualizations|Trực quan hóa dữ liệu]]
+>
+> 🎯 **Thực hành**: [[01 - 05 - Use the 5-step prompt framework|Framework prompting]] | [[03 - 04 - Strategies for data analysis|Chiến lược phân tích dữ liệu]]
 
 ## Kết luận
 

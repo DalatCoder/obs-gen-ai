@@ -1,4 +1,8 @@
-# Sử Dụng Trí Tuệ Nhân Tạo Tạo Sinh Để Hiểu Công Thức Bảng Tính
+# Sử Dụng [[Glossary - Thuật ngữ Gen AI#Gen AI|Gen AI]] Để Hiểu Công Thức Bảng Tính
+
+> 🧭 **Navigation**: [[03 - 04 - Strategies for data analysis|← Trước]] | [[MOC - Google Prompting Essentials|📚 Mục lục]] | [[03 - 06 - Decipher almost anything with the help of AI|Tiếp theo →]]
+
+---
 
 ## Giới Thiệu
 
@@ -91,25 +95,26 @@ Và đó là cách bạn có được **hướng dẫn rõ ràng** để giải 
 ## Lợi Ích Của Việc Sử Dụng Gen AI Cho Bảng Tính
 
 - **Giải thích bằng ngôn ngữ tự nhiên:** Không cần phải là chuyên gia về công thức
-    
 - **Hướng dẫn từng bước:** Nhận được giải thích chi tiết, dễ hiểu
-    
 - **Xử lý lỗi:** Có thể chẩn đoán và sửa lỗi một cách có hệ thống
-    
 - **Tiết kiệm thời gian:** Không cần phải làm phiền đồng nghiệp hoặc tìm kiếm tài liệu
-    
 
 ## Ứng Dụng Thực Tế
 
 Phương pháp này đặc biệt hữu ích khi:
 
 - **Kế thừa công việc** từ đồng nghiệp
-    
 - **Gặp phải công thức phức tạp** không quen thuộc
-    
 - **Xuất hiện lỗi** trong bảng tính
-    
+
+---
+
+> 📚 **Thuật ngữ liên quan**: [[Glossary - Thuật ngữ Gen AI#Spreadsheet Formulas|Spreadsheet Formulas]] | [[Glossary - Thuật ngữ Gen AI#Natural Language|Natural Language]] | [[Glossary - Thuật ngữ Gen AI#Gemini|Gemini]]
+>
+> 🔗 **Xem thêm**: [[02 - 06 - Build tables and trackers effortlessly|Tạo bảng với AI]] | [[03 - 04 - Strategies for data analysis|Chiến lược phân tích]]
+>
+> 🎯 **Thực hành**: [[01 - 05 - Use the 5-step prompt framework|Framework prompting]] | [[03 - 06 - Decipher almost anything with the help of AI|Giải mã với AI]]
+
 - **Cần giải thích nhanh** về cách thức hoạt động của công thức
-    
 
 Bằng cách sử dụng **khung prompting có cấu trúc**, bạn có thể biến Gen AI thành một trợ lý đắc lực cho việc làm việc với bảng tính, giúp bạn hiểu và xử lý các công thức một cách hiệu quả.

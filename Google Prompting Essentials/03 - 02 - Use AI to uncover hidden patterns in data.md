@@ -1,4 +1,8 @@
-# Sử dụng Trí tuệ nhân tạo tạo sinh (Gen AI) để Phân tích Dữ liệu và Khám phá Insights
+# Sử dụng [[Glossary - Thuật ngữ Gen AI#Gen AI|Gen AI]] để Phân tích Dữ liệu và Khám phá [[Glossary - Thuật ngữ Gen AI#Insights|Insights]]
+
+> 🧭 **Navigation**: [[03 - 01 - Find and present insights with AI|← Trước]] | [[MOC - Google Prompting Essentials|📚 Mục lục]] | [[03 - 03 - AI IRL - Accelerate analytical tasks with AI by your side|Tiếp theo →]]
+
+---
 
 ## Nguyên tắc Cơ bản khi Phân tích Dữ liệu
 
@@ -21,9 +25,7 @@ Khóa học sẽ hướng dẫn cách thực hiện điều này bằng cách **
 **Quy tắc cơ bản:**
 
 - **Luôn xem xét chính sách** của tổ chức trước khi đưa dữ liệu nhạy cảm hoặc bí mật vào prompt
-    
 - **Ví dụ trong khóa học:** Sử dụng dữ liệu công khai từ **Kaggle**
-    
 
 ## Ví dụ Thực hành: Phân tích Dữ liệu Chuỗi Cửa hàng Tạp hóa
 
@@ -34,11 +36,8 @@ Khóa học sẽ hướng dẫn cách thực hiện điều này bằng cách **
 **Khả năng của AI Studio:**
 
 - Phân tích toàn bộ dữ liệu
-    
 - Tìm **trends** (xu hướng) và **patterns** (mẫu hình)
-    
 - Đưa ra thông tin giúp vận hành công ty
-    
 
 ## Tổ chức Dữ liệu
 
@@ -51,12 +50,10 @@ Khóa học sẽ hướng dẫn cách thực hiện điều này bằng cách **
 **Từ Google Drive:**
 
 - Upload dữ liệu trực tiếp từ Google Drive nơi **Google Sheet** được lưu trữ
-    
 
 **Từ Microsoft Excel:**
 
 - Upload từ máy tính của bạn
-    
 
 ## Ví dụ Prompt 1: Tạo Cột Tính toán
 
@@ -73,9 +70,7 @@ _(Đính kèm là một Google sheet về dữ liệu cửa hàng. Làm thế n�
 **Gợi ý hữu ích:**
 
 - Tính toán doanh số bán hàng trung bình cho mỗi khách hàng cho từng cửa hàng
-    
 - Giải thích cách sử dụng **công thức mô tả** (descriptive formula) để đặt nhãn cho cột mới trong bảng tính
-    
 
 ## Quá trình Iteration
 
@@ -88,9 +83,7 @@ Nếu phương pháp tổ chức không hiệu quả, có thể **lặp lại pr
 **Lợi ích:**
 
 - Khám phá xu hướng trong **dataset** (tập dữ liệu) giúp đưa ra quyết định thông minh
-    
 - Có thể prompt công cụ trí tuệ nhân tạo tạo sinh (Gen AI) để tìm những xu hướng này
-    
 
 ## Prompt Mẫu
 
@@ -105,18 +98,13 @@ _(Cho tôi hiểu biết sâu sắc về mối quan hệ giữa số lượng kh
 **Findings quan trọng:**
 
 - Nhận được **nhiều thông tin thú vị** một cách nhanh chóng
-    
 - **Không có mối tương quan rõ ràng** giữa số lượng mặt hàng trong cửa hàng và tổng doanh thu
-    
 - **Một số cửa hàng nhỏ** thậm chí còn vượt trội hơn các cửa hàng lớn
-    
 
 **Giá trị bổ sung:**
 
 - Đầu ra đưa ra **những lý do tiềm năng** đằng sau xu hướng này
-    
 - Cho phép điều tra sâu hơn và suy nghĩ về **chiến lược bán hàng** tiềm năng
-    
 
 ## Lợi ích Tổng thể của Gen AI trong Phân tích Dữ liệu
 
@@ -125,14 +113,11 @@ _(Cho tôi hiểu biết sâu sắc về mối quan hệ giữa số lượng kh
 **Trước đây:**
 
 - Phải dành hàng giờ để **crunching data** (xử lý dữ liệu)
-    
 
 **Hiện tại:**
 
 - Có thể thực hiện với chỉ **vài prompts**
-    
 - Nhận được **meaningful insights** (hiểu biết có ý nghĩa) một cách nhanh chóng
-    
 
 ## Khả năng Ứng dụng
 
@@ -142,15 +127,20 @@ _(Cho tôi hiểu biết sâu sắc về mối quan hệ giữa số lượng kh
 
 ## Kết luận
 
-Với sự hỗ trợ của các công cụ trí tuệ nhân tạo tạo sinh (Gen AI), chúng ta không còn phải dành hàng giờ để xử lý dữ liệu. Chỉ với vài prompts được thiết kế tốt, chúng ta có thể:
+Với sự hỗ trợ của các công cụ [[Glossary - Thuật ngữ Gen AI#Gen AI|trí tuệ nhân tạo tạo sinh]], chúng ta không còn phải dành hàng giờ để xử lý dữ liệu. Chỉ với vài prompts được thiết kế tốt, chúng ta có thể:
 
 - **Tổ chức dữ liệu** hiệu quả
-    
 - **Khám phá xu hướng** và mẫu hình
-    
-- **Trích xuất insights** có giá trị
-    
+- **Trích xuất [[Glossary - Thuật ngữ Gen AI#Insights|insights]]** có giá trị
+
+---
+
+> 📚 **Thuật ngữ liên quan**: [[Glossary - Thuật ngữ Gen AI#Google AI Studio|Google AI Studio]] | [[Glossary - Thuật ngữ Gen AI#Kaggle|Kaggle]] | [[Glossary - Thuật ngữ Gen AI#Data Patterns|Data Patterns]]
+>
+> 🔗 **Xem thêm**: [[03 - 04 - Strategies for data analysis|Chiến lược phân tích dữ liệu]] | [[03 - 05 - Decipher spreadsheets|Giải mã bảng tính]]
+>
+> 🎯 **Thực hành**: [[01 - 16 - Use gen Ai responsibly|Sử dụng AI có trách nhiệm]] | [[03 - 06 - Decipher almost anything with the help of AI|Giải mã dữ liệu với AI]]
+
 - **Đưa ra quyết định** dựa trên dữ liệu
-    
 
 Điều quan trọng là phải sử dụng các công cụ này một cách có trách nhiệm, luôn tuân thủ chính sách bảo mật của tổ chức và kiểm tra khả năng của công cụ trước khi sử dụng.

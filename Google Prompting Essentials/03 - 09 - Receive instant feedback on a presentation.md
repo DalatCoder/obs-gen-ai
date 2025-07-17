@@ -1,4 +1,8 @@
-# Sử dụng Trí tuệ nhân tạo tạo sinh để Tạo Ghi chú Thuyết trình và Luyện tập
+# Sử dụng [[Glossary - Thuật ngữ Gen AI#Gen AI|Gen AI]] để Tạo Ghi chú Thuyết trình và Luyện tập
+
+> 🧭 **Navigation**: [[03 - 08 - Get a head start on presentation speaker notes|← Trước]] | [[MOC - Google Prompting Essentials|📚 Mục lục]] | [[03 - 10 - AI IRL - Explore the capabilities and limitations of AI|Tiếp theo →]]
+
+---
 
 ## Tổng quan
 
@@ -9,11 +13,8 @@ Sau khi tạo xong bản thuyết trình, bước tiếp theo là thực hiện 
 ## Yêu cầu Công cụ
 
 - Cần sử dụng công cụ có **cửa sổ ngữ cảnh dài** (long context window)
-    
 - Không phải mọi công cụ AI đều có khả năng này
-    
 - Ví dụ minh họa sử dụng **Google AI Studio**
-    
 
 ## Cấu trúc Prompt Cơ bản
 
@@ -31,11 +32,8 @@ Cung cấp nhiều lựa chọn ghi chú thuyết trình ngắn gọn, thân thi
 ## Kết quả Thu được
 
 - Ghi chú có **tính cách và năng lượng**
-    
 - Giúp giữ khán giả **tham gia tích cực**
-    
 - Có thể tùy chỉnh cho đối tượng cụ thể
-    
 
 ## Tùy chỉnh Ghi chú cho Đối tượng Cụ thể
 
@@ -53,11 +51,8 @@ text
 ## Lợi ích
 
 - Ghi chú **phù hợp hơn** với đối tượng cấp cao
-    
 - Tập trung vào **độ chính xác** và **ưu tiên tổ chức**
-    
 - Có thể sử dụng **giọng nói** để tạo prompt tiết kiệm thời gian
-    
 
 ## Luyện tập Thuyết trình với Phản hồi AI
 
@@ -77,35 +72,32 @@ Tôi sẽ đọc to bài thuyết trình của mình, sau đó hãy cho tôi ph�
 ## Phản hồi Nhận được
 
 - **Danh sách nhắc nhở** cho bài thuyết trình tuyệt vời
-    
 - **Ví dụ cụ thể** về cách cải thiện nhịp độ và giọng điệu
-    
 - Phản hồi **chi tiết và có thể áp dụng**
-    
 
 ## Lợi ích của Cửa sổ Ngữ cảnh Dài
 
 ## Tính năng Lưu trữ
 
 - Có thể **lưu prompt** và quay lại nơi đã dừng
-    
 - **Tiếp tục luyện tập** mà không cần bắt đầu lại từ đầu
-    
 - Tận dụng **bộ nhớ lớn** của công cụ AI
-    
 
 ## Quy trình Làm việc Hiệu quả
 
 1. Tạo ghi chú thuyết trình cơ bản
-    
 2. Tùy chỉnh theo đối tượng cụ thể
-    
-3. Luyện tập với phản hồi AI
-    
+3. Luyện tập với phản hồi [[Glossary - Thuật ngữ Gen AI#AI|AI]]
 4. Cải thiện dựa trên gợi ý
-    
 5. Lặp lại quá trình cho đến khi hoàn thiện
-    
+
+---
+
+> 📚 **Thuật ngữ liên quan**: [[Glossary - Thuật ngữ Gen AI#Speaker Notes|Speaker Notes]] | [[Glossary - Thuật ngữ Gen AI#Long Context Window|Long Context Window]] | [[Glossary - Thuật ngữ Gen AI#Presentation Feedback|Presentation Feedback]]
+>
+> 🔗 **Xem thêm**: [[03 - 08 - Get a head start on presentation speaker notes|Ghi chú thuyết trình]] | [[03 - 10 - AI IRL - Explore the capabilities and limitations of AI|Khả năng và hạn chế AI]]
+>
+> 🎯 **Thực hành**: [[01 - 05 - Use the 5-step prompt framework|Framework prompting]] | [[01 - 09 - Practice 4 iteration methods|Phương pháp iteration]]
 
 ## Kết luận
 

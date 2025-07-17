@@ -1,4 +1,8 @@
-# Sử dụng Gen AI để Trực quan hóa Dữ liệu
+# Sử dụng [[Glossary - Thuật ngữ Gen AI#Gen AI|Gen AI]] để Trực quan hóa Dữ liệu
+
+> 🧭 **Navigation**: [[03 - 06 - Decipher almost anything with the help of AI|← Trước]] | [[MOC - Google Prompting Essentials|📚 Mục lục]] | [[03 - 08 - Get a head start on presentation speaker notes|Tiếp theo →]]
+
+---
 
 ## Tổng quan về Trình bày Dữ liệu
 
@@ -9,13 +13,9 @@ Khi thuyết trình với khách hàng tiềm năng, đồng nghiệp hay ban l�
 Áp dụng khung prompting cơ bản:
 
 - **Nhiệm vụ (Task)**: Yêu cầu cụ thể về loại biểu đồ
-    
 - **Bối cảnh (Context)**: Mô tả tập dữ liệu
-    
 - **Tham chiếu (References)**: Nếu cần thiết
-    
 - **Đánh giá và lặp lại (Evaluate & Iterate)**: Tinh chỉnh kết quả
-    
 
 ## Ví dụ Thực tế: Cửa hàng Sách
 
@@ -24,7 +24,6 @@ Khi thuyết trình với khách hàng tiềm năng, đồng nghiệp hay ban l�
 Hai đồng sở hữu cửa hàng sách cần phân tích danh sách sách bán chạy nhất để quyết định nhập kho. Dữ liệu bao gồm:
 
 - **Cột dữ liệu**: Title, Published, Genre, First published, Approximate sales in millions
-    
 
 **Lưu ý quan trọng**: Không phải tất cả công cụ Gen AI đều có thể phân tích dữ liệu. Cần kiểm tra khả năng của công cụ trước khi sử dụng. Trong trường hợp này, chúng ta sử dụng công cụ Google AI Studio.
 
@@ -73,28 +72,28 @@ _(Tập dữ liệu của tôi là một bảng tính sử dụng các cột sau
 ## Độ Cụ thể trong Prompt
 
 - Càng rõ ràng về loại biểu đồ mong muốn
-    
 - Càng chi tiết về các thông số (parameters)
-    
 - Kết quả càng hữu ích
-    
 
 ## Quy trình Lặp lại
 
 - Bắt đầu đơn giản, sau đó tăng dần độ phức tạp
-    
 - Nếu kết quả không như mong muốn, có thể điều chỉnh prompt và lặp lại
-    
 - Luôn đánh giá và tinh chỉnh kết quả
-    
 
 ## Sử dụng Tham chiếu Hiệu quả
 
 - Tải lên biểu đồ mẫu tương tự
-    
 - Yêu cầu mô tả trước khi tái tạo
-    
+
+---
+
+> 📚 **Thuật ngữ liên quan**: [[Glossary - Thuật ngữ Gen AI#Data Visualization|Data Visualization]] | [[Glossary - Thuật ngữ Gen AI#Chart Types|Chart Types]] | [[Glossary - Thuật ngữ Gen AI#Google AI Studio|Google AI Studio]]
+>
+> 🔗 **Xem thêm**: [[03 - 02 - Use AI to uncover hidden patterns in data|Khám phá patterns]] | [[03 - 08 - Get a head start on presentation speaker notes|Ghi chú thuyết trình]]
+>
+> 🎯 **Thực hành**: [[01 - 05 - Use the 5-step prompt framework|Framework prompting]] | [[03 - 09 - Receive instant feedback on a presentation|Phản hồi thuyết trình]]
+
 - Áp dụng cấu trúc tương tự cho dữ liệu riêng
-    
 
 Phương pháp này giúp tận dụng sức mạnh của Gen AI trong việc tạo ra các biểu đồ trực quan hóa dữ liệu hiệu quả, hỗ trợ quá trình ra quyết định kinh doanh.

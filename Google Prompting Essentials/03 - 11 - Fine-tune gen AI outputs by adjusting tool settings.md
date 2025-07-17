@@ -1,4 +1,8 @@
-# Tinh chỉnh Kết quả Gen AI bằng Điều chỉnh Cài đặt Công cụ
+# Tinh chỉnh Kết quả [[Glossary - Thuật ngữ Gen AI#Gen AI|Gen AI]] bằng Điều chỉnh Cài đặt Công cụ
+
+> 🧭 **Navigation**: [[03 - 10 - AI IRL - Explore the capabilities and limitations of AI|← Trước]] | [[MOC - Google Prompting Essentials|📚 Mục lục]] | [[04 - 01 - Harness the power of advanced prompting|Tiếp theo →]]
+
+---
 
 ## Giới thiệu
 
@@ -15,16 +19,12 @@ Một số công cụ như **Google AI Studio** cung cấp bảng điều khiể
 ## Tăng Temperature
 
 - Tạo ra những phản hồi **sáng tạo và bất ngờ** hơn
-    
 - Phù hợp cho các nhiệm vụ nghệ thuật như **brainstorming ý tưởng** hoặc **viết truyện ngắn**
-    
 
 ## Giảm Temperature
 
 - Tạo ra kết quả **có thể dự đoán và nhất quán** hơn
-    
 - Hữu ích cho các nhiệm vụ đòi hỏi phản hồi **chính xác, dựa trên sự thật** như **tóm tắt báo cáo** hoặc **tạo dòng thời gian**
-    
 
 ## Ví dụ Minh họa
 
@@ -33,9 +33,7 @@ Hãy tưởng tượng việc đưa ra prompt cho AI bằng phần đầu của 
 AI phải quyết định từ tiếp theo để hoàn thành câu. Dựa trên việc đào tạo, nó tạo ra danh sách xếp hạng các lựa chọn có khả năng nhất, mỗi từ có điểm xác suất:
 
 - **Cài đặt temperature thấp**: AI trở nên **thận trọng**, chọn từ có điểm số cao nhất, rõ ràng nhất - trong trường hợp này là "grocery store" (cửa hàng tạp hóa)
-    
 - **Cài đặt temperature cao**: Khuyến khích AI **chấp nhận rủi ro**, cho các từ có điểm số thấp hơn, bất ngờ hơn như "haunted house" (nhà ma) hoặc "moon" (mặt trăng) cơ hội được chọn
-    
 
 ## 2. Top-k và Top-p
 
@@ -46,25 +44,18 @@ Hãy nghĩ về chúng như những **núm điều chỉnh tiêu điểm** (focu
 ## Top-k
 
 - Đặt **số lượng từ cố định** mà công cụ có thể chọn
-    
 - Ví dụ: đặt top-k = 10 sẽ hướng dẫn công cụ chỉ chọn từ trong top 10 tùy chọn có khả năng nhất
-    
 
 ## Top-p
 
 - Đặt **số lượng từ động** mà công cụ có thể chọn
-    
 - Hướng dẫn công cụ tự động **thu hẹp hoặc mở rộng** danh sách tùy chọn dựa trên mức độ có thể dự đoán của từ tiếp theo
-    
 - Ví dụ: đặt top-p cao (p=0.9) hoạt động như **bộ lọc chất lượng**, hướng dẫn công cụ chỉ xem xét những lựa chọn có khả năng nhất
-    
 
 ## Khuyến nghị Sử dụng
 
 - **Top-p** được khuyến nghị điều chỉnh cho hầu hết các trường hợp sử dụng vì nó sẽ **thích ứng với ngữ cảnh** của tình huống
-    
 - **Sự khác biệt chính**: top-k sử dụng danh sách có **kích thước cố định**, trong khi top-p sử dụng danh sách có **kích thước linh hoạt**
-    
 
 **Mẹo chuyên nghiệp**: Khi sử dụng top-p, tốt nhất là **để top-k ở cài đặt mặc định**.
 
@@ -77,20 +68,14 @@ Hãy nghĩ về chúng như những **núm điều chỉnh tiêu điểm** (focu
 **Trường hợp sử dụng**:
 
 - Tóm tắt báo cáo
-    
 - Trích xuất thông tin chi tiết từ dữ liệu
-    
 - Viết tài liệu kỹ thuật
-    
 - Tạo code
-    
 
 **Cài đặt**:
 
 - **Temperature**: Thấp (ví dụ: 0.1 đến 0.4)
-    
 - **Top-k hoặc Top-p**: Để ở mặc định, vì temperature thấp đã làm cho kết quả rất tập trung
-    
 
 ## Công thức 2: Brainstorming Sáng tạo (Creative Brainstorming)
 
@@ -99,18 +84,13 @@ Hãy nghĩ về chúng như những **núm điều chỉnh tiêu điểm** (focu
 **Trường hợp sử dụng**:
 
 - Brainstorming ý tưởng mới
-    
 - Soạn thảo tài liệu marketing
-    
 - Viết truyện hư cấu
-    
 
 **Cài đặt**:
 
 - **Temperature**: Cao (ví dụ: 0.8 đến 1.0)
-    
 - **Top-k hoặc Top-p**: Giá trị cao (như 0.95 cho top-p) có thể hữu ích để cho công cụ AI **tự do sáng tạo** trong khi vẫn lọc ra các tùy chọn không liên quan
-    
 
 ## Lưu ý Quan trọng
 
@@ -124,9 +104,16 @@ Với cả ba cài đặt, **điểm số cao** có thể tạo ra những **ins
 
 Một **prompt tuyệt vời chỉ là điểm khởi đầu** - không phải điểm đến. Chìa khóa là tìm ra **sự cân bằng phù hợp** giữa câu trả lời sáng tạo và có thể dự đoán.
 
-- **Temperature** là núm điều chỉnh độ sáng tạo của bạn
-    
+- **[[Glossary - Thuật ngữ Gen AI#Temperature|Temperature]]** là núm điều chỉnh độ sáng tạo của bạn
+
+---
+
+> 📚 **Thuật ngữ liên quan**: [[Glossary - Thuật ngữ Gen AI#Temperature|Temperature]] | [[Glossary - Thuật ngữ Gen AI#Sampling Parameters|Sampling Parameters]] | [[Glossary - Thuật ngữ Gen AI#Top-k|Top-k]] | [[Glossary - Thuật ngữ Gen AI#Top-p|Top-p]]
+>
+> 🔗 **Xem thêm**: [[01 - 17 - AI IRL - Discover strategies to mitigate hallucinations|Giảm thiểu hallucinations]] | [[04 - 01 - Harness the power of advanced prompting|Advanced prompting]]
+>
+> 🎯 **Thực hành**: [[01 - 05 - Use the 5-step prompt framework|Framework prompting]] | [[01 - 16 - Use gen Ai responsibly|Sử dụng AI có trách nhiệm]]
+
 - **Top-p và top-k** giúp bạn giữ cho sự sáng tạo đó **tập trung**
-    
 
 Bằng cách học cách sử dụng những điều khiển đơn giản này, bạn có thể **vượt xa prompting tuyệt vời** để tạo ra kết quả tốt hơn cho bất kỳ nhiệm vụ nào.

@@ -1,4 +1,8 @@
-# Giải Mã Hầu Hết Mọi Thứ Với Sự Trợ Giúp Của Trí Tuệ Nhân Tạo
+# Giải Mã Hầu Hết Mọi Thứ Với Sự Trợ Giúp Của [[Glossary - Thuật ngữ Gen AI#AI|Trí Tuệ Nhân Tạo]]
+
+> 🧭 **Navigation**: [[03 - 05 - Decipher spreadsheets|← Trước]] | [[MOC - Google Prompting Essentials|📚 Mục lục]] | [[03 - 07 - Bring data to life with visualizations|Tiếp theo →]]
+
+---
 
 ## Giới Thiệu
 
@@ -159,11 +163,8 @@ Nếu bạn mới **bắt đầu với lập trình** (starting out with coding)
 Một số công cụ như:
 
 - **Google Colaboratory (Colab)**
-    
 - **Gemini Code Assist**
-    
 - **Vertex AI Codey**
-    
 
 được thiết kế với **lập trình trong tâm trí** (coding in mind), và có thể giúp bạn làm những việc như tạo mã hoặc xác định các hàm (functions) và lỗi (bugs).
 
@@ -235,14 +236,19 @@ Ngoài việc **giải thích biểu đồ và đồ thị**, các công cụ Ge
 
 ## Lợi Ích Tổng Thể
 
-Các công cụ Gen AI có thể giúp bạn:
+Các công cụ [[Glossary - Thuật ngữ Gen AI#Gen AI|Gen AI]] có thể giúp bạn:
 
 - **Khám phá ý tưởng mới** (explore new ideas)
-    
 - **Giải quyết vấn đề hiệu quả và nhanh chóng hơn** (solve problems more effectively and quickly)
-    
 - **Học hỏi và phát triển** với kiến thức bạn đã có được
-    
+
+---
+
+> 📚 **Thuật ngữ liên quan**: [[Glossary - Thuật ngữ Gen AI#Translation|Translation]] | [[Glossary - Thuật ngữ Gen AI#Jargon Analysis|Jargon Analysis]] | [[Glossary - Thuật ngữ Gen AI#Code Interpretation|Code Interpretation]]
+>
+> 🔗 **Xem thêm**: [[03 - 05 - Decipher spreadsheets|Giải mã bảng tính]] | [[03 - 07 - Bring data to life with visualizations|Trực quan hóa dữ liệu]]
+>
+> 🎯 **Thực hành**: [[01 - 05 - Use the 5-step prompt framework|Framework prompting]] | [[03 - 08 - Get a head start on presentation speaker notes|Ghi chú thuyết trình]]
 
 ## Lưu Ý Cuối Cùng
 
