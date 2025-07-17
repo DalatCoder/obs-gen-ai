@@ -4,7 +4,16 @@
 
 ## 🗺️ Tổng quan khóa học
 
-[[01 - 01 - Welcome to Google Prompting Essentials|Chào mừng đến với Google Prompting Essentials]] là khóa học chính thức từ Google về kỹ thuật [[Prompting]] hiệu quả. Khóa học này được thiết kế để giúp người dùng tạo ra những [[prompt]] chất lượng cao cho các công cụ [[Gen AI]].
+[[01 -### 🎯 Chuyên sâu
+
+1. Tất cả các bài "[[01 - 03 - AI IRL - Unlock your relationship with AI through prompting|AI IRL]]" để thực hành
+2. Xây dựng [[Glossary - Thuật ngữ Gen AI#Personal Prompt Library|Personal Prompt Library]]
+3. Áp dụng vào dự án thực tế
+4. Chia sẻ kinh nghiệm với [[Glossary - Thuật ngữ Gen AI#AI Community|cộng đồng]]
+
+---
+
+*Cập nhật lần cuối: 2025-07-17*ome to Google Prompting Essentials|Chào mừng đến với Google Prompting Essentials]] là khóa học chính thức từ Google về kỹ thuật [[Prompting]] hiệu quả. Khóa học này được thiết kế để giúp người dùng tạo ra những [[prompt]] chất lượng cao cho các công cụ [[Gen AI]].
 
 ## 🎯 Cấu trúc khóa học
 
@@ -48,16 +57,16 @@
 [[01 - 05 - Use the 5-step prompt framework|Framework 5 bước]] bao gồm:
 
 - **T**ask - Nhiệm vụ
-- **C**ontext - Ngữ cảnh
-- **R**eferences - Tài liệu tham khảo
+- **C**ontext - Ngữ cảnh → [[01 - 07 - AI IRL - Improve your prompts by adding context and persona]]
+- **R**eferences - Tài liệu tham khảo → [[01 - 08 - Get the most out of AI with the prompt framework]]
 - **E**valuate - Đánh giá
-- **I**terate - Lặp lại
+- **I**terate - Lặp lại → [[01 - 10 - Generate better outputs through iteration]]
 
 ### 🎭 Persona và Context
 
-- [[Persona]] - Vai trò được gán cho AI
-- [[Context]] - Ngữ cảnh thông tin quan trọng
-- [[References]] - Tài liệu và ví dụ minh họa
+- [[Glossary - Thuật ngữ Gen AI#Persona|Persona]] - Vai trò được gán cho AI
+- [[Glossary - Thuật ngữ Gen AI#Context|Context]] - Ngữ cảnh thông tin quan trọng
+- [[Glossary - Thuật ngữ Gen AI#References|References]] - Tài liệu và ví dụ minh họa
 
 ### 🔄 Phương pháp ABI
 
@@ -70,21 +79,21 @@
 
 ### 🖼️ Multimodal Capabilities
 
-- Sử dụng hình ảnh trong prompt
-- Xử lý tài liệu và văn bản
-- Tạo nội dung đa phương tiện
+- Sử dụng hình ảnh trong prompt → [[01 - 12 - Create images with gen AI]]
+- Xử lý tài liệu và văn bản → [[01 - 14 - use images, documents, and more in prompts]]
+- Tạo nội dung đa phương tiện → [[01 - 15 - Understand multimodal prompting]]
 
 ### ⚖️ Responsible AI
 
-- Nhận biết [[Hallucinations]]
-- Đánh giá bias và độ chính xác
+- Nhận biết [[Glossary - Thuật ngữ Gen AI#Hallucinations|Hallucinations]] → [[01 - 17 - AI IRL - Discover strategies to mitigate hallucinations]]
+- Đánh giá bias và độ chính xác → [[01 - 18 - Tips for responsible prompting]]
 - Tuân thủ nguyên tắc đạo đức
 
 ## 🛠️ Công cụ thực hành
 
 ### 📚 Personal Prompt Library
 
-Xây dựng thư viện prompt cá nhân để lưu trữ các prompt hiệu quả:
+Xây dựng [[Glossary - Thuật ngữ Gen AI#Personal Prompt Library|thư viện prompt cá nhân]] để lưu trữ các prompt hiệu quả:
 
 - Phân loại theo mục đích sử dụng
 - Ghi chú về ngữ cảnh áp dụng
@@ -92,7 +101,7 @@ Xây dựng thư viện prompt cá nhân để lưu trữ các prompt hiệu qu�
 
 ### 🎯 Prompting Checklist
 
-Danh sách kiểm tra khi tạo prompt:
+Danh sách kiểm tra khi tạo prompt ([[Glossary - Thuật ngữ Gen AI#Prompting Checklist|xem chi tiết]]):
 
 - [ ] Đã xác định rõ Task?
 - [ ] Đã cung cấp đủ Context?
@@ -109,14 +118,14 @@ Danh sách kiểm tra khi tạo prompt:
 
 ### 🎓 Tài liệu tham khảo
 
-- [[Google AI Essentials]] - Khóa học cơ bản về AI
-- [[AI Community]] - Cộng đồng AI
+- [[Glossary - Thuật ngữ Gen AI#Google AI Essentials|Google AI Essentials]] - Khóa học cơ bản về AI
+- [[Glossary - Thuật ngữ Gen AI#AI Community|AI Community]] - Cộng đồng AI
 
 ### 📝 Templates và Tools
 
-- [[Prompt Templates]] - Mẫu prompt cho các tình huống khác nhau
-- [[Prompting Checklist]] - Danh sách kiểm tra
-- [[Case Studies]] - Các nghiên cứu trường hợp
+- [[Glossary - Thuật ngữ Gen AI#Prompt Templates|Prompt Templates]] - Mẫu prompt cho các tình huống khác nhau
+- [[Glossary - Thuật ngữ Gen AI#Prompting Checklist|Prompting Checklist]] - Danh sách kiểm tra
+- [[Glossary - Thuật ngữ Gen AI#Case Studies|Case Studies]] - Các nghiên cứu trường hợp
 
 ## 🌟 Lộ trình học tập đề xuất
 

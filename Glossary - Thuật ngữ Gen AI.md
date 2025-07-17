@@ -175,4 +175,17 @@
 - **Ký hiệu #**: Tạo tag để phân loại nội dung
 - **Ký hiệu >**: Tạo blockquote để làm nổi bật thông tin
 
-_Cập nhật lần cuối: {{date:YYYY-MM-DD}}_
+_Cập nhật lần cuối: 2025-07-17_
+
+## 🔗 Liên kết quan trọng
+
+### 📋 Navigation
+
+- [[README]] - Tổng quan dự án
+- [[MOC - Google Prompting Essentials]] - Bản đồ nội dung chính
+
+### 📚 Tài liệu chính
+
+- [[01 - 01 - Welcome to Google Prompting Essentials]] - Điểm bắt đầu
+- [[01 - 05 - Use the 5-step prompt framework]] - Framework cốt lõi
+- [[01 - 16 - Use gen Ai responsibly]] - Sử dụng có trách nhiệm

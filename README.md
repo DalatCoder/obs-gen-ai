@@ -1,4 +1,20 @@
-# 🤖 Bộ sưu tập kiến thức về Trí tuệ nhân tạo tạo sinh (Gen AI)
+# 🤖 Bộ sưu tập kiến thức về Trí tuệ nhân tạo tạo sin### 🧠 Google AI Essentials
+
+_Đang được phát triển - Sẽ bao gồm các kiến thức cơ bản về AI_
+
+> 🔗 **Liên quan**: [[Glossary - Thuật ngữ Gen AI#Goog## 📞 Liên hệ
+
+Nếu bạn có góp ý hoặc muốn đóng góp cho dự án, vui lòng tạo issue hoặc pull request.
+
+## 🔧 Maintenance
+
+- [[Link Validation - Kiểm tra liên kết]] - Kiểm tra tính chính xác của các hyperlink
+- Cập nhật định kỳ các liên kết và nội dung
+- Theo dõi phản hồi từ người dùng
+
+---
+
+*Được tạo với ❤️ để chia sẻ kiến thức về Gen AI cho cộng đồng Việt Nam*ssentials|Tìm hiểu thêm về AI Essentials]]Gen AI)
 
 ## 📋 Tổng quan dự án
 
@@ -48,8 +64,8 @@ Khóa học chuyên sâu về kỹ thuật prompting hiệu quả, bao gồm:
   1. Xem xét vấn đề và sự phù hợp
   2. Tuân thủ chính sách và bảo mật dữ liệu
   3. Đánh giá kết quả và tiết lộ việc sử dụng
-- Nhận biết và giảm thiểu hiện tượng [[Hallucinations]] → [[01 - 17 - AI IRL - Discover strategies to mitigate hallucinations]]
-- Đánh giá bias và độ chính xác → [[01 - 18 - Tips for responsible prompting]]
+- Nhận biết và giảm thiểu hiện tượng [[Glossary - Thuật ngữ Gen AI#Hallucinations|Hallucinations]] → [[01 - 17 - AI IRL - Discover strategies to mitigate hallucinations]]
+- Đánh giá [[Glossary - Thuật ngữ Gen AI#Bias|bias]] và độ chính xác → [[01 - 18 - Tips for responsible prompting]]
 
 ### 🧠 Google AI Essentials
 
@@ -77,7 +93,7 @@ Task (Nhiệm vụ) → Context (Ngữ cảnh) → References (Tham khảo) → 
 
 > 🔗 **Thực hành**: [[01 - 07 - AI IRL - Improve your prompts by adding context and persona]]
 
-- Xác định vai trò cụ thể cho AI
+- Xác định vai trò cụ thể cho AI → [[Glossary - Thuật ngữ Gen AI#Persona|Tìm hiểu Persona]]
 - Thiết lập đối tượng nhận thông tin
 - Định dạng output phù hợp với mục đích
 
@@ -95,22 +111,22 @@ Task (Nhiệm vụ) → Context (Ngữ cảnh) → References (Tham khảo) → 
 
 - Bắt đầu từ [[01 - 01 - Welcome to Google Prompting Essentials|tài liệu giới thiệu]]
 - Sử dụng [[MOC - Google Prompting Essentials|Map of Content]] để điều hướng
-- Theo dõi các [[internal links]] giữa các khái niệm
+- Theo dõi các [[Glossary - Thuật ngữ Gen AI#Internal Links|internal links]] giữa các khái niệm
 - Tham khảo [[Glossary - Thuật ngữ Gen AI|bảng thuật ngữ]] khi cần
 
 ### 3. Học tập thực hành
 
 - Áp dụng [[01 - 05 - Use the 5-step prompt framework|Framework 5 bước]] đã học
 - Thực hành với các ví dụ cụ thể trong [[01 - 06 - Put the prompt framework into action]]
-- Xây dựng [[Personal prompt library|thư viện prompt cá nhân]]
-- Sử dụng [[prompting checklist|danh sách kiểm tra]] để đánh giá chất lượng prompt
+- Xây dựng [[Glossary - Thuật ngữ Gen AI#Personal Prompt Library|thư viện prompt cá nhân]]
+- Sử dụng [[Glossary - Thuật ngữ Gen AI#Prompting Checklist|danh sách kiểm tra]] để đánh giá chất lượng prompt
 
 ## 🌟 Tính năng nổi bật
 
 - **Cấu trúc có hệ thống**: Tổ chức theo khóa học và chủ đề với [[01 - 04 - Course overview|tổng quan rõ ràng]]
-- **Liên kết thông minh**: Sử dụng Obsidian để tạo [[knowledge graph]] liên kết các khái niệm
+- **Liên kết thông minh**: Sử dụng Obsidian để tạo [[Glossary - Thuật ngữ Gen AI#Knowledge Graph|knowledge graph]] liên kết các khái niệm
 - **Nội dung tiếng Việt**: Dễ hiểu và áp dụng cho người Việt
-- **Cập nhật liên tục**: Theo dõi xu hướng mới nhất trong [[Gen AI]]
+- **Cập nhật liên tục**: Theo dõi xu hướng mới nhất trong [[Glossary - Thuật ngữ Gen AI#Gen AI|Gen AI]]
 - **Thực hành định hướng**: Tập trung vào ứng dụng thực tế với [[01 - 03 - AI IRL - Unlock your relationship with AI through prompting|các tình huống thực tế]]
 
 ## 🎓 Nguồn tham khảo
@@ -170,27 +186,29 @@ Task (Nhiệm vụ) → Context (Ngữ cảnh) → References (Tham khảo) → 
 ## 🚀 Lộ trình phát triển
 
 - [x] Hoàn thành [[01 - 01 - Welcome to Google Prompting Essentials|Google Prompting Essentials]]
-- [ ] Phát triển [[Google AI Essentials]]
-- [ ] Thêm các [[case studies]] thực tế
-- [ ] Xây dựng [[prompt templates]] và [[prompting checklist]]
+- [ ] Phát triển [[Glossary - Thuật ngữ Gen AI#Google AI Essentials|Google AI Essentials]]
+- [ ] Thêm các [[Glossary - Thuật ngữ Gen AI#Case Studies|case studies]] thực tế
+- [ ] Xây dựng [[Glossary - Thuật ngữ Gen AI#Prompt Templates|prompt templates]] và [[Glossary - Thuật ngữ Gen AI#Prompting Checklist|prompting checklist]]
 - [ ] Bổ sung video và hình ảnh minh họa
-- [ ] Tạo [[MOC]] (Maps of Content) cho từng chủ đề
-- [ ] Phát triển [[prompt library]] cá nhân
+- [ ] Tạo [[Glossary - Thuật ngữ Gen AI#MOC|MOC]] (Maps of Content) cho từng chủ đề
+- [ ] Phát triển [[Glossary - Thuật ngữ Gen AI#Personal Prompt Library|prompt library]] cá nhân
 
 ## 📖 Thuật ngữ quan trọng
 
 Một số thuật ngữ quan trọng trong vault này:
 
-- [[Gen AI]] - Trí tuệ nhân tạo tạo sinh
-- [[Prompting]] - Kỹ thuật viết lệnh cho AI
-- [[Framework]] - Khung mẫu làm việc
-- [[Iteration]] - Phương pháp điều chỉnh
-- [[Persona]] - Vai trò được gán cho AI
-- [[Context]] - Ngữ cảnh thông tin
-- [[References]] - Tài liệu tham khảo
-- [[Hallucinations]] - Hiện tượng AI tạo thông tin sai
-- [[Multimodal]] - Đa phương tiện
-- [[Responsible AI]] - AI có trách nhiệm
+- [[Glossary - Thuật ngữ Gen AI#Gen AI|Gen AI]] - Trí tuệ nhân tạo tạo sinh
+- [[Glossary - Thuật ngữ Gen AI#Prompting|Prompting]] - Kỹ thuật viết lệnh cho AI
+- [[Glossary - Thuật ngữ Gen AI#Framework|Framework]] - Khung mẫu làm việc
+- [[Glossary - Thuật ngữ Gen AI#Iteration|Iteration]] - Phương pháp điều chỉnh
+- [[Glossary - Thuật ngữ Gen AI#Persona|Persona]] - Vai trò được gán cho AI
+- [[Glossary - Thuật ngữ Gen AI#Context|Context]] - Ngữ cảnh thông tin
+- [[Glossary - Thuật ngữ Gen AI#References|References]] - Tài liệu tham khảo
+- [[Glossary - Thuật ngữ Gen AI#Hallucinations|Hallucinations]] - Hiện tượng AI tạo thông tin sai
+- [[Glossary - Thuật ngữ Gen AI#Multimodal|Multimodal]] - Đa phương tiện
+- [[Glossary - Thuật ngữ Gen AI#Responsible AI|Responsible AI]] - AI có trách nhiệm
+
+> 📚 **Xem thêm**: [[Glossary - Thuật ngữ Gen AI|Bảng thuật ngữ đầy đủ]]
 
 ## 📞 Liên hệ
 
