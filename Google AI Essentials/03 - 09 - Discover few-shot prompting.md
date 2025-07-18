@@ -9,11 +9,8 @@ Bạn đã từng tạo ra thứ gì đó mới bằng cách xây dựng dựa t
 Trong kỹ thuật thiết kế prompt (prompt engineering), "shot" thường đồng nghĩa với "example" (ví dụ). Các kỹ thuật prompting được đặt tên dựa trên số lượng ví dụ cung cấp cho LLM:
 
 - Zero-shot prompting: Kỹ thuật không cung cấp ví dụ nào trong prompt.
-    
 - One-shot prompting: Cung cấp một ví dụ.
-    
 - Few-shot prompting: Kỹ thuật cung cấp hai hoặc nhiều ví dụ trong prompt.
-    
 
 ## Zero-Shot Prompting
 
@@ -57,3 +54,27 @@ Không có quy tắc cố định về số lượng ví dụ tối ưu. Một s
 ## Kết Luận
 
 Few-shot prompting là kỹ thuật hiệu quả giúp hướng dẫn LLM tạo phản hồi hữu ích hơn.
+
+---
+
+## Navigation
+
+⬅️ [[03 - 08 - Improve AI output through iteration|Cải thiện đầu ra AI qua lặp lại]] | [[03 - 10 - Explore chain-of-thought prompting|Khám phá chain-of-thought prompting]] ➡️
+
+🏠 [[README|Trang chủ khóa học]]
+
+---
+
+## Chủ Đề Liên Quan
+
+- [[03 - 04 - Write clear and specific prompts|Viết prompt rõ ràng và cụ thể]]
+- [[03 - 05 - Prompting best practices|Thực hành tốt nhất cho prompting]]
+- [[03 - 07 - Prompts for different purposes|Prompts cho các mục đích khác nhau]]
+- [[03 - 08 - Improve AI output through iteration|Cải thiện đầu ra AI qua lặp lại]]
+- [[03 - 10 - Explore chain-of-thought prompting|Khám phá chain-of-thought prompting]]
+
+---
+
+## Tóm Tắt Module 3
+
+Cung cấp ví dụ trong prompt giúp LLM hiểu rõ hơn định dạng và phong cách mong muốn.

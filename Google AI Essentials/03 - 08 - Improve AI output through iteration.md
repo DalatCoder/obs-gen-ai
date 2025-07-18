@@ -7,34 +7,25 @@ Trong kỹ thuật thiết kế prompt (prompt engineering), quy trình lặp l�
 ## Lý Do Có Thể Không Nhận Được Kết Quả Hữu Ích Dù Prompt Rõ Ràng
 
 1. **Sự Khác Biệt Giữa Các Mô Hình Ngôn Ngữ Lớn (LLM)**: Mỗi mô hình ngôn ngữ lớn (LLM) được phát triển với dữ liệu huấn luyện và kỹ thuật lập trình độc đáo, dẫn đến kiến thức nền khác nhau về các lĩnh vực cụ thể. Do đó, các mô hình có thể phản hồi khác nhau với prompt tương tự và có thể không cung cấp phản hồi đầy đủ.
-    
 2. **Hạn Chế Của LLM**: Kết quả có thể không chính xác, thiên kiến, thiếu thông tin, không liên quan hoặc không nhất quán.
-    
 
 ## Đánh Giá Kết Quả LLM
 
 Đánh giá nghiêm ngặt mọi kết quả bằng cách tự hỏi:
 
 - Kết quả có chính xác không?
-    
 - Kết quả có không thiên kiến không?
-    
 - Kết quả có đủ thông tin không?
-    
 - Kết quả có liên quan đến dự án hoặc nhiệm vụ không?
-    
 - Kết quả có nhất quán nếu sử dụng cùng prompt nhiều lần không?
-    
 
 Nếu phát hiện vấn đề, lặp lại prompt để giải quyết và cải thiện kết quả.
 
 ## Cải Thiện Prompt Thông Qua Lặp Lại
 
 - Nếu thiếu ngữ cảnh, hãy thêm vào prompt.
-    
 - Lựa chọn từ ngữ ảnh hưởng lớn đến kết quả; thử nghiệm cách diễn đạt khác nhau để có phản hồi tốt hơn.  
-    Sử dụng quy trình lặp lại với LLM cụ thể để đạt kết quả tốt nhất.
-    
+   Sử dụng quy trình lặp lại với LLM cụ thể để đạt kết quả tốt nhất.
 
 ## Ví Dụ: Tìm Kiếm Các Trường Đại Học Ở Pennsylvania Với Chương Trình Hoạt Hình
 
@@ -60,3 +51,27 @@ Kết quả: Bảng bổ sung cột công lập/tư thục. Để chia sẻ, s�
 Áp dụng cách tiếp cận lặp lại cho các nhiệm vụ khác. Lưu ý rằng prompt trước trong cùng cuộc trò chuyện có thể ảnh hưởng đến kết quả prompt mới; nếu vậy, bắt đầu cuộc trò chuyện mới.
 
 Quy trình lặp lại là phần quan trọng của kỹ thuật thiết kế prompt, giúp tận dụng LLM để có kết quả hữu ích nhất.
+
+---
+
+## Navigation
+
+⬅️ [[03 - 07 - Prompts for different purposes|Prompts cho các mục đích khác nhau]] | [[03 - 09 - Discover few-shot prompting|Khám phá few-shot prompting]] ➡️
+
+🏠 [[README|Trang chủ khóa học]]
+
+---
+
+## Chủ Đề Liên Quan
+
+- [[02 - 10 - Leverage the human-in-the-loop approach to AI|Tận dụng cách tiếp cận human-in-the-loop]]
+- [[03 - 04 - Write clear and specific prompts|Viết prompt rõ ràng và cụ thể]]
+- [[03 - 05 - Prompting best practices|Thực hành tốt nhất cho prompting]]
+- [[03 - 07 - Prompts for different purposes|Prompts cho các mục đích khác nhau]]
+- [[03 - 11 - Improve prompts through exploration|Cải thiện prompts thông qua khám phá]]
+
+---
+
+## Tóm Tắt Module 3
+
+Lặp lại và cải thiện prompt là kỹ năng quan trọng để tối đa hóa hiệu quả của AI trong công việc.

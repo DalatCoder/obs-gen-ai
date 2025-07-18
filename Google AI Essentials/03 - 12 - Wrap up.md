@@ -5,14 +5,23 @@ Bạn đã học được nhiều kiến thức về việc viết prompt (lện
 ## Các Nguyên Tắc Chính Của Kỹ Thuật Thiết Kế Prompt (Prompt Engineering)
 
 - Tạo prompt rõ ràng và cụ thể: Chỉ rõ những gì bạn muốn LLM thực hiện, và bao gồm ngữ cảnh hỗ trợ để cải thiện chất lượng kết quả.
-    
 - Cải thiện kết quả qua quy trình lặp lại (iteration): Đánh giá kết quả, sau đó chỉnh sửa prompt nếu cần để đạt kết quả tốt hơn.
-    
 - Kỹ thuật prompt vài ví dụ (few-shot prompting): Cung cấp các ví dụ để hướng dẫn LLM tạo ra phản hồi phù hợp.
-    
 
 ## Mẹo Cuối Cùng
 
 Các nguyên tắc prompt cho mô hình ngôn ngữ lớn (LLM) cũng áp dụng cho các loại mô hình trí tuệ nhân tạo (AI model) khác. Ví dụ, khi sử dụng AI để tạo hình ảnh (generate an image), hãy rõ ràng, cụ thể và lặp lại để đạt kết quả mong muốn.
 
 Hướng dẫn này giúp bạn làm quen với kỹ thuật thiết kế prompt (prompt engineering) để tận dụng công cụ AI hội thoại (conversational AI tools) tại nơi làm việc. Để tiếp tục học, hãy khám phá chủ đề sử dụng AI một cách có trách nhiệm (using AI responsibly) trong khóa học Google AI Essentials.
+
+---
+
+## Điều Hướng
+
+**⬅️ Quay lại:** [[03 - 11 - Improve prompts through exploration]]
+
+**➡️ Tiếp theo:** [[04 - 01 - Module 4 introduction - Use AI responsbly]]
+
+**🔙 Module trước:** [[02 - 14 - Wrap up]]
+
+**🏠 Trang chủ:** [[01 - 01 - Introduction to Google AI Essentials]]

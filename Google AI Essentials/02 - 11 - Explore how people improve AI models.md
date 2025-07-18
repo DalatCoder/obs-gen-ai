@@ -21,3 +21,23 @@ Con người trong vòng lặp (human-in-the-loop) liên quan đến việc vi�
 ## Tiềm Năng Của Trí Tuệ Nhân Tạo
 
 Trí tuệ nhân tạo (AI) có tiềm năng lớn để mang lại lợi ích cho thế giới, vì nó là công cụ do con người tạo ra để giúp kết nối lẫn nhau và trở nên nhân văn hơn.
+
+---
+
+## Chủ Đề Liên Quan
+
+- **Human-in-the-loop:** [[02 - 10 - Leverage the human-in-the-loop approach to AI]]
+- **AI models & training:** [[02 - 05 - AI models and the training process]]
+- **Code generation:** [[02 - 09 - Generative AI tools for workplace tasks]]
+- **LLM understanding:** [[03 - 02 - Understand large language models]]
+- **Iterative improvement:** [[03 - 08 - Improve AI output through iteration]]
+
+---
+
+## Điều Hướng
+
+**⬅️ Quay lại:** [[02 - 10 - Leverage the human-in-the-loop approach to AI]]
+
+**➡️ Tiếp theo:** [[02 - 12 - Determine if generative AI is right for the task]]
+
+**🏠 Trang chủ:** [[01 - 01 - Introduction to Google AI Essentials]]

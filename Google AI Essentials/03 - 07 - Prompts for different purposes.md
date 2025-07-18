@@ -9,28 +9,19 @@ Hãy nhớ rằng mô hình ngôn ngữ lớn (large language model - LLM) là m
 LLM có thể giúp tăng năng suất và sáng tạo tại nơi làm việc qua các nhiệm vụ như:
 
 - Tạo nội dung (Content creation).
-    
 - Tóm tắt (Summarization).
-    
 - Phân loại (Classification).
-    
 - Trích xuất (Extraction).
-    
 - Dịch (Translation).
-    
 - Chỉnh sửa (Editing).
-    
 - Giải quyết vấn đề (Problem-solving).
-    
 
 Lưu ý: Các ví dụ minh họa thực hành tốt nhất về prompting; không phải mẫu chính xác để sao chép. Kết quả thay đổi tùy LLM sử dụng. Luôn đánh giá phê phán đầu ra LLM và lặp lại prompt để có kết quả tốt nhất.
 
 ## Cách Làm Prompt Hiệu Quả Hơn
 
 - Xem xét những gì bạn muốn LLM tạo ra. Bao gồm hướng dẫn cụ thể như create (tạo), summarize (tóm tắt), classify (phân loại), extract (trích xuất), translate (dịch), edit (chỉnh sửa), hoặc solve (giải quyết).
-    
 - Cung cấp ngữ cảnh cần thiết. Bao gồm hướng dẫn chi tiết về phong cách hoặc định dạng đầu ra mong muốn.
-    
 
 Dưới đây là ví dụ chi tiết cho từng trường hợp sử dụng.
 
@@ -88,16 +79,12 @@ LLM giúp phân loại email dịch vụ khách hàng, nội dung mạng xã h�
 Read these customer reviews and tell me whether the sentiment of the reviews is positive, negative, or neutral.
 
 - Customer Review: I don't know where to begin. We had reservations for 7:00 but they seated us at 7:45. Then, no one came to our table for at least 30 minutes. Our appetizer and main course were mediocre. I did love the dessert, but that wasn't enough to change our experience.
-    
 - Customer Review: I love this restaurant. The food is delicious and the service is excellent.
-    
 
 (Dịch: Đọc các đánh giá khách hàng này và cho tôi biết cảm xúc của chúng là tích cực, tiêu cực hay trung lập.
 
 - Đánh giá Khách hàng: Tôi không biết bắt đầu từ đâu. Chúng tôi đặt chỗ lúc 7:00 nhưng được ngồi lúc 7:45. Sau đó, không ai đến bàn ít nhất 30 phút. Món khai vị và chính kém. Tôi thích món tráng miệng, nhưng không đủ thay đổi trải nghiệm.
-    
 - Đánh giá Khách hàng: Tôi yêu nhà hàng này. Thức ăn ngon và dịch vụ tuyệt vời.)
-    
 
 Prompt nêu rõ nhiệm vụ phân tích cảm xúc với lựa chọn: positive, negative, hoặc neutral, rồi cung cấp đánh giá.
 
@@ -109,12 +96,10 @@ LLM giúp trích xuất dữ liệu từ văn bản và chuyển thành định 
 Read the blog post below and extract all of the references to items of clothing I can buy and how much each item costs. Create a bulleted list of just these items.
 
 - Blog post: Hey everybody, I want to share what I’m wearing on campus this fall. If I’m going out for the evening, I prefer the raw selvedge denim jeans ($150) paired with the cashmere crew neck sweater ($250). For a more casual look, I like the fleece hoodie ($99) and fleece sweatpants ($129). I also love every color of the striped socks ($15). They pair well with both the jeans and the sweats.
-    
 
 (Dịch: Đọc bài đăng blog dưới đây và trích xuất tất cả tham chiếu đến các món đồ quần áo có thể mua và giá của từng món. Tạo danh sách đánh dấu chỉ các món này.
 
 - Bài đăng blog: Này mọi người, tôi muốn chia sẻ những gì tôi mặc trên khuôn viên trường mùa thu này. Nếu đi chơi tối, tôi thích quần jeans denim selvedge thô ($150) kết hợp áo len cashmere cổ tròn ($250). Để vẻ ngoài casual hơn, tôi thích áo hoodie fleece ($99) và quần sweatpants fleece ($129). Tôi cũng yêu mọi màu của tất sọc ($15). Chúng kết hợp tốt với cả jeans và sweatpants.)
-    
 
 Prompt nêu rõ nhiệm vụ trích xuất món đồ và giá, chỉ định định dạng danh sách đánh dấu, rồi cung cấp blog.
 
@@ -126,16 +111,12 @@ LLM dịch văn bản nhanh giữa các ngôn ngữ. Ví dụ, dịch mô tả s
 Translate our product descriptions from English to Spanish. Maintain the same structure and casual tone that is used in the English version in the Spanish translation.
 
 - Bicycle: Whether you’re exploring city streets or forest paths, our sleek and durable bicycle has it all.
-    
 - Rollerblades: Roll into summer in style with our smooth and stylish rollerblades.
-    
 
 (Dịch: Dịch mô tả sản phẩm của chúng tôi từ tiếng Anh sang tiếng Tây Ban Nha. Giữ nguyên cấu trúc và giọng điệu casual như phiên bản tiếng Anh.
 
 - Bicycle: Dù bạn đang khám phá đường phố thành phố hay lối rừng, chiếc xe đạp mượt mà và bền bỉ của chúng tôi có tất cả.
-    
 - Rollerblades: Lăn vào mùa hè phong cách với đôi giày trượt patin mượt mà và stylish của chúng tôi.)
-    
 
 Prompt nêu rõ nhiệm vụ dịch, chỉ định giữ cấu trúc và giọng điệu, rồi cung cấp mô tả với nhãn sản phẩm.
 
@@ -170,3 +151,28 @@ We want the children to grow three plants. These plants should be as different f
 Chúng tôi muốn trẻ em trồng ba cây. Những cây này nên khác nhau nhất có thể. Vậy tiếp theo, chọn ba cây từ danh sách để cung cấp sự đa dạng này.)
 
 Prompt bắt đầu bằng ngữ cảnh chương trình, chia vấn đề thành hai bước: xác định 10 cây với nguồn, rồi chọn ba cây đa dạng. Yêu cầu trích dẫn nguồn giúp xác minh độ chính xác.
+
+---
+
+## Navigation
+
+⬅️ [[03 - 06 - Leverage an LLM's capabilities at work|Khai thác khả năng của LLM tại nơi làm việc]] | [[03 - 08 - Improve AI output through iteration|Cải thiện đầu ra AI qua lặp lại]] ➡️
+
+🏠 [[README|Trang chủ khóa học]]
+
+---
+
+## Chủ Đề Liên Quan
+
+- [[01 - 07 - Foundations of generative AI|Nền tảng của AI sinh tạo]]
+- [[02 - 09 - Generative AI tools for workplace tasks|Công cụ AI sinh tạo cho công việc]]
+- [[03 - 04 - Write clear and specific prompts|Viết prompt rõ ràng và cụ thể]]
+- [[03 - 05 - Prompting best practices|Thực hành tốt nhất cho prompting]]
+- [[03 - 08 - Improve AI output through iteration|Cải thiện đầu ra AI qua lặp lại]]
+- [[03 - 09 - Discover few-shot prompting|Khám phá few-shot prompting]]
+
+---
+
+## Tóm Tắt Module 3
+
+Việc nắm vững các loại prompt khác nhau giúp tối ưu hóa việc sử dụng LLM cho nhiều mục đích công việc khác nhau.

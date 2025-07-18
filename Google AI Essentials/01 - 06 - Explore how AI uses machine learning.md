@@ -9,9 +9,7 @@ Trí tuệ nhân tạo (AI) không phải là xu hướng công nghệ mới m�
 Công cụ trí tuệ nhân tạo (AI tool) là phần mềm được hỗ trợ bởi trí tuệ nhân tạo (AI), giúp tự động hóa hoặc hỗ trợ người dùng trong nhiều nhiệm vụ. Các ví dụ bao gồm:
 
 - Hệ thống định vị toàn cầu (GPS systems) gợi ý tuyến đường nhanh.
-    
 - Hệ thống dịch (translation systems) diễn giải cuộc trò chuyện thời gian thực.
-    
 
 Các công ty sử dụng công cụ trí tuệ nhân tạo (AI tools) để tối ưu hóa hoạt động và nâng cao chất lượng sản phẩm, dịch vụ.
 
@@ -34,3 +32,23 @@ Ví dụ, nếu tập huấn luyện (training set) chỉ chứa hình ảnh tá
 ## Kết Luận
 
 Khi sử dụng đúng cách, học máy (ML) đóng vai trò quan trọng trong việc thúc đẩy trí tuệ nhân tạo (AI) phát triển, với vô số ứng dụng tinh vi và tuyệt vời.
+
+---
+
+## Chủ Đề Liên Quan
+
+- **Hướng dẫn AI & ML:** [[01 - 08 - A guide to AI and ML]]
+- **Foundations of GenAI:** [[01 - 07 - Foundations of generative AI]]
+- **Training process:** [[02 - 05 - AI models and the training process]]
+- **Bias trong AI:** [[04 - 02 - Understand bias in AI]]
+- **LLM và training:** [[03 - 02 - Understand large language models]]
+
+---
+
+## Điều Hướng
+
+**⬅️ Quay lại:** [[01 - 05 - Maya - The exciting world of AI]]
+
+**➡️ Tiếp theo:** [[01 - 07 - Foundations of generative AI]]
+
+**🏠 Trang chủ:** [[01 - 01 - Introduction to Google AI Essentials]]

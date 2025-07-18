@@ -35,3 +35,27 @@ Lời khuyên: đánh giá cơ hội rộng rãi nhất có thể và sẵn sàn
 Có cơ hội trở thành người khám phá cách sử dụng công cụ tốt, tạo hiệu ứng mới hoặc mục đích mới với công nghệ.
 
 Dù xây dựng trí tuệ nhân tạo (AI) hay khám phá cách sử dụng, cơ hội đổi mới và sáng tạo nằm trong tay bạn, không phải ai khác.
+
+---
+
+## Navigation
+
+⬅️ [[05 - 07 - Benefits of staying up to date with AI|Lợi ích của việc cập nhật với AI]] | [[05 - 09 - Wrap up|Tổng kết Module 5]] ➡️
+
+🏠 [[README|Trang chủ khóa học]]
+
+---
+
+## Chủ Đề Liên Quan
+
+- [[01 - 10 - Use AI for positive change|Sử dụng AI để tạo thay đổi tích cực]]
+- [[05 - 03 - Stay up to date with AI|Cập nhật với AI]]
+- [[05 - 05 - Take inspiration from AI innovation|Lấy cảm hứng từ đổi mới AI]]
+- [[05 - 06 - Find inspiration in how others have used AI|Tìm cảm hứng từ cách người khác sử dụng AI]]
+- [[02 - 07 - Work with Gemini|Làm việc với Gemini]]
+
+---
+
+## Tóm Tắt Module 5
+
+Khám phá và thử nghiệm với AI mở ra vô số cơ hội sáng tạo và đổi mới.

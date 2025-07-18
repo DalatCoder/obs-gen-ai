@@ -17,3 +17,23 @@ Jiva là công ty nông nghiệp tập trung vào việc hỗ trợ nông dân n
 ## Kết Luận
 
 Tổng thể, trí tuệ nhân tạo (AI) là công cụ mạnh mẽ cho mọi hoạt động kinh doanh. Bất kể ngành nghề nào, trí tuệ nhân tạo (AI) có tiềm năng biến đổi cách các công ty và tổ chức phát triển giải pháp sáng tạo, hướng tới tương lai. Khi tiếp tục khám phá thế giới trí tuệ nhân tạo (AI), hãy suy nghĩ: Trí tuệ nhân tạo (AI) có thể tác động tích cực đến ngành nghề của bạn như thế nào, và bạn có thể tham gia vào sự thay đổi đó ra sao?
+
+---
+
+## Chủ Đề Liên Quan
+
+- **AI cho thay đổi tích cực:** [[01 - 10 - Use AI for positive change]]
+- **AI như công cụ hợp tác:** [[01 - 11 - Use AI as a collaborative tool]]
+- **AI trong công việc hàng ngày:** [[01 - 12 - Make daily tasks easier with AI]]
+- **Ứng dụng thực tế:** [[02 - 02 - Discover generative AI applications]]
+- **AI và tương lai nghề nghiệp:** [[05 - 08 - AI in your career and beyond]]
+
+---
+
+## Điều Hướng
+
+**⬅️ Quay lại:** [[01 - 03 - AI and the future of work]]
+
+**➡️ Tiếp theo:** [[01 - 05 - Maya - The exciting world of AI]]
+
+**🏠 Trang chủ:** [[01 - 01 - Introduction to Google AI Essentials]]

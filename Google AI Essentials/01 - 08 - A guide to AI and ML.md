@@ -11,9 +11,7 @@ Nội dung này khám phá một số kỹ thuật học máy (ML techniques) m�
 Trí tuệ nhân tạo (artificial intelligence) đề cập đến các chương trình máy tính có thể hoàn thành nhiệm vụ nhận thức thường liên quan đến trí tuệ con người. Có hai kỹ thuật chính để thiết kế chương trình trí tuệ nhân tạo (AI programs):
 
 - **Kỹ thuật dựa trên quy tắc (rule-based techniques)**: Tạo chương trình trí tuệ nhân tạo (AI programs) tuân thủ nghiêm ngặt các quy tắc định trước để đưa ra quyết định. Ví dụ, bộ lọc thư rác sử dụng kỹ thuật này có thể chặn email chứa từ khóa cụ thể dựa trên logic định trước.
-    
 - **Kỹ thuật học máy (machine learning techniques)**: Tạo chương trình trí tuệ nhân tạo (AI programs) có thể phân tích và học từ mẫu trong dữ liệu để đưa ra quyết định độc lập. Ví dụ, bộ lọc thư rác sử dụng kỹ thuật này có thể đánh dấu thư rác tiềm năng để người nhận xem xét, tránh chặn tự động. Nếu người nhận đánh dấu email từ nguồn đáng tin cậy là an toàn, bộ lọc sẽ học và điều chỉnh logic để bao gồm email tương tự từ người gửi đó trong tương lai.
-    
 
 Công cụ trí tuệ nhân tạo (AI tools) có thể sử dụng kỹ thuật dựa trên quy tắc (rule-based techniques), kỹ thuật học máy (ML techniques), hoặc kết hợp cả hai. Nói chung, kỹ thuật dựa trên quy tắc (rule-based techniques) thường dùng cho nhiệm vụ yêu cầu tính cứng nhắc, như chặn tin nhắn từ người gửi không đáng tin rõ ràng là thư rác, chẳng hạn yêu cầu chuyển khoản ngân hàng hoặc thông tin cá nhân. Ngược lại, kỹ thuật học máy (ML techniques) phù hợp hơn cho nhiệm vụ đòi hỏi tính linh hoạt và thích ứng, như học nhận diện rằng tin nhắn từ người gửi đáng tin chứa lỗi chính tả không phải thư rác.
 
@@ -24,11 +22,8 @@ Học máy (machine learning) là một phần con của trí tuệ nhân tạo 
 Có ba phương pháp phổ biến để huấn luyện chương trình học máy (ML programs):
 
 - Học có giám sát (supervised learning)
-    
 - Học không giám sát (unsupervised learning)
-    
 - Học tăng cường (reinforcement learning)
-    
 
 **Học có giám sát (Supervised Learning)**  
 Với phương pháp này, các nhà thiết kế trí tuệ nhân tạo (AI designers) cung cấp cho chương trình học máy (ML program) một tập huấn luyện có nhãn (labeled training set), và chương trình học từ dữ liệu đó. Tập huấn luyện có nhãn (labeled training set) bao gồm dữ liệu được gắn nhãn hoặc thẻ, cung cấp ngữ cảnh và ý nghĩa. Ví dụ, bộ lọc thư rác được huấn luyện bằng học có giám sát (supervised learning) sử dụng tập huấn luyện gồm email được gắn nhãn "thư rác" hoặc "không phải thư rác". Phương pháp này thường dùng khi có đầu ra cụ thể trong đầu.
@@ -50,11 +45,8 @@ Ví dụ, cả ba phương pháp đóng vai trò riêng biệt trong công cụ 
 Khả năng tạo và đổi mới của trí tuệ nhân tạo tạo sinh (generative AI) mang lại nhiều lợi ích cho các nơi làm việc và nghề nghiệp, như tiếp thị, phát triển sản phẩm, kỹ thuật, giáo dục, sản xuất và nghiên cứu phát triển. Các lợi ích bao gồm:
 
 - **Hiệu quả cao hơn**: Trí tuệ nhân tạo tạo sinh (generative AI) có thể tự động hóa hoặc hỗ trợ nhiệm vụ routine, cho phép nhân viên tập trung vào ưu tiên khác.
-    
 - **Trải nghiệm cá nhân hóa**: Trí tuệ nhân tạo tạo sinh (generative AI) có thể điều chỉnh tương tác theo sở thích và nhu cầu cá nhân.
-    
 - **Quyết định tốt hơn**: Trí tuệ nhân tạo tạo sinh (generative AI) có thể phân tích nhanh lượng dữ liệu lớn để khám phá insights hữu ích.
-    
 
 Đây chỉ là một số cách trí tuệ nhân tạo tạo sinh (generative AI) có thể nâng cao công việc của bạn.
 
@@ -63,12 +55,28 @@ Khả năng tạo và đổi mới của trí tuệ nhân tạo tạo sinh (gene
 PAIR Explorables là tài nguyên tùy chọn cho bất kỳ ai muốn học thêm về trí tuệ nhân tạo (AI). Đây là bộ sưu tập bài viết tương tác được thiết kế để làm cho các khái niệm trí tuệ nhân tạo (AI) dễ tiếp cận và dễ hiểu hơn. PAIR Explorables bao gồm nhiều chủ đề, bao gồm:
 
 - Cơ bản học máy (machine learning basics)
-    
 - Công bằng và thiên kiến trong chương trình trí tuệ nhân tạo (fairness and bias in AI programs)
-    
 - Xem xét dữ liệu và quyền riêng tư trong trí tuệ nhân tạo (data and privacy considerations in AI)
-    
 - Rủi ro và lợi ích tiềm năng của trí tuệ nhân tạo (potential risks and benefits of AI)
-    
 
 Mỗi bài viết có hình ảnh hóa và điều khiển tương tác giúp khám phá các khái niệm trí tuệ nhân tạo (AI) và trải nghiệm cách chúng hoạt động.
+
+---
+
+## Chủ Đề Liên Quan
+
+- **Machine Learning cơ bản:** [[01 - 06 - Explore how AI uses machine learning]]
+- **Training models:** [[02 - 05 - AI models and the training process]]
+- **GenAI foundation:** [[01 - 07 - Foundations of generative AI]]
+- **Bias trong AI:** [[04 - 02 - Understand bias in AI]]
+- **Privacy & Security:** [[04 - 05 - Security and privacy risks of AI]]
+
+---
+
+## Điều Hướng
+
+**⬅️ Quay lại:** [[01 - 07 - Foundations of generative AI]]
+
+**➡️ Tiếp theo:** [[01 - 09 - Understand the capabilities and limitations of AI]]
+
+**🏠 Trang chủ:** [[01 - 01 - Introduction to Google AI Essentials]]

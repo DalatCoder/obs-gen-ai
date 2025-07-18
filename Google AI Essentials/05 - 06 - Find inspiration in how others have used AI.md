@@ -25,3 +25,27 @@ Ví dụ, vì làm việc với hình ảnh, họ xuất sắc trong việc hi�
 ## Cách Học Về Lĩnh Vực Trí Tuệ Nhân Tạo (AI)
 
 Một trong những cách tốt nhất để học về trí tuệ nhân tạo (AI) là vui chơi và trải nghiệm. Tìm cách thú vị để tiếp cận trí tuệ nhân tạo (AI), xem trẻ em chơi gì, chú ý đến những gì hấp dẫn, vui vẻ và mang lại niềm vui.
+
+---
+
+## Navigation
+
+⬅️ [[05 - 05 - Take inspiration from AI innovation|Lấy cảm hứng từ đổi mới AI]] | [[05 - 07 - Benefits of staying up to date with AI|Lợi ích của việc cập nhật với AI]] ➡️
+
+🏠 [[README|Trang chủ khóa học]]
+
+---
+
+## Chủ Đề Liên Quan
+
+- [[01 - 04 - Learn from AI success stories|Học từ các câu chuyện thành công của AI]]
+- [[04 - 04 - My path to working in responsible AI|Con đường làm việc với AI có trách nhiệm]]
+- [[04 - 08 - Develop AI that works for everyone|Phát triển AI cho mọi người]]
+- [[05 - 05 - Take inspiration from AI innovation|Lấy cảm hứng từ đổi mới AI]]
+- [[05 - 08 - Keep exploring with Ai|Tiếp tục khám phá với AI]]
+
+---
+
+## Tóm Tắt Module 5
+
+Tìm hiểu cách người khác sử dụng AI giúp mở rộng tầm nhìn và ý tưởng sáng tạo.

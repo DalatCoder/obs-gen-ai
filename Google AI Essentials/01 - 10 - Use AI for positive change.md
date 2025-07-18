@@ -27,3 +27,23 @@ Giáo dục trí tuệ nhân tạo (AI literacy) không tập trung vào chi ti�
 ## Tác Động Tương Lai Của Trí Tuệ Nhân Tạo (AI)
 
 Khi kỹ thuật trí tuệ nhân tạo (AI) được sử dụng tốt hơn và đáng tin cậy hơn, nó sẽ có tác động lớn đến hầu hết các lĩnh vực đời sống. Trí tuệ nhân tạo (AI) sẽ nâng cao khả năng nghiên cứu, cung cấp gia sư cá nhân (personal tutor) cho mọi học sinh, và mang lại công cụ mạnh mẽ hơn cho người sáng tạo trong việc tạo văn bản, phim, video và hình ảnh. Giống như web toàn cầu (worldwide web) đã trở thành nền tảng lớn cho sáng tạo và đổi mới, thế giới trí tuệ nhân tạo (AI) sẽ tạo ra hiệu ứng tương tự.
+
+---
+
+## Chủ Đề Liên Quan
+
+- **Success stories:** [[01 - 04 - Learn from AI success stories]]
+- **AI cho mọi người:** [[04 - 08 - Develop AI that works for everyone]]
+- **AI as force for good:** [[04 - 07 - AI as a force for good]]
+- **Tương lai AI:** [[05 - 07 - It's an exciting time for AI]]
+- **AI literacy:** [[05 - 05 - Develop your AI learning plan]]
+
+---
+
+## Điều Hướng
+
+**⬅️ Quay lại:** [[01 - 09 - Understand the capabilities and limitations of AI]]
+
+**➡️ Tiếp theo:** [[01 - 11 - Use AI as a collaborative tool]]
+
+**🏠 Trang chủ:** [[01 - 01 - Introduction to Google AI Essentials]]

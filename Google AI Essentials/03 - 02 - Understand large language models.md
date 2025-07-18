@@ -14,11 +14,8 @@ Xem xét câu chưa hoàn chỉnh: "After it rained, the street was...".
 LLM tính toán xác suất cho các từ có thể tiếp theo:
 
 - "Wet" có xác suất cao.
-    
 - "Clean" có xác suất thấp hơn.
-    
 - "Dry" có xác suất cực thấp.
-    
 
 Mô hình có thể hoàn thành câu bằng từ có xác suất cao nhất, như "wet" hoặc "damp". Phản hồi của LLM có thể thay đổi mỗi lần sử dụng cùng lệnh.
 
@@ -47,3 +44,22 @@ Vì hạn chế của LLM, cần đánh giá nghiêm ngặt mọi kết quả đ
 Không nên giả định về khả năng của LLM. Ví dụ, nếu nó tạo kết quả chất lượng cao cho thư thuyết phục khách hàng, đừng cho rằng sẽ nhận được kết quả tương tự khi sử dụng lại cùng lệnh trong tương lai.
 
 LLM là công cụ mạnh mẽ cần sự hướng dẫn từ con người để sử dụng hiệu quả. Nhận thức về hạn chế giúp đạt kết quả tốt nhất.
+
+---
+
+## Chủ Đề Liên Quan
+
+- **Cơ bản về AI:** [[01 - 06 - Explore how AI uses machine learning]]
+- **Thực hành prompt:** [[03 - 04 - Write clear and specific prompts]]
+- **Vấn đề thiên kiến:** [[04 - 02 - Understand bias in AI]]
+- **Cải thiện prompt:** [[03 - 08 - Improve AI output through iteration]]
+
+---
+
+## Điều Hướng
+
+**⬅️ Quay lại:** [[03 - 01 - Module 3 introduction - Discover the art of prompting]]
+
+**➡️ Tiếp theo:** [[03 - 03 - Experiment with prompting]]
+
+**🏠 Trang chủ:** [[01 - 01 - Introduction to Google AI Essentials]]

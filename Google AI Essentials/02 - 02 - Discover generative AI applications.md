@@ -5,16 +5,32 @@ Trí tuệ nhân tạo tạo sinh (generative AI) là một công cụ hợp tá
 Hãy tưởng tượng bạn là một nhà thiết kế web đang xây dựng trang web cho một doanh nghiệp địa phương. Bạn có thể sử dụng các công cụ trí tuệ nhân tạo tạo sinh (generative AI) để hoàn thành dự án hiệu quả hơn. Dưới đây là các loại công cụ chính và ứng dụng của chúng:
 
 - **Công cụ tạo văn bản (Text Generators)**:  
-    Giúp soạn thảo nội dung hấp dẫn, chẳng hạn như hồ sơ công ty thuyết phục hoặc mô tả sản phẩm chi tiết cho trang web. Chúng cũng hỗ trợ nghiên cứu chủ đề liên quan đến doanh nghiệp, tóm tắt thông tin để dễ hiểu, và dịch nội dung sang nhiều ngôn ngữ để tiếp cận khán giả rộng hơn.
-    
+   Giúp soạn thảo nội dung hấp dẫn, chẳng hạn như hồ sơ công ty thuyết phục hoặc mô tả sản phẩm chi tiết cho trang web. Chúng cũng hỗ trợ nghiên cứu chủ đề liên quan đến doanh nghiệp, tóm tắt thông tin để dễ hiểu, và dịch nội dung sang nhiều ngôn ngữ để tiếp cận khán giả rộng hơn.
 - **Công cụ tạo hình ảnh (Image Generators)**:  
-    Sử dụng để tạo logo phù hợp với thương hiệu doanh nghiệp, thiết kế hình ảnh cho bài đăng mạng xã hội, và nhiều hơn nữa.
-    
+   Sử dụng để tạo logo phù hợp với thương hiệu doanh nghiệp, thiết kế hình ảnh cho bài đăng mạng xã hội, và nhiều hơn nữa.
 - **Công cụ tạo âm thanh và video (Audio and Video Generators)**:  
-    Hỗ trợ sản xuất video quảng cáo và các dự án đa phương tiện khác để giới thiệu sản phẩm và dịch vụ của công ty.
-    
+   Hỗ trợ sản xuất video quảng cáo và các dự án đa phương tiện khác để giới thiệu sản phẩm và dịch vụ của công ty.
 - **Công cụ tạo mã (Code Generators)**:  
-    Giúp đảm bảo trang web tải đúng cách trên máy tính để bàn, máy tính bảng và thiết bị di động.
-    
+   Giúp đảm bảo trang web tải đúng cách trên máy tính để bàn, máy tính bảng và thiết bị di động.
 
 Các công cụ này có vô số cách sử dụng để tăng năng suất, bao gồm tạo văn bản, hình ảnh, âm thanh, video hoặc mã. Với trí tuệ nhân tạo tạo sinh (generative AI), bạn có thể đạt được nhiều thành tựu sáng tạo và hiệu quả hơn.
+
+---
+
+## Chủ Đề Liên Quan
+
+- **Foundations GenAI:** [[01 - 07 - Foundations of generative AI]]
+- **Workplace transformation:** [[02 - 06 - Transform your work with generative AI]]
+- **AI tools for tasks:** [[02 - 09 - Generative AI tools for workplace tasks]]
+- **Thực hành với Gemini:** [[02 - 07 - Work with Gemini]]
+- **Ways to use AI:** [[02 - 03 - My favorite ways to use AI]]
+
+---
+
+## Điều Hướng
+
+**⬅️ Quay lại:** [[02 - 01 - Module 2 introduction - Maximize productivity with AI tools]]
+
+**➡️ Tiếp theo:** [[02 - 03 - My favorite ways to use AI]]
+
+**🏠 Trang chủ:** [[01 - 01 - Introduction to Google AI Essentials]]

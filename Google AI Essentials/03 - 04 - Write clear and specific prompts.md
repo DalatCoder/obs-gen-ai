@@ -32,7 +32,25 @@ Bạn có thể sử dụng prompt tương tự trong Gemini, ChatGPT, Microsoft
 ## Lời Khuyên Để Tạo Kết Quả Hữu Ích
 
 - Cung cấp hướng dẫn rõ ràng, cụ thể và bao gồm ngữ cảnh cần thiết để LLM tạo ra kết quả hữu ích.
-    
 - Lưu ý hạn chế của LLM: Đôi khi không thể có kết quả chất lượng dù prompt tốt, ví dụ nếu yêu cầu thông tin về sự kiện hiện tại mà LLM không tiếp cận được.
-    
 - Kỹ thuật thiết kế prompt thường là quá trình lặp lại (iterative process). Nếu prompt đầu không hiệu quả, chỉnh sửa để cải thiện. Trong ví dụ, lần lặp thứ hai cung cấp hướng dẫn rõ ràng hơn, dẫn đến kết quả hữu ích.
+
+---
+
+## Chủ Đề Liên Quan
+
+- **LLM understanding:** [[03 - 02 - Understand large language models]]
+- **Best practices:** [[03 - 05 - Prompting best practices]]
+- **Thử nghiệm prompting:** [[03 - 03 - Experiment with prompting]]
+- **Iterative improvement:** [[03 - 08 - Improve AI output through iteration]]
+- **Prompting techniques:** [[00 - Prompting Techniques - Tổng Hợp Kỹ Thuật]]
+
+---
+
+## Điều Hướng
+
+**⬅️ Quay lại:** [[03 - 03 - Experiment with prompting]]
+
+**➡️ Tiếp theo:** [[03 - 05 - Prompting best practices]]
+
+**🏠 Trang chủ:** [[01 - 01 - Introduction to Google AI Essentials]]

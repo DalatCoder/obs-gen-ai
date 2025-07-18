@@ -15,19 +15,34 @@ Aleck sử dụng trí tuệ nhân tạo (AI) đầu tiên để hiểu rõ hơn
 ## Lời Khuyên Cho Người Mới Sử Dụng Công Cụ Trí Tuệ Nhân Tạo (AI Tools)
 
 - Đừng ngại bắt đầu với nhiệm vụ nhỏ, sau đó dần mở rộng.
-    
 - Chọn nhiệm vụ khó khăn, gây căng thẳng hoặc không hứng thú, rồi xem cách tận dụng trí tuệ nhân tạo (AI) để hỗ trợ.
-    
 
 ## Các Ví Dụ Ứng Dụng Trí Tuệ Nhân Tạo (AI) Trong Công Việc
 
 - **Bắt đầu tài liệu**: Sử dụng trí tuệ nhân tạo (AI) để tạo mẫu (template), thêm phần và tiêu đề, giúp tạo tài liệu ngắn gọn hơn – đây là phần khó nhất đối với Aleck.
-    
 - **Tăng hiệu quả công việc**: Áp dụng cho ghi chép, tóm tắt email (email summarization), sắp xếp email, trích xuất điểm chính từ tài liệu, lập kế hoạch tuần.
-    
 - **Xử lý cuộc họp**: Tạo bản ghi (transcripts) cuộc họp, sau đó dùng trí tuệ nhân tạo (AI) để tạo hành động ngay lập tức (immediate action items), tóm tắt cuộc họp và cung cấp điểm chính (key takeaways). Tiết kiệm 1-1,5 giờ mỗi lần.
-    
 
 ## Lợi Ích Của Việc Sử Dụng Trí Tuệ Nhân Tạo (AI)
 
 Khi quy trình hiệu quả và suôn sẻ, công việc trở nên dễ dàng hơn, mang lại sự thỏa mãn và sức mạnh lớn lao.
+
+---
+
+## Chủ Đề Liên Quan
+
+- **AI như công cụ hợp tác:** [[01 - 11 - Use AI as a collaborative tool]]
+- **Workplace transformation:** [[02 - 06 - Transform your work with generative AI]]
+- **AI tools cho nhiệm vụ:** [[02 - 09 - Generative AI tools for workplace tasks]]
+- **Ways to use AI:** [[02 - 08 - Ways I use AI in my work]]
+- **Meeting với AI:** [[02 - 13 - Use Gemini in Google Docs, Slides, Sheets, Meet, and Gmail]]
+
+---
+
+## Điều Hướng
+
+**⬅️ Quay lại:** [[01 - 11 - Use AI as a collaborative tool]]
+
+**➡️ Tiếp theo:** [[01 - 13 - Wrap up]]
+
+**🏠 Trang chủ:** [[01 - 01 - Introduction to Google AI Essentials]]

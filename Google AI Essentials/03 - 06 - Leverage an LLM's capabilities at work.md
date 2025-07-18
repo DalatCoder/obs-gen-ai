@@ -7,7 +7,7 @@ Có nhiều cách tận dụng khả năng của mô hình ngôn ngữ lớn (LL
 Sử dụng LLM để tạo email, kế hoạch, ý tưởng và hơn nữa. Ví dụ, yêu cầu LLM giúp viết bài báo về chủ đề liên quan đến công việc.
 
 Prompt mẫu: "Create an outline for an article on data visualization best practices. The article is for entry-level business analysts."  
-(Dịch: Tạo dàn ý cho một bài báo về các thực hành tốt nhất về trực quan hóa dữ liệu. Bài báo dành cho các nhà phân tích kinh doanh cấp độ入门.)
+(Dịch: Tạo dàn ý cho một bài báo về các thực hành tốt nhất về trực quan hóa dữ liệu. Bài báo dành cho các nhà phân tích kinh doanh cấp độ 入门.)
 
 Kết quả: Cung cấp dàn ý hữu ích cho bản nháp đầu tiên. Lưu ý: Bắt đầu prompt bằng động từ (như "create") để hướng dẫn LLM tạo kết quả phù hợp.
 
@@ -66,3 +66,23 @@ Prompt mẫu (ví dụ khác): "Suggest ways to increase the client base for a n
 Kết quả: Gợi ý cụ thể về tiếp cận khách hàng mới, tối ưu hóa dịch vụ và phát triển kinh doanh. Có thể yêu cầu LLM soạn thảo email để chia sẻ ý tưởng.
 
 LLM giúp brainstorm giải pháp cho nhiều loại vấn đề. Thực hành kỹ năng này rất quan trọng để sử dụng AI hiệu quả tại nơi làm việc. Tiếp theo sẽ tập trung vào đánh giá kết quả và lặp lại prompt.
+
+---
+
+## Chủ Đề Liên Quan
+
+- **LLM capabilities:** [[03 - 02 - Understand large language models]]
+- **Clear prompts:** [[03 - 04 - Write clear and specific prompts]]
+- **Different purposes:** [[03 - 07 - Prompts for different purposes]]
+- **Workplace applications:** [[02 - 08 - Ways I use AI in my work]]
+- **Problem solving:** [[02 - 06 - Transform your work with generative AI]]
+
+---
+
+## Điều Hướng
+
+**⬅️ Quay lại:** [[03 - 05 - Prompting best practices]]
+
+**➡️ Tiếp theo:** [[03 - 07 - Prompts for different purposes]]
+
+**🏠 Trang chủ:** [[01 - 01 - Introduction to Google AI Essentials]]

@@ -20,30 +20,55 @@ Phần này tập trung vào cách thiết kế hoặc kỹ thuật thiết kế
 ## Giới Thiệu Giảng Viên
 
 - Tên: Yufeng, kỹ sư tại Google.
-    
 - Lý do quan tâm: Việc nhận phản hồi hữu ích từ mô hình ngôn ngữ (language models) tốn thời gian, đôi khi nhanh hơn khi làm việc mà không dùng AI. Ông được truyền cảm hứng để làm cho công cụ hiệu quả hơn.
-    
 - Mục tiêu: Hướng dẫn học viên phát triển prompt hiệu quả.
-    
 
 ## Mục Tiêu Học Tập
 
 - Khám phá cách mô hình ngôn ngữ lớn (LLMs) tạo đầu ra dựa trên prompt.
-    
 - Khám phá vai trò của kỹ thuật thiết kế prompt trong việc cải thiện chất lượng đầu ra.
-    
 - Kỹ thuật thiết kế prompt là thực hành phát triển prompt hiệu quả để eliciting đầu ra hữu ích từ trí tuệ nhân tạo tạo sinh (generative AI).
-    
 
 ## Các Phần Quan Trọng Của Kỹ Thuật Thiết Kế Prompt
 
 - **Tạo prompt rõ ràng và cụ thể:** Đây là phần quan trọng nhất. Prompt càng rõ ràng và cụ thể, đầu ra càng hữu ích.
-    
 - **Lặp lại (iteration):** Đánh giá đầu ra và chỉnh sửa prompt để đạt kết quả cần thiết khi sử dụng công cụ AI hội thoại tại nơi làm việc.
-    
 - **Kỹ thuật cụ thể:** Khám phá kỹ thuật prompt few-shot (few-shot prompting).
-    
 
 ## Kỹ Năng Liên Quan
 
 Viết prompt hiệu quả đòi hỏi tư duy phê phán và sáng tạo. Đây là quá trình thú vị và kỹ năng quan trọng để sử dụng AI hiệu quả tại nơi làm việc.
+
+---
+
+## Nội Dung Module 3
+
+1. [[03 - 02 - Understand large language models]]
+2. [[03 - 03 - Experiment with prompting]]
+3. [[03 - 04 - Write clear and specific prompts]]
+4. [[03 - 05 - Prompting best practices]]
+5. [[03 - 06 - Leverage an LLM's capabilities at work]]
+6. [[03 - 07 - Prompts for different purposes]]
+7. [[03 - 08 - Improve AI output through iteration]]
+8. [[03 - 09 - Discover few-shot prompting]]
+9. [[03 - 10 - Explore chain-of-thought prompting]]
+10. [[03 - 11 - Improve prompts through exploration]]
+11. [[03 - 12 - Wrap up]]
+
+---
+
+## Chủ Đề Liên Quan
+
+- **Tìm hiểu cơ bản:** [[01 - 06 - Explore how AI uses machine learning]]
+- **Ứng dụng thực tế:** [[02 - 07 - Work with Gemini]]
+- **Sử dụng có trách nhiệm:** [[04 - 02 - Understand bias in AI]]
+
+---
+
+## Điều Hướng
+
+**⬅️ Quay lại:** [[02 - 14 - Wrap up]]
+
+**➡️ Tiếp theo:** [[03 - 02 - Understand large language models]]
+
+**🏠 Trang chủ:** [[01 - 01 - Introduction to Google AI Essentials]]

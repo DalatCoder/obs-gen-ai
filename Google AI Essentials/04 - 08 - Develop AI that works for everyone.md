@@ -17,9 +17,7 @@ Khi xem xét cách mọi người tương tác với hệ thống trí tuệ nh�
 Thiên kiến trí tuệ nhân tạo (AI bias) là vấn đề lớn, cần giải quyết qua nhiều cách: từ dữ liệu, thuật toán (algorithms) đến giao diện người dùng (user interface).
 
 - **Địa Chỉ Thiên Kiến Và Nội Dung Có Hại**: Đảm bảo tập dữ liệu (datasets) phù hợp và đại diện cho đa dạng con người.
-    
 - **Công Việc Của Nhóm**: Xây dựng hướng dẫn thu thập dữ liệu để đảm bảo đại diện cho đa dạng người, trải nghiệm và quan điểm.
-    
 
 ## Duy Trì Minh Bạch Và Tư Duy Phê Phán
 
@@ -28,3 +26,27 @@ Thiên kiến trí tuệ nhân tạo (AI bias) là vấn đề lớn, cần gi�
 ## Sử Dụng AI Trong Cuộc Sống Cá Nhân
 
 Shaun sử dụng trí tuệ nhân tạo (AI) trong đời sống hàng ngày, ví dụ: Gần đây dùng AI để gợi ý tên cho thú cưng (tên là Dr. Bones cho con mèo). AI hoạt động như nguồn cảm hứng để tạo ý tưởng và giải trí.
+
+---
+
+## Navigation
+
+⬅️ [[04 - 07 - Checklist for using AI responsibly|Checklist sử dụng AI có trách nhiệm]] | [[04 - 09 - Wrap up|Tổng kết Module 4]] ➡️
+
+🏠 [[README|Trang chủ khóa học]]
+
+---
+
+## Chủ Đề Liên Quan
+
+- [[04 - 02 - Understand bias in AI|Hiểu về bias trong AI]]
+- [[04 - 03 - Identify AI harms|Nhận diện tác hại của AI]]
+- [[04 - 04 - My path to working in responsible AI|Con đường làm việc với AI có trách nhiệm]]
+- [[01 - 10 - Use AI for positive change|Sử dụng AI để tạo thay đổi tích cực]]
+- [[02 - 10 - Leverage the human-in-the-loop approach to AI|Tận dụng cách tiếp cận human-in-the-loop]]
+
+---
+
+## Tóm Tắt Module 4
+
+Phát triển AI cho mọi người đòi hỏi sự minh bạch, tư duy phê phán và quan tâm đến tính đa dạng.
