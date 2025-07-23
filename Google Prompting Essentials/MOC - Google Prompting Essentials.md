@@ -2,7 +2,7 @@
 
 > 📖 **Map of Content** cho khóa học Google Prompting Essentials
 
-> 🧭 **Navigation**: [[README|📖 Tổng quan]] | [[Glossary - Thuật ngữ Gen AI|📚 Thuật ngữ]] | [[Link Validation - Kiểm tra liên kết|🔗 Kiểm tra liên kết]]
+> 🧭 **Navigation**: [[../README|📖 Tổng quan]] | [[Glossary - Thuật ngữ Gen AI|📚 Thuật ngữ]] | [[Link Validation - Kiểm tra liên kết|🔗 Kiểm tra liên kết]]
 
 ## 🗺️ Tổng quan khóa học
 
@@ -271,7 +271,7 @@ Danh sách kiểm tra cho từng Module:
 
 ### 📖 Tài liệu nền tảng
 
-- [[README]] - Tổng quan dự án với 4 modules
+- [[../README]] - Tổng quan dự án với 4 modules
 - [[Glossary - Thuật ngữ Gen AI]] - Thuật ngữ đầy đủ cho 4 modules
 - [[Link Validation - Kiểm tra liên kết]] - Validation tất cả links
 

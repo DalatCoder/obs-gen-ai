@@ -1,4 +1,4 @@
-# Glossary - Thuật ngữ Gen AI
+# Gl> 🧭 **Navigation**: [[../README|📖 Tổng quan]] | [[MOC - Google Prompting Essentials|📚 Mục lục]] | [[Link Validation - Kiểm tra liên kết|🔗 Kiểm tra liên kết]]ssary - Thuật ngữ Gen AI
 
 > 📚 **Bảng thuật ngữ** các khái niệm quan trọng trong lĩnh vực Trí tuệ nhân tạo tạo sinh và kỹ thuật Prompting
 
@@ -311,7 +311,7 @@ _Cập nhật lần cuối: 2025-07-17_
 
 ### 📋 Navigation
 
-- [[README]] - Tổng quan dự án
+- [[../README]] - Tổng quan dự án
 - [[MOC - Google Prompting Essentials]] - Bản đồ nội dung chính
 - [[Link Validation - Kiểm tra liên kết]] - Kiểm tra tính chính xác liên kết
 

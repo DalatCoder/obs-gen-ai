@@ -2,13 +2,13 @@
 
 > 🔗 **Tài liệu kiểm tra** để đảm bảo tất cả hyperlink trong vault hoạt động chính xác
 
-> 🧭 **Navigation**: [[README|📖 Tổng quan]] | [[MOC - Google Prompting Essentials|📚 Mục lục]] | [[Glossary - Thuật ngữ Gen AI|📚 Thuật ngữ]]
+> 🧭 **Navigation**: [[../README|📖 Tổng quan]] | [[MOC - Google Prompting Essentials|📚 Mục lục]] | [[Glossary - Thuật ngữ Gen AI|📚 Thuật ngữ]]
 
 ## 📋 Checklist kiểm tra toàn bộ 4 Modules
 
 ### ✅ Tài liệu chính đã được liên kết
 
-- [x] [[README]] - Tổng quan dự án với 4 modules
+- [x] [[../README]] - Tổng quan dự án với 4 modules
 - [x] [[MOC - Google Prompting Essentials]] - Bản đồ nội dung 4 modules
 - [x] [[Glossary - Thuật ngữ Gen AI]] - Bảng thuật ngữ đầy đủ
 - [x] [[Link Validation - Kiểm tra liên kết]] - Validation document
