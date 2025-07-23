@@ -1,4 +1,4 @@
-# AI IRL: Lấy lại thời gian với sự hỗ trợ của AI
+# AI IRL: Tiết kiệm thời gian với sự hỗ trợ của AI
 
 > 🧭 **Navigation**: [[02 - 09 - Summarize lengthly documents|← Trước]] | [[MOC - Google Prompting Essentials|📚 Mục lục]] | [[02 - 11 - Practice advanced summarization techniques|Tiếp theo →]]
 
