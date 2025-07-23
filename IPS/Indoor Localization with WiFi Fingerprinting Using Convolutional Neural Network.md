@@ -8,28 +8,28 @@
     
 - **Hội nghị:** The International Conference on Ubiquitous and Future Networks (ICUFN) 2018
     
-- **Từ khóa:** Indoor Positioning (Định vị trong nhà), Convolutional Neural Network (Mạng nơ-ron tích chập), WiFi fingerprints (Vân tay WiFi)1.
+- **Từ khóa:** [[Indoor Positioning System|Indoor Positioning (Định vị trong nhà)]], [[CNN|Convolutional Neural Network (Mạng nơ-ron tích chập)]], [[WiFi Fingerprinting|WiFi fingerprints (Vân tay WiFi)]]1.
     
 
 ---
 
 # Mục tiêu nghiên cứu
 
-Mục tiêu chính của bài báo là đề xuất một phương pháp định vị trong nhà dựa trên
+Mục tiêu chính của bài báo là đề xuất một phương pháp [[Indoor Positioning System|định vị trong nhà]] dựa trên
 
-**Mạng nơ-ron tích chập (Convolutional Neural Network - CNN)**2. Nghiên cứu này nhằm giải quyết điểm yếu của các phương pháp dựa trên Mạng nơ-ron sâu (Deep Neural Network - DNN) truyền thống, vốn rất nhạy cảm với sự biến động của tín hiệu WiFi do hiện tượng đa đường (multipath) gây ra3.
+**[[CNN|Mạng nơ-ron tích chập (Convolutional Neural Network - CNN)]]**2. Nghiên cứu này nhằm giải quyết điểm yếu của các phương pháp dựa trên [[ANN|Mạng nơ-ron sâu (Deep Neural Network - DNN)]] truyền thống, vốn rất nhạy cảm với sự biến động của tín hiệu WiFi do hiện tượng đa đường (multipath) gây ra3.
 
 Bằng cách khai thác
 
-**cấu trúc topo của bản đồ vô tuyến (topology of a radio map)** thay vì chỉ dựa vào cường độ tín hiệu, mục tiêu là tạo ra một mô hình mạnh mẽ (robust), ít bị ảnh hưởng bởi những thay đổi nhỏ của tín hiệu thu được4444. Cuối cùng, bài báo chứng minh rằng phương pháp CNN đề xuất có hiệu năng vượt trội so với các phương pháp DNN khác trên bộ dữ liệu công khai5.
+**cấu trúc topo của [[Radio Map|bản đồ vô tuyến]] (topology of a radio map)** thay vì chỉ dựa vào cường độ tín hiệu, mục tiêu là tạo ra một mô hình mạnh mẽ (robust), ít bị ảnh hưởng bởi những thay đổi nhỏ của tín hiệu thu được4444. Cuối cùng, bài báo chứng minh rằng phương pháp [[CNN]] đề xuất có hiệu năng vượt trội so với các phương pháp [[ANN|DNN]] khác trên bộ dữ liệu công khai5.
 
 ---
 
 # Bối cảnh và động lực
 
-- **Vấn đề:** Các phương pháp định vị trong nhà dựa trên DNN tuy cho hiệu năng hấp dẫn nhưng lại rất nhạy cảm với sự thay đổi của tín hiệu đầu vào6. Để đạt độ chính xác cao, chúng đòi hỏi một tập dữ liệu huấn luyện cực lớn để bao quát nhiều trường hợp nhất có thể, gây ra chi phí tốn kém7.
+- **Vấn đề:** Các phương pháp [[Indoor Positioning System|định vị trong nhà]] dựa trên [[ANN|DNN]] tuy cho hiệu năng hấp dẫn nhưng lại rất nhạy cảm với sự thay đổi của tín hiệu đầu vào6. Để đạt độ chính xác cao, chúng đòi hỏi một tập dữ liệu huấn luyện cực lớn để bao quát nhiều trường hợp nhất có thể, gây ra chi phí tốn kém7.
     
-- **Động lực:** Lấy cảm hứng từ sự thành công của CNN trong lĩnh vực phân loại hình ảnh, nơi CNN có khả năng học được cấu trúc tổng thể của một hình ảnh và tỏ ra mạnh mẽ trước các thay đổi nhỏ8. Các tác giả mong muốn áp dụng nguyên lý tương tự cho bài toán định vị trong nhà bằng vân tay WiFi, một phương pháp hiệu quả về chi phí vì tận dụng được hạ tầng mạng có sẵn9999.
+- **Động lực:** Lấy cảm hứng từ sự thành công của [[CNN]] trong lĩnh vực phân loại hình ảnh, nơi [[CNN]] có khả năng học được cấu trúc tổng thể của một hình ảnh và tỏ ra mạnh mẽ trước các thay đổi nhỏ8. Các tác giả mong muốn áp dụng nguyên lý tương tự cho bài toán [[Indoor Positioning System|định vị trong nhà]] bằng [[WiFi Fingerprinting|vân tay WiFi]], một phương pháp hiệu quả về chi phí vì tận dụng được hạ tầng mạng có sẵn9999.
     
 
 ---

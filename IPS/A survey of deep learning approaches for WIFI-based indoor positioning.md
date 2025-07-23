@@ -10,7 +10,7 @@
     
 - **DOI:** 10.1080/24751839.2021.1975425 5
     
-- **Tóm tắt:** Bài báo này là một bài khảo sát (survey) toàn diện, đánh giá hơn 150 công trình nghiên cứu ứng dụng học sâu (deep learning) vào bài toán định vị trong nhà dựa trên kỹ thuật vân tay WiFi (WiFi fingerprinting). Mục tiêu là xác định các kiến trúc mạng nơ-ron hiệu quả nhất và so sánh độ chính xác của các loại tín hiệu WiFi khác nhau. 6666
+- **Tóm tắt:** Bài báo này là một bài khảo sát (survey) toàn diện, đánh giá hơn 150 công trình nghiên cứu ứng dụng [[Deep Learning|học sâu (deep learning)]] vào bài toán [[Indoor Positioning System|định vị trong nhà]] dựa trên kỹ thuật [[WiFi Fingerprinting|vân tay WiFi (WiFi fingerprinting)]]. Mục tiêu là xác định các kiến trúc mạng nơ-ron hiệu quả nhất và so sánh độ chính xác của các loại tín hiệu WiFi khác nhau. 6666
     
 
 ---
@@ -19,22 +19,22 @@
 
 Bài báo khảo sát nhằm trả lời hai câu hỏi nghiên cứu chính:
 
-1. **Đâu là thước đo tín hiệu WiFi chính xác nhất cho hệ thống định vị trong nhà?** So sánh giữa Cường độ tín hiệu thu được (Received Signal Strength - RSS), Thông tin trạng thái kênh (Channel State Information - CSI), và Thời gian trọn vòng (Round-Trip Time - RTT). 7
+1. **Đâu là thước đo tín hiệu WiFi chính xác nhất cho hệ thống [[Indoor Positioning System|định vị trong nhà]]?** So sánh giữa [[RSSI|Cường độ tín hiệu thu được (Received Signal Strength - RSS)]], [[CSI|Thông tin trạng thái kênh (Channel State Information - CSI)]], và [[RTT|Thời gian trọn vòng (Round-Trip Time - RTT)]]. 7
     
-2. **Đâu là các mạng nơ-ron (neural networks) hiệu quả nhất cho định vị trong nhà bằng WiFi?** Bài báo kiểm chứng giả thuyết liệu các mạng phức tạp (như CNN với hàng chục/trăm lớp ẩn) có luôn cho kết quả tốt hơn các mạng đơn giản hay không. 8
+2. **Đâu là các mạng nơ-ron (neural networks) hiệu quả nhất cho [[Indoor Positioning System|định vị trong nhà]] bằng WiFi?** Bài báo kiểm chứng giả thuyết liệu các mạng phức tạp (như [[CNN]] với hàng chục/trăm lớp ẩn) có luôn cho kết quả tốt hơn các mạng đơn giản hay không. 8
     
 
 ---
 
 # Bối cảnh và động lực
 
-- Định vị trong nhà bằng WiFi, đặc biệt là phương pháp vân tay (fingerprinting), từ lâu đã được xem là một bài toán học máy (machine learning) truyền thống, đạt độ chính xác trung bình ở mức vài mét. 9
+- Định vị trong nhà bằng WiFi, đặc biệt là phương pháp [[WiFi Fingerprinting|vân tay (fingerprinting)]], từ lâu đã được xem là một bài toán [[Machine Learning|học máy (machine learning)]] truyền thống, đạt độ chính xác trung bình ở mức vài mét. 9
     
-- Gần đây, học sâu (deep learning) nổi lên như một phương pháp thay thế đầy hứa hẹn, với nhiều công bố đạt được độ chính xác dưới một mét (sub-metre). 10
+- Gần đây, [[Deep Learning|học sâu (deep learning)]] nổi lên như một phương pháp thay thế đầy hứa hẹn, với nhiều công bố đạt được độ chính xác dưới một mét (sub-metre). 10
     
-- Các phương pháp học máy nông (shallow learning) truyền thống gặp khó khăn trong việc xử lý dữ liệu WiFi có chiều dữ liệu cao (high-dimensional data) và khó đạt được độ chính xác dưới mét. 11111111
+- Các phương pháp [[Machine Learning|học máy]] nông (shallow learning) truyền thống gặp khó khăn trong việc xử lý dữ liệu WiFi có chiều dữ liệu cao (high-dimensional data) và khó đạt được độ chính xác dưới mét. 11111111
     
-- Sự phát triển của học sâu cho phép xử lý hiệu quả lượng dữ liệu lớn này, tìm ra các biểu diễn (representations) có giá trị của dữ liệu WiFi để cải thiện độ chính xác. 12121212
+- Sự phát triển của [[Deep Learning|học sâu]] cho phép xử lý hiệu quả lượng dữ liệu lớn này, tìm ra các biểu diễn (representations) có giá trị của dữ liệu WiFi để cải thiện độ chính xác. 12121212
     
 - Do đó, một bài khảo sát tổng hợp và đánh giá các phương pháp này là cần thiết và kịp thời. 13
     
@@ -43,20 +43,20 @@ Bài báo khảo sát nhằm trả lời hai câu hỏi nghiên cứu chính:
 
 # Các khái niệm chính
 
-### 1. Vân tay WiFi (WiFi Fingerprinting)
+### 1. [[WiFi Fingerprinting|Vân tay WiFi (WiFi Fingerprinting)]]
 
 Đây là phương pháp phổ biến nhất trong định vị WiFi, bao gồm hai giai đoạn: 14
 
-- **Giai đoạn Ngoại tuyến (Offline Phase):** Thu thập tín hiệu WiFi tại các điểm tham chiếu (reference points) trong khu vực mục tiêu để xây dựng một cơ sở dữ liệu (còn gọi là bản đồ vô tuyến - radio map). Dữ liệu này được tiền xử lý và gán nhãn vị trí (tọa độ, tầng, tòa nhà). 15
+- **[[Offline Phase|Giai đoạn Ngoại tuyến (Offline Phase)]]:** Thu thập tín hiệu WiFi tại các [[Reference Points|điểm tham chiếu (reference points)]] trong khu vực mục tiêu để xây dựng một cơ sở dữ liệu (còn gọi là [[Radio Map|bản đồ vô tuyến - radio map]]). Dữ liệu này được tiền xử lý và gán nhãn vị trí (tọa độ, tầng, tòa nhà). 15
     
-- **Giai đoạn Trực tuyến (Online Phase):** Khi người dùng ở một vị trí không xác định, thiết bị của họ sẽ đo tín hiệu WiFi hiện tại. Tín hiệu này sau đó được so khớp với cơ sở dữ liệu để ước tính vị trí của người dùng. 16161616
+- **[[Online Phase|Giai đoạn Trực tuyến (Online Phase)]]:** Khi người dùng ở một vị trí không xác định, thiết bị của họ sẽ đo tín hiệu WiFi hiện tại. Tín hiệu này sau đó được so khớp với cơ sở dữ liệu để ước tính vị trí của người dùng. 16161616
     
     Mỗi vị trí trong nhà có một "vân tay" tín hiệu WiFi đặc trưng do sự phức tạp của môi trường (tường, vật cản, người) gây ra hiện tượng đa đường (multipath), suy hao (attenuation) và phản xạ (reflection). 17171717
     
 
 ### 2. Các loại tín hiệu WiFi
 
-- **Cường độ tín hiệu thu được (Received Signal Strength - RSS):**
+- **[[RSSI|Cường độ tín hiệu thu được (Received Signal Strength - RSS)]]:**
     
     - Là loại tín hiệu phổ biến và dễ thu thập nhất từ hầu hết các thiết bị. 18181818
         
@@ -64,36 +64,36 @@ Bài báo khảo sát nhằm trả lời hai câu hỏi nghiên cứu chính:
         
     - Giá trị
         
-        `100` trong tập dữ liệu mẫu thường biểu thị không nhận được tín hiệu từ Access Point (AP) đó. 20
+        `100` trong tập dữ liệu mẫu thường biểu thị không nhận được tín hiệu từ [[Access Points|Access Point (AP)]] đó. 20
         
-- **Thông tin trạng thái kênh (Channel State Information - CSI):**
+- **[[CSI|Thông tin trạng thái kênh (Channel State Information - CSI)]]:**
     
     - Là thông tin chi tiết về đặc tính của kênh truyền (channel properties) trong một liên kết giao tiếp, thu được qua kỹ thuật OFDM (Orthogonal Frequency-Division Multiplexing). 21
         
-    - CSI mô tả các hiệu ứng tổng hợp như đa đường, tán xạ, suy hao, ổn định hơn RSS theo thời gian nhưng rất đặc trưng về không gian. 22
+    - [[CSI]] mô tả các hiệu ứng tổng hợp như đa đường, tán xạ, suy hao, ổn định hơn [[RSSI]] theo thời gian nhưng rất đặc trưng về không gian. 22
         
-    - CSI bao gồm hai thành phần: biên độ (amplitude) và pha (phase). 23
+    - [[CSI]] bao gồm hai thành phần: biên độ (amplitude) và pha (phase). 23
         
-    - Khó thu thập hơn RSS, đòi hỏi phải truy cập vào driver của card mạng WiFi, gây khó khăn khi triển khai trên smartphone. 24
+    - Khó thu thập hơn [[RSSI]], đòi hỏi phải truy cập vào driver của card mạng WiFi, gây khó khăn khi triển khai trên smartphone. 24
         
-- **Thời gian trọn vòng (Round-Trip Time - RTT):**
+- **[[RTT|Thời gian trọn vòng (Round-Trip Time - RTT)]]:**
     
     - Là một công nghệ mới được giới thiệu trong chuẩn IEEE 802.11-https://www.google.com/search?q=2016, sử dụng giao thức Fine Time Measurement (FTM). 25
         
     - Cho phép tính toán trực tiếp thời gian tín hiệu di chuyển giữa thiết bị phát và thu. 26
         
-    - Tại thời điểm bài báo được viết, còn rất ít nghiên cứu sử dụng RTT kết hợp với học sâu. 2727
+    - Tại thời điểm bài báo được viết, còn rất ít nghiên cứu sử dụng [[RTT]] kết hợp với [[Deep Learning|học sâu]]. 2727
         
 
 ### 3. Các loại Mạng Nơ-ron (Neural Networks)
 
-- **Mạng Nơ-ron Nhân tạo (Artificial Neural Network - ANN):**
+- **[[ANN|Mạng Nơ-ron Nhân tạo (Artificial Neural Network - ANN)]]:**
     
     - Là loại cơ bản nhất, bao gồm các biến thể như Multi-layer Perceptron (MLP), Deep Neural Network (DNN), Back Propagation Neural Network (BPNN). 28282828
         
     - Thường được dùng để tìm ra ánh xạ trực tiếp từ dữ liệu WiFi số đến vị trí cụ thể. 29
         
-- **Mạng Tự mã hóa (Auto-Encoder - AE):**
+- **[[Autoencoder|Mạng Tự mã hóa (Auto-Encoder - AE)]]:**
     
     - Là một mạng học không giám sát (unsupervised learning), gồm hai phần: bộ mã hóa (encoder) và bộ giải mã (decoder). 30
         
@@ -101,13 +101,13 @@ Bài báo khảo sát nhằm trả lời hai câu hỏi nghiên cứu chính:
         
     - Thường dùng để trích xuất đặc trưng, giảm chiều dữ liệu và khử nhiễu. 32Các biến thể bao gồm Denoising AE (DAE), Stacked AE (SAE). 33
         
-- **Mạng Nơ-ron Tích chập (Convolutional Neural Network - CNN):**
+- **[[CNN|Mạng Nơ-ron Tích chập (Convolutional Neural Network - CNN)]]:**
     
     - Nổi tiếng trong lĩnh vực xử lý ảnh. 34
         
     - Sử dụng các lớp tích chập (convolutional layers) để trích xuất các đặc trưng phân cấp (hierarchical features) từ dữ liệu. 35
         
-    - Trong định vị WiFi, dữ liệu tín hiệu thường được chuyển đổi thành dạng ảnh 2D hoặc vector 2D để làm đầu vào cho CNN. 36
+    - Trong định vị WiFi, dữ liệu tín hiệu thường được chuyển đổi thành dạng ảnh 2D hoặc vector 2D để làm đầu vào cho [[CNN]]. 36
         
     - **1D-CNN** là biến thể xử lý dữ liệu 1 chiều. 37
         
@@ -117,7 +117,7 @@ Bài báo khảo sát nhằm trả lời hai câu hỏi nghiên cứu chính:
         
     - Rất phù hợp cho các bài toán theo dõi (tracking) chuyển động của người dùng dựa trên chuỗi tín hiệu WiFi thu thập theo thời gian. 39393939
         
-    - **Long Short-Term Memory (LSTM)** là một biến thể nâng cao của RNN, giải quyết vấn đề "quên" thông tin trong các chuỗi dài (vanishing gradient). 40
+    - **[[LSTM|Long Short-Term Memory (LSTM)]]** là một biến thể nâng cao của RNN, giải quyết vấn đề "quên" thông tin trong các chuỗi dài (vanishing gradient). 40
         
 - **Các mạng khác:** Deep Belief Network (DBN), Generative Adversarial Network (GAN), Capsule Neural Network. 41
     
@@ -130,9 +130,9 @@ Bài báo khảo sát nhằm trả lời hai câu hỏi nghiên cứu chính:
 
 Bài báo chia các công trình nghiên cứu thành hai nhóm chính để phân tích:
 
-1. **Học sâu làm phương pháp trích xuất đặc trưng (Feature Extraction):** Các mô hình DL (AE, CNN,...) được dùng để học các biểu diễn dữ liệu hiệu quả hơn. Sau đó, một thuật toán khác (như k-NN, SVM, hoặc các phương pháp xác suất) sẽ đưa ra dự đoán vị trí cuối cùng. 42424242
+1. **[[Deep Learning|Học sâu]] làm phương pháp trích xuất đặc trưng (Feature Extraction):** Các mô hình DL ([[Autoencoder|AE]], [[CNN]],...) được dùng để học các biểu diễn dữ liệu hiệu quả hơn. Sau đó, một thuật toán khác (như [[KNN|k-NN]], SVM, hoặc các phương pháp xác suất) sẽ đưa ra dự đoán vị trí cuối cùng. 42424242
     
-2. **Học sâu làm giải pháp định vị (Positioning Solution):** Các mô hình DL được sử dụng trực tiếp để dự đoán vị trí, hoạt động như một bộ phân loại (classifier) hoặc một bộ hồi quy (regressor). 43434343
+2. **[[Deep Learning|Học sâu]] làm giải pháp định vị (Positioning Solution):** Các mô hình DL được sử dụng trực tiếp để dự đoán vị trí, hoạt động như một bộ phân loại (classifier) hoặc một bộ hồi quy (regressor). 43434343
     
 
 ### Các chỉ số đánh giá (Evaluation Metrics)
@@ -172,13 +172,13 @@ Bài báo sử dụng một bộ chỉ số tiêu chuẩn để đánh giá và 
 
 - **Phân loại (Classification):**
     
-    - Hầu hết các hệ thống phân loại tầng đều dùng tín hiệu RSS. 53
+    - Hầu hết các hệ thống phân loại tầng đều dùng tín hiệu [[RSSI]]. 53
         
     - Tỷ lệ nhận dạng tầng (floor hitting rate) trung bình là
         
         **92.59%**. 54
         
-    - Hệ thống của **Qi et al. [cite_start](https://www.google.com/search?q=2018&authuser=5)** đạt hiệu năng tốt nhất với tỷ lệ **98.69%**, sử dụng một tập hợp các mạng ELM (biến thể của ANN) và thuật toán bỏ phiếu đa số (majority voting). 55555555
+    - Hệ thống của **Qi et al. [cite_start](https://www.google.com/search?q=2018&authuser=5)** đạt hiệu năng tốt nhất với tỷ lệ **98.69%**, sử dụng một tập hợp các mạng ELM (biến thể của [[ANN]]) và thuật toán bỏ phiếu đa số (majority voting). 55555555
         
 - **Hồi quy (Regression):**
     
@@ -186,17 +186,17 @@ Bài báo sử dụng một bộ chỉ số tiêu chuẩn để đánh giá và 
         
         - Các hệ thống dựa trên
             
-            **CSI** cho kết quả ổn định và chính xác hơn, với MDE trung bình là **1.43m**. 565656
+            **[[CSI]]** cho kết quả ổn định và chính xác hơn, với MDE trung bình là **1.43m**. 565656
             
         - Các hệ thống dựa trên
             
-            **RSS** có MDE trung bình là **1.96m**. 57Tuy nhiên, một số hệ thống RSS được tinh chỉnh kỹ lưỡng hoặc kết hợp với các cảm biến khác (IMU, từ kế) có thể đạt độ chính xác dưới mét. 585858585858585858
+            **[[RSSI]]** có MDE trung bình là **1.96m**. 57Tuy nhiên, một số hệ thống [[RSSI]] được tinh chỉnh kỹ lưỡng hoặc kết hợp với các cảm biến khác (IMU, từ kế) có thể đạt độ chính xác dưới mét. 585858585858585858
             
     - **So sánh mô hình (MDE):**
         
-        - **CNN** cho hiệu năng tốt nhất với MDE trung bình là **1.343m**. 59595959
+        - **[[CNN]]** cho hiệu năng tốt nhất với MDE trung bình là **1.343m**. 59595959
             
-        - **ANN** cũng rất hiệu quả với MDE trung bình là **1.607m** và chi phí tính toán thấp hơn. 60606060
+        - **[[ANN]]** cũng rất hiệu quả với MDE trung bình là **1.607m** và chi phí tính toán thấp hơn. 60606060
             
     - **Kết quả nổi bật (độ chính xác dưới mét):**
         

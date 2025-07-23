@@ -12,14 +12,14 @@
     
 - **DOI**: 10.1109/ACCESS.2024.3496561 6
     
-- **Từ khóa**: Định vị trong nhà (Indoor positioning), WiFi fingerprinting, bộ dữ liệu truy cập mở (open access dataset) 7
+- **Từ khóa**: [[Indoor Positioning System|Định vị trong nhà (Indoor positioning)]], [[WiFi Fingerprinting]], bộ dữ liệu truy cập mở (open access dataset) 7
     
 
 # Mục tiêu nghiên cứu
 
-Bài báo thực hiện một tổng quan toàn diện và phân tích sâu hơn 50 bộ dữ liệu WiFi fingerprinting có sẵn công khai. 8 Mục tiêu chính bao gồm:
+Bài báo thực hiện một tổng quan toàn diện và phân tích sâu hơn 50 bộ dữ liệu [[WiFi Fingerprinting]] có sẵn công khai. 8 Mục tiêu chính bao gồm:
 
-- Cung cấp một cái nhìn tổng quan về bối cảnh hiện tại của các bộ dữ liệu WiFi fingerprinting. 9
+- Cung cấp một cái nhìn tổng quan về bối cảnh hiện tại của các bộ dữ liệu [[WiFi Fingerprinting]]. 9
     
 - Kiểm tra và xác thực khả năng truy cập mở của tất cả các bộ dữ liệu được đề cập. 10
     
@@ -27,16 +27,16 @@ Bài báo thực hiện một tổng quan toàn diện và phân tích sâu hơn
     
 - Đánh giá các thách thức hiện tại và đề xuất các tiêu chuẩn, hướng dẫn để tạo ra các bộ dữ liệu WiFi fingerprint mới hiệu quả hơn. 12121212
     
-- Chỉ ra một phát hiện đáng ngạc nhiên: việc tăng số lượng điểm tham chiếu (RPs) và điểm truy cập (APs), sử dụng tọa độ 3D, và tần suất thu thập dữ liệu cao hơn không phải lúc nào cũng đảm bảo hiệu suất định vị tốt hơn. 13131313
+- Chỉ ra một phát hiện đáng ngạc nhiên: việc tăng số lượng [[Reference Points|điểm tham chiếu (RPs)]] và [[Access Points|điểm truy cập (APs)]], sử dụng tọa độ 3D, và tần suất thu thập dữ liệu cao hơn không phải lúc nào cũng đảm bảo hiệu suất định vị tốt hơn. 13131313
     
 
 # Bối cảnh và động lực
 
 - **Thách thức của GPS trong nhà**: Hệ thống định vị toàn cầu (GPS) hoạt động kém hiệu quả trong nhà do tín hiệu vệ tinh không thể xuyên qua các tòa nhà hiện đại và bị ảnh hưởng bởi các hiệu ứng đa đường (multipath), phản xạ, và che khuất. 14
     
-- **Sự phổ biến của WiFi**: Nhờ vào hạ tầng điểm truy cập (Access Points - APs) WiFi rộng khắp và sự phổ biến của các thiết bị thông minh, các phương pháp định vị trong nhà dựa trên WiFi trở nên hiệu quả về mặt chi phí. 15Do đó,
+- **Sự phổ biến của WiFi**: Nhờ vào hạ tầng [[Access Points|điểm truy cập (Access Points - APs)]] WiFi rộng khắp và sự phổ biến của các thiết bị thông minh, các phương pháp [[Indoor Positioning System|định vị trong nhà]] dựa trên WiFi trở nên hiệu quả về mặt chi phí. 15Do đó,
     
-    **WiFi fingerprinting** là một trong những kỹ thuật phổ biến nhất. 16
+    **[[WiFi Fingerprinting]]** là một trong những kỹ thuật phổ biến nhất. 16
     
 - **Vấn đề với các bộ dữ liệu hiện có**:
     
@@ -53,19 +53,19 @@ Bài báo thực hiện một tổng quan toàn diện và phân tích sâu hơn
 
 # Các khái niệm chính
 
-- **WiFi Fingerprinting**: Là một phương pháp định vị ước tính vị trí của người dùng bằng cách so khớp các phép đo tín hiệu WiFi thời gian thực (gọi là "vân tay" - fingerprints) với một bộ dữ liệu vân tay đã được xây dựng trước đó. 22 Quá trình này gồm 2 giai đoạn:
+- **[[WiFi Fingerprinting]]**: Là một phương pháp định vị ước tính vị trí của người dùng bằng cách so khớp các phép đo tín hiệu WiFi thời gian thực (gọi là "vân tay" - fingerprints) với một bộ dữ liệu vân tay đã được xây dựng trước đó. 22 Quá trình này gồm 2 giai đoạn:
     
-    1. **Giai đoạn Offline (Offline Phase)**: Xây dựng một "bản đồ vô tuyến" (radio map) chi tiết, chứa các vân tay WiFi đặc trưng và tọa độ thực (ground truth) tương ứng tại nhiều vị trí trong môi trường. Dữ liệu này sau đó được làm sạch và tiền xử lý. 23
+    1. **[[Offline Phase|Giai đoạn Offline]]**: Xây dựng một "[[Radio Map|bản đồ vô tuyến]]" (radio map) chi tiết, chứa các vân tay WiFi đặc trưng và tọa độ thực (ground truth) tương ứng tại nhiều vị trí trong môi trường. Dữ liệu này sau đó được làm sạch và tiền xử lý. 23
         
-    2. **Giai đoạn Online (Online Phase)**: Khi người dùng yêu cầu định vị, hệ thống thu thập một mẫu WiFi thời gian thực, so sánh nó với bản đồ vô tuyến để ước tính vị trí hiện tại. 24242424
+    2. **[[Online Phase|Giai đoạn Online]]**: Khi người dùng yêu cầu định vị, hệ thống thu thập một mẫu WiFi thời gian thực, so sánh nó với [[Radio Map|bản đồ vô tuyến]] để ước tính vị trí hiện tại. 24242424
         
 - **Các loại tín hiệu WiFi đầu vào (Signal Inputs)**:
     
-    - **RSS (Received Signal Strength)**: Còn gọi là RSSI, là chỉ số đo cường độ tín hiệu nhận được từ các AP. Đây là phép đo được sử dụng rộng rãi nhất do dễ dàng truy cập. 25
+    - **[[RSSI|RSS (Received Signal Strength)]]**: Còn gọi là RSSI, là chỉ số đo cường độ tín hiệu nhận được từ các AP. Đây là phép đo được sử dụng rộng rãi nhất do dễ dàng truy cập. 25
         
-    - **RTT (Round Trip Time)**: Đo thời gian tín hiệu di chuyển từ thiết bị phát đến thiết bị thu và quay trở lại. RTT có thể được dùng để tính toán trực tiếp khoảng cách. 26Nó nhạy cảm hơn với các thay đổi trong môi trường so với RSS, đặc biệt trong các kịch bản không có tầm nhìn thẳng (NLOS). 27
+    - **[[RTT|RTT (Round Trip Time)]]**: Đo thời gian tín hiệu di chuyển từ thiết bị phát đến thiết bị thu và quay trở lại. RTT có thể được dùng để tính toán trực tiếp khoảng cách. 26Nó nhạy cảm hơn với các thay đổi trong môi trường so với RSS, đặc biệt trong các kịch bản không có tầm nhìn thẳng (NLOS). 27
         
-    - **CSI (Channel State Information)**: Mô tả các thuộc tính của kênh truyền tín hiệu, chẳng hạn như sự tán xạ, phai màu, và đa đường. CSI cung cấp thông tin chi tiết hơn nhiều so với RSS, giúp mô tả hành vi tín hiệu trong môi trường phức tạp và mang lại giải pháp mạnh mẽ hơn. 28282828
+    - **[[CSI|CSI (Channel State Information)]]**: Mô tả các thuộc tính của kênh truyền tín hiệu, chẳng hạn như sự tán xạ, phai màu, và đa đường. CSI cung cấp thông tin chi tiết hơn nhiều so với RSS, giúp mô tả hành vi tín hiệu trong môi trường phức tạp và mang lại giải pháp mạnh mẽ hơn. 28282828
         
 
 # Phương pháp và kỹ thuật
@@ -111,11 +111,11 @@ Bài báo đã phân tích 52 bộ dữ liệu công khai và đưa ra các th�
         
 - **Loại tín hiệu đầu vào**:
     
-    - **RSS** chiếm ưu thế tuyệt đối với **49/52** bộ dữ liệu. 40
+    - **[[RSSI]]** chiếm ưu thế tuyệt đối với **49/52** bộ dữ liệu. 40
         
     - Chỉ có
         
-        **4 bộ dữ liệu chứa RTT** và **3 bộ dữ liệu chứa CSI**, cho thấy sự thiếu hụt nghiêm trọng của các loại tín hiệu mới này. 41414141
+        **4 bộ dữ liệu chứa [[RTT]]** và **3 bộ dữ liệu chứa [[CSI]]**, cho thấy sự thiếu hụt nghiêm trọng của các loại tín hiệu mới này. 41414141
         
 - **Thiết bị thu thập**:
     
@@ -131,9 +131,9 @@ Bài báo đã phân tích 52 bộ dữ liệu công khai và đưa ra các th�
         
     - Các phương pháp khác bao gồm hệ thống mobile mapping, ORB-SLAM3, và máy toàn đạc (total station). 46
         
-- **Các mô hình Machine Learning được dùng để đánh giá hiệu suất**:
+- **Các mô hình [[Machine Learning]] được dùng để đánh giá hiệu suất**:
     
-    - **k-Nearest Neighbors (KNN)**: Là mô hình phổ biến nhất, xuất hiện trong 26/52 bộ dữ liệu. 47
+    - **[[KNN|k-Nearest Neighbors (KNN)]]**: Là mô hình phổ biến nhất, xuất hiện trong 26/52 bộ dữ liệu. 47
         
         - Đạt sai số định vị
             
@@ -143,19 +143,19 @@ Bài báo đã phân tích 52 bộ dữ liệu công khai và đưa ra các th�
             
             **0.66 m**. 49
             
-    - **INN (1-Nearest Neighbor)**: Một phiên bản đơn giản hơn của KNN, cũng được sử dụng rộng rãi để thiết lập hiệu suất cơ bản. Ví dụ, trên bộ dữ liệu UjiIndoorLoc, INN đạt sai số
+    - **INN (1-Nearest Neighbor)**: Một phiên bản đơn giản hơn của [[KNN]], cũng được sử dụng rộng rãi để thiết lập hiệu suất cơ bản. Ví dụ, trên bộ dữ liệu [[UJIIndoorLoc Dataset]], INN đạt sai số
         
         **7.9 m**. 50505050
         
     - **Mạng nơ-ron (Neural Networks)**:
         
-        - **ANN (Artificial Neural Network)**: Đạt sai số ước tính khoảng cách **4 m** (với độ tin cậy 98%) trên một bộ dữ liệu WiFi RTT. 51
+        - **[[ANN|ANN (Artificial Neural Network)]]**: Đạt sai số ước tính khoảng cách **4 m** (với độ tin cậy 98%) trên một bộ dữ liệu WiFi [[RTT]]. 51
             
-        - **CNN (Convolutional Neural Network)**: Phương pháp CNNLoc sử dụng 1D-CNN đạt sai số **7.60 m** trên bộ dữ liệu UTSIndoorLoc. 52 Một mô hình 1D-CNN khác đạt sai số
+        - **[[CNN|CNN (Convolutional Neural Network)]]**: Phương pháp CNNLoc sử dụng 1D-CNN đạt sai số **7.60 m** trên bộ dữ liệu UTSIndoorLoc. 52 Một mô hình 1D-CNN khác đạt sai số
             
             **1.38 m** trên bộ dữ liệu CSUIndoorLoc.
             
-        - **LSTM (Long Short-Term Memory)**: Đạt sai số **0.62 m** trên bộ dữ liệu XJTLUIndoorLoc. 53Biến thể
+        - **[[LSTM|LSTM (Long Short-Term Memory)]]**: Đạt sai số **0.62 m** trên bộ dữ liệu XJTLUIndoorLoc. 53Biến thể
             
             **BILSTM** đạt sai số **0.82 m** và **0.70 m** trên các bộ dữ liệu khác. 54
             
