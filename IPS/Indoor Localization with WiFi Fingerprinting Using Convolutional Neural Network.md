@@ -36,26 +36,26 @@ Bằng cách khai thác
     **Robust Scalar**, một phương pháp dựa trên khoảng tứ phân vị (interquartile range - IQR) để giảm thiểu ảnh hưởng của các giá trị ngoại lai (outliers)121212121212.
   - **Dropout:** Một kỹ thuật chính quy hóa (regularization) nhằm chống lại hiện tượng quá khớp (overfitting). Nó hoạt động bằng cách ngẫu nhiên vô hiệu hóa một số nút mạng (nodes) trong quá trình huấn luyện13.
   - **Cân bằng dữ liệu (Data Balancing):** Quá trình xử lý tập dữ liệu để đảm bảo mỗi nhãn (label) có số lượng mẫu tương đương nhau14. Điều này giúp mô hình không bị học lệch về phía các lớp có nhiều dữ liệu hơn15.
-  - **Tổ hợp (Ensemble):** Một phương pháp kết hợp kết quả dự đoán từ nhiều mô hình được huấn luyện độc lập để đưa ra quyết định cuối cùng1616. Do các bộ lọc của CNN được khởi tạo ngẫu nhiên, mỗi mô hình sẽ học được các đặc trưng hơi khác nhau, và việc tổ hợp chúng thường cho độ chính xác cao hơn17171717.
+  - **Tổ hợp (Ensemble):** Một phương pháp kết hợp kết quả dự đoán từ nhiều mô hình được huấn luyện độc lập để đưa ra quyết định cuối cùng1616. Do các bộ lọc của [[CNN]] được khởi tạo ngẫu nhiên, mỗi mô hình sẽ học được các đặc trưng hơi khác nhau, và việc tổ hợp chúng thường cho độ chính xác cao hơn17171717.
 
 ---
 
 # Phương pháp và kỹ thuật
 
-Mô hình đề xuất sử dụng CNN để phân loại vị trí (tòa nhà và tầng) dựa trên vân tay WiFi18.
+Mô hình đề xuất sử dụng [[CNN]] để phân loại vị trí (tòa nhà và tầng) dựa trên [[WiFi Fingerprinting|vân tay WiFi]]18.
 
 ### 1. Tiền xử lý dữ liệu: Tạo bản đồ vô tuyến 2D
 
-- **Đầu vào gốc:** Dữ liệu là một vector 1 chiều chứa 520 giá trị RSSI từ 520 điểm truy cập (APs)19191919.
-- **Chuyển đổi:** Để phù hợp với CNN, vector 1D này được chuyển thành một "ảnh" 2D20.
+- **Đầu vào gốc:** Dữ liệu là một vector 1 chiều chứa 520 giá trị [[RSSI]] từ 520 [[Access Points|điểm truy cập (APs)]]19191919.
+- **Chuyển đổi:** Để phù hợp với [[CNN]], vector 1D này được chuyển thành một "ảnh" 2D20.
   - 9 giá trị 0 (dummy values) được thêm vào cuối vector 520 chiều để tạo thành một vector 529 chiều21.
   - Vector 529 chiều này được định hình lại (reshape) thành một ma trận
-    **23x23**22. Đây chính là "bản đồ vô tuyến" 2D dùng làm đầu vào cho CNN.
+    **23x23**22. Đây chính là "[[Radio Map|bản đồ vô tuyến]]" 2D dùng làm đầu vào cho [[CNN]].
 - **Chuẩn hóa giá trị:** Các giá trị 100dBm (biểu thị không đo được tín hiệu) trong bộ dữ liệu gốc được đổi thành -110dBm, được xem như tín hiệu cực yếu thay vì dữ liệu bị thiếu23.
 
 ### 2. Kiến trúc CNN
 
-Kiến trúc CNN cho hiệu năng tốt nhất được xác định qua thử nghiệm và có cấu trúc như sau24242424:
+Kiến trúc [[CNN]] cho hiệu năng tốt nhất được xác định qua thử nghiệm và có cấu trúc như sau24242424:
 
 - **Lớp Tích chập & Gộp (Convolution & Pooling):**
   - **Khối 1:** 2 lớp Tích chập (64 bộ lọc, kích thước 3x3) -> 1 lớp Gộp cực đại (Max Pooling) với sải bước (stride) là 2. Kích thước bản đồ đặc trưng (feature map) giảm từ 23x23 xuống 12x1225252525.
@@ -78,7 +78,7 @@ Mô hình cuối cùng được huấn luyện với đầy đủ các kỹ thu�
 
 Các thử nghiệm được thực hiện trên bộ dữ liệu
 
-**UJIIndoorLoc** với 19.937 mẫu huấn luyện và 1.111 mẫu kiểm định (dùng làm tập kiểm tra)32323232.
+**[[UJIIndoorLoc Dataset]]** với 19.937 mẫu huấn luyện và 1.111 mẫu kiểm định (dùng làm tập kiểm tra)32323232.
 
 ### So sánh với các mô hình học sâu khác
 
@@ -88,7 +88,7 @@ Các thử nghiệm được thực hiện trên bộ dữ liệu
 | -------------------- | ---------------- | ------------ | ----------------------- | ------------- |
 | **Độ chính xác B&F** | 91.1% 33         | 92.89% 34    |                         | **95.41%** 35 |
 
-- Kết quả cho thấy mô hình CNN đề xuất có độ chính xác cao hơn các mô hình DNN hiện có từ
+- Kết quả cho thấy mô hình [[CNN]] đề xuất có độ chính xác cao hơn các mô hình [[ANN|DNN]] hiện có từ
   **2.52% đến 4.31%**36.
 
 ### Tác động của các kỹ thuật cải thiện
@@ -107,26 +107,26 @@ Các thử nghiệm được thực hiện trên bộ dữ liệu
 ### Ưu điểm
 
 - **Độ chính xác vượt trội:** Mô hình CNN cho thấy hiệu năng cao hơn đáng kể so với các kiến trúc dựa trên DNN cho cùng bài toán45.
-- **Tính bền vững (Robustness):** Bằng cách học "cấu trúc topo" của bản đồ vô tuyến 2D, mô hình ít bị ảnh hưởng bởi nhiễu và biến động tín hiệu, điều này đặc biệt hữu ích khi tập dữ liệu bị hạn chế46464646.
-- **Hiệu quả tính toán:** CNN có số lượng tham số ít hơn so với các mạng DNN kết nối đầy đủ, dẫn đến độ phức tạp thời gian thấp hơn và tốc độ thực thi nhanh hơn trong giai đoạn định vị thực tế47.
+- **Tính bền vững (Robustness):** Bằng cách học "cấu trúc topo" của [[Radio Map|bản đồ vô tuyến]] 2D, mô hình ít bị ảnh hưởng bởi nhiễu và biến động tín hiệu, điều này đặc biệt hữu ích khi tập dữ liệu bị hạn chế46464646.
+- **Hiệu quả tính toán:** [[CNN]] có số lượng tham số ít hơn so với các mạng [[ANN|DNN]] kết nối đầy đủ, dẫn đến độ phức tạp thời gian thấp hơn và tốc độ thực thi nhanh hơn trong giai đoạn định vị thực tế47.
 
 ### Nhược điểm
 
 - **Chỉ phân loại vị trí:** Nghiên cứu chỉ tập trung vào việc xác định vị trí tương đối (tòa nhà, tầng) mà không ước tính tọa độ chính xác (x, y).
-- **Tính "topo" nhân tạo:** Cấu trúc "topo" mà CNN học được là do việc định hình lại vector 1D một cách nhân tạo, chứ không phản ánh vị trí vật lý thực tế của các điểm truy cập WiFi.
+- **Tính "topo" nhân tạo:** Cấu trúc "topo" mà [[CNN]] học được là do việc định hình lại vector 1D một cách nhân tạo, chứ không phản ánh vị trí vật lý thực tế của các [[Access Points|điểm truy cập WiFi]].
 
 ---
 
 # Thách thức và hướng cải tiến
 
-- **Thách thức:** Thách thức lớn nhất trong các phương pháp học sâu là sự phụ thuộc vào lượng dữ liệu huấn luyện48. Tuy nhiên, việc thu thập dữ liệu vân tay WiFi rất tốn kém và mất thời gian49. Do đó, việc đạt được độ chính xác cao với một lượng dữ liệu hạn chế là mục tiêu quan trọng.
-- **Hướng cải tiến:** Bài báo chứng minh rằng phương pháp CNN có thể cải thiện độ chính xác mà không cần thu thập thêm dữ liệu50. Các hướng phát triển tiếp theo có thể bao gồm việc áp dụng kiến trúc này cho bài toán hồi quy (ước tính tọa độ) hoặc khám phá các cách biến đổi dữ liệu 1D thành 2D có ý nghĩa hơn về mặt vật lý.
+- **Thách thức:** Thách thức lớn nhất trong các phương pháp [[Deep Learning|học sâu]] là sự phụ thuộc vào lượng dữ liệu huấn luyện48. Tuy nhiên, việc thu thập dữ liệu [[WiFi Fingerprinting|vân tay WiFi]] rất tốn kém và mất thời gian49. Do đó, việc đạt được độ chính xác cao với một lượng dữ liệu hạn chế là mục tiêu quan trọng.
+- **Hướng cải tiến:** Bài báo chứng minh rằng phương pháp [[CNN]] có thể cải thiện độ chính xác mà không cần thu thập thêm dữ liệu50. Các hướng phát triển tiếp theo có thể bao gồm việc áp dụng kiến trúc này cho bài toán hồi quy (ước tính tọa độ) hoặc khám phá các cách biến đổi dữ liệu 1D thành 2D có ý nghĩa hơn về mặt vật lý.
 
 ---
 
 # Ứng dụng thực tiễn
 
-Với độ chính xác cao và tốc độ xử lý nhanh trong thời gian thực 51, mô hình CNN đề xuất có thể được ứng dụng rộng rãi trong nhiều lĩnh vực52:
+Với độ chính xác cao và tốc độ xử lý nhanh trong thời gian thực 51, mô hình [[CNN]] đề xuất có thể được ứng dụng rộng rãi trong nhiều lĩnh vực52:
 
 - 📢 Hệ thống quảng cáo theo ngữ cảnh trong các trung tâm thương mại phức hợp.
 - 🚗 Định vị vị trí xe trong các bãi đỗ xe lớn.
