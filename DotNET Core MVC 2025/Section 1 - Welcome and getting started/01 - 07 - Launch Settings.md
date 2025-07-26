@@ -1,212 +1,166 @@
-# Khám phá cấu trúc dự án: Dependencies và Launch Settings
+## Khám Phá Cấu Trúc Project: Dependencies và Launch Settings
 
-## Connected Services (Dịch vụ kết nối)
+### Connected Services
 
-- Hiện tại **Connected Services** đang trống
-    
-- Sẽ bỏ qua phần này vì chưa có nội dung
-    
+- Mục **Connected Services** hiện tại trống
+- Sẽ được sử dụng khi kết nối với các dịch vụ bên ngoài
+- Có thể bỏ qua ở thời điểm này
 
-## Dependencies (Phụ thuộc)
 
-## Khái niệm Dependencies
+### Dependencies (Phụ thuộc)
 
-- Khi xây dựng ứng dụng .NET, thường sẽ cần thêm nhiều **packages** (gói thư viện) để có thêm chức năng
-    
-- Ví dụ các trường hợp cần thêm packages:
-    
-    - Truy cập cơ sở dữ liệu (database access)
-        
-    - Tích hợp thanh toán (payment integration)
-        
+**Khái niệm**:
 
-## Trạng thái hiện tại
+- Chứa tất cả các **packages** và **project references** mà ứng dụng phụ thuộc vào
+- Hiện tại chưa có dependency nào
 
-- **Hiện tại**: Không có package nào trong dependencies
-    
-- **Tương lai**: Sẽ thêm các packages khi cần thiết
-    
+**Các loại dependencies thường gặp**:
 
-## Dependencies với nhiều Project
+- **NuGet packages**: Để truy cập database, tích hợp thanh toán, v.v.
+- **Project references**: Khi có nhiều project trong solution
+- Sẽ tự động cập nhật khi thêm packages hoặc project references
 
-- Khi có nhiều project, có thể thêm project khác như một dependency
-    
-- Dependencies sẽ tự động phản ánh điều này
-    
-- Sẽ được trình bày trong các video sau
-    
+**Ví dụ sử dụng**:
 
-## Định nghĩa Dependencies
+- Truy cập database → Thêm Entity Framework packages
+- Tích hợp thanh toán → Thêm payment gateway packages
+- Multi-project solution → Thêm project references
 
-- **Dependencies** có nghĩa là project này phụ thuộc vào:
-    
-    - Các packages (từ NuGet)
-        
-    - Các project khác
-        
-- Hiện tại chưa có phụ thuộc nào
-    
 
-## Properties Folder và Launch Settings
+### Properties Folder và Launch Settings
 
-## Cấu trúc
+### Launch Settings.json
 
-- **Properties folder** chứa file **launchSettings.json**
-    
+**Mục đích**:
 
-## Chức năng của launchSettings.json
+- Định nghĩa cài đặt khi **chạy** hoặc **debug** ứng dụng
+- Kiểm soát cách ứng dụng khởi động trong môi trường phát triển
 
-- Định nghĩa các cài đặt khi **chạy** hoặc **debug** ứng dụng
-    
-- Xác định những gì xảy ra khi nhấn nút **HTTPS** để chạy ứng dụng
-    
+**Cấu trúc chính**:
 
-## Cấu hình IIS Settings
+```json
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:port",
+      "sslPort": "https_port_number"
+    }
+  },
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "applicationUrl": "http://localhost:5000",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "https": {
+      "commandName": "Project", 
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "applicationUrl": "https://localhost:7169;http://localhost:5000",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
+```
 
-## Cài đặt URL và Port
 
-- **IIS Settings** định nghĩa:
-    
-    - URL cho **HTTP** với port number cụ thể
-        
-    - URL cho **HTTPS** với port number riêng biệt
-        
+### Profiles (Cấu hình chạy)
 
-## Profiles (Hồ sơ cấu hình)
+**Các profile mặc định**:
 
-## Các loại Profiles
+- **HTTP profile**: Chạy ứng dụng qua HTTP
+- **HTTPS profile**: Chạy ứng dụng qua HTTPS (đang sử dụng)
+- **IIS Express profile**: Chạy qua IIS Express
 
-Profiles phản ánh những gì hiển thị trong dropdown, bao gồm:
+**Cách chuyển đổi profiles**:
 
-- **HTTP profile**
-    
-- **HTTPS profile**
-    
-- **IIS Express**
-    
+- Sử dụng dropdown menu bên cạnh nút chạy
+- Chọn profile mong muốn trước khi nhấn run
 
-## Cấu hình Profile
 
-- Mỗi profile định nghĩa URL để chạy ứng dụng
-    
-- Thiết lập các **environment variables** (biến môi trường)
-    
+### Environment Variables (Biến môi trường)
 
-## Environment Variables (Biến môi trường)
+**Khái niệm**:
 
-## Khái niệm
+- Giống như **global variables** có thể sử dụng trong toàn bộ ứng dụng
+- Giúp phân biệt giữa các môi trường khác nhau
 
-- **Environment variables** giống như **global variables** (biến toàn cục)
-    
-- Được định nghĩa và có thể sử dụng trong ứng dụng
-    
+**Ví dụ sử dụng `ASPNETCORE_ENVIRONMENT`**:
 
-## Ví dụ sử dụng Environment Variables
+**Development environment**:
 
-## 1. Phân biệt môi trường Development vs Production
+- Sử dụng development database
+- Dùng test payment keys (không xử lý thẻ tín dụng thật)
+- Hiển thị error details đầy đủ
 
-- **ASP.NET Core Environment = "Development"**:
-    
-    - Sử dụng development database
-        
-    - Kiểm tra biến này trong code để quyết định database nào sử dụng
-        
-- **Production environment**:
-    
-    - Sử dụng production database
-        
+**Production environment**:
 
-## 2. Payment Integration
+- Sử dụng production database
+- Dùng production payment keys (xử lý thanh toán thật)
+- Ẩn error details nhạy cảm
 
-- **Development environment**:
-    
-    - Sử dụng development keys
-        
-    - Không cần thẻ tín dụng thật
-        
-- **Production environment**:
-    
-    - Sử dụng production keys
-        
-    - Xử lý thanh toán thẻ tín dụng thật
-        
 
-## Quản lý Environment Variables
+### Thay Đổi Port Ứng Dụng
 
-- Tất cả environment variables và profiles được định nghĩa trong **launchSettings.json**
-    
+**Cách thực hiện**:
 
-## Thực hành với HTTPS Profile
+1. Mở `launchSettings.json`
+2. Tìm đến profile đang sử dụng (ví dụ: `https`)
+3. Sửa `applicationUrl` từ `7169` thành `7001`
+4. Lưu file và chạy lại ứng dụng
 
-## Profile hiện tại
+**Ví dụ**:
 
-- Đang sử dụng **HTTPS profile**
-    
-- **Application URL**: Cổng 7169
-    
+```json
+"applicationUrl": "https://localhost:7001;http://localhost:5000"
+```
 
-## Thay đổi Port
+**Kết quả**: Ứng dụng sẽ chạy trên port 7001 thay vì 7169
 
-1. **Chỉnh sửa**: Thay đổi port từ 7169 thành 7001
-    
-2. **Chạy ứng dụng**: Ứng dụng chạy trên port 7001
-    
-3. **Kết quả**: Có thể thay đổi thuộc tính theo yêu cầu
-    
+### Hoàn tác thay đổi với Git
 
-## Chuyển đổi Profile
+**Cách thực hiện**:
 
-- Có thể **toggle** (chuyển đổi) giữa các profiles
-    
-- Chọn profile nào muốn chạy ứng dụng
-    
-- Cũng có **IIS Express** để lựa chọn
-    
+- Chuột phải vào file đã sửa đổi
+- Chọn **"Undo Git changes"**
+- File sẽ trở về trạng thái ban đầu
 
-## Lưu ý quan trọng
 
-## Về việc chỉnh sửa
+### Ghi chú quan trọng
 
-- **Thông thường**: Không thay đổi profiles nhiều
-    
-- **Mục đích**: Cung cấp tổng quan 5 phút về launchSettings.json
-    
+**Khi nào cần sửa launch settings**:
 
-## Quản lý thay đổi
+- Thay đổi port mặc định
+- Cấu hình environment variables
+- Thêm profile mới cho môi trường đặc biệt
+- Tùy chỉnh cách ứng dụng khởi động
 
-- Có thể **undo git changes** để khôi phục cài đặt gốc
-    
-- Linh hoạt trong việc sử dụng port tùy ý
-    
+**Thông thường**:
 
-## Tóm tắt
+- Không cần sửa đổi nhiều
+- Cấu hình mặc định đã đủ cho hầu hết trường hợp
+- Chỉ điều chỉnh khi có yêu cầu cụ thể
 
-## Đã đề cập
 
-1. **Connected Services**: Trống, bỏ qua
-    
-2. **Dependencies**: Chưa có packages, sẽ thêm sau
-    
-3. **Properties/launchSettings.json**:
-    
-    - Cấu hình chạy/debug
-        
-    - Profiles và environment variables
-        
-    - Thay đổi ports và URLs
-        
+### Kết luận
 
-## Ý nghĩa
+- **Launch Settings.json** là file cấu hình quan trọng cho quá trình development
+- **Environment Variables** giúp phân biệt các môi trường khác nhau
+- **Profiles** cho phép chạy ứng dụng với các cài đặt khác nhau
+- Có thể dễ dàng thay đổi port và các cài đặt khác theo nhu cầu
 
-- **launchSettings.json** là file cấu hình quan trọng cho development
-    
-- Cho phép tùy chỉnh môi trường development vs production
-    
-- Linh hoạt trong việc cấu hình URLs và ports
-    
-
-## Bước tiếp theo
-
-- Khám phá **Controllers folder** và các files khác trong dự án
-    
-- Tìm hiểu chi tiết về cấu trúc MVC

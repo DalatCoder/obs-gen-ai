@@ -1,117 +1,119 @@
-## Tiêm phụ thuộc (Dependency Injection)
+## Dependency Injection (Tiêm phụ thuộc)
 
 ### Khái niệm cơ bản
 
-Tiêm phụ thuộc (Dependency Injection) là một **mẫu thiết kế (design pattern)** trong đó một lớp hoặc đối tượng nhận các lớp phụ thuộc được tiêm vào thay vì tự tạo ra chúng.
+**[[Dependency Injection]]** là một design pattern (mẫu thiết kế) trong đó một class hoặc object có các dependent classes được tiêm vào thay vì tạo trực tiếp chúng.
 
-**Mục đích:**
-
-- Không phải tự tạo, quản lý và giải phóng đối tượng
-- Cải thiện tính **liên kết lỏng lẻo (loose coupling)** giữa các lớp
+- Mục đích: Không phải tự tạo, quản lý và dispose object
+- Cải thiện [[Loose Coupling]] (kết nối lỏng lẻo) giữa các class
 - Là câu hỏi phỏng vấn phổ biến trong lập trình .NET
 
 
-### Ví dụ thực tế - Bob đi bộ đường dài
+### Ví dụ thực tế - Bob đi hiking
 
-Để hiểu khái niệm DI, hãy tưởng tượng Bob muốn đi bộ đường dài:
+Để hiểu rõ khái niệm, hãy tưởng tượng Bob chuẩn bị đi hiking:
 
-- Bob cần nhiều đồ dùng: bản đồ, đèn pin, thanh protein...
-- Anh ấy đặt tất cả vào **ba lô (container)**
-- Khi cần sử dụng, Bob chỉ việc lấy từ ba lô ra
+- **Chuẩn bị**: Bob cần nhiều đồ dùng (bản đồ, đèn pin, protein bar...)
+- **Container**: Anh ấy đặt tất cả vào ba lô (backpack)
+- **Sử dụng**: Khi cần, Bob lấy đồ từ ba lô ra dùng
 
-**Nguyên lý tương tự:**
+➡️ **Ba lô chính là container**, chứa sẵn những thứ cần thiết để Bob có thể lấy ra khi cần.
 
-- Đặt các đối tượng cần thiết vào **vùng chứa (container)**
-- Khi cần sử dụng, lấy trực tiếp từ vùng chứa
-- Không phải tự tạo hoặc quản lý các đối tượng đó
+### So sánh: Không có DI vs Có DI
 
-
-### Vấn đề khi không có Dependency Injection
-
-#### Tình huống: 3 trang web cần chức năng chung
-
-Giả sử có 3 trang web cần:
-
-- Gửi email
-- Truy cập cơ sở dữ liệu
-
-**Cách làm truyền thống:**
+#### Tình huống KHÔNG có Dependency Injection
 
 ```csharp
-// Trong mỗi trang, phải viết code tương tự:
-var db = new DB();
-var result = db.GetData();
-db.Dispose();
-
-var email = new Email();
-email.SendEmail();
-email.Dispose();
+// Trong mỗi page phải viết lặp lại:
+public class Page1 
+{
+    public void ProcessData() 
+    {
+        // Tạo object database
+        DB db = new DB();
+        db.GetData();
+        db.Dispose(); // Phải tự dispose
+        
+        // Tạo object email  
+        Email email = new Email();
+        email.SendEmail();
+        email.Dispose(); // Phải tự dispose
+    }
+}
 ```
 
-**Vấn đề phát sinh:**
+**Vấn đề**:
 
-- **Code trùng lặp** trong cả 3 trang
-- Khi cần thay đổi lớp `DB` thành `DB_new` → phải sửa ở **tất cả các trang**
-- Nếu có 30 hay 300 trang → công việc sửa đổi trở nên **rất tốn thời gian**
-- Phải tự quản lý việc tạo và giải phóng đối tượng
-
-
-### Giải pháp với Dependency Injection
-
-#### Cấu trúc mới
-
-- **3 trang web** (như trước)
-- **Email và Database** (chức năng chung)
-- **Vùng chứa DI (DI Container)** - thành phần đặc biệt
+- Code bị lặp lại trên nhiều page (3 page, 30 page, 300 page...)
+- Phải tự tạo, quản lý và dispose object
+- Khi thay đổi implementation, phải sửa ở tất cả nơi sử dụng
 
 
-#### Cách hoạt động
-
-1. **Đăng ký dịch vụ** trong DI Container:
+#### Tình huống CÓ Dependency Injection
 
 ```csharp
-// Đăng ký interface và implementation
-container.Register<IEmail, Email>();
-container.Register<IDb, DB>();
+// Đăng ký trong DI Container
+services.AddScoped<IDb, DB>();
+services.AddScoped<IEmail, Email>();
+
+// Trong page chỉ cần:
+public class Page1 
+{
+    private readonly IDb _db;
+    private readonly IEmail _email;
+    
+    public Page1(IDb db, IEmail email) // Constructor injection
+    {
+        _db = db;
+        _email = email;
+    }
+    
+    public void ProcessData() 
+    {
+        _db.GetData(); // Không cần tạo object
+        _email.SendEmail(); // Framework tự động inject
+    }
+}
 ```
 
-2. **Các trang yêu cầu** implementation thông qua interface:
-    - Trang không biết implementation cụ thể là gì
-    - Chỉ cần yêu cầu `IDb` hoặc `IEmail`
-3. **DI Container xử lý:**
-    - Tự động tìm implementation phù hợp
-    - Tạo đối tượng và cung cấp cho trang
-    - Quản lý việc tạo và giải phóng đối tượng
 
-#### Ưu điểm khi thay đổi
+### Lợi ích của Dependency Injection
 
-Khi cần thay đổi implementation:
+#### 1. **Loose Coupling (Kết nối lỏng lẻo)**
+
+- Page chỉ biết về interface (`IDb`, `IEmail`)
+- Không quan tâm implementation cụ thể là gì
+
+
+#### 2. **Dễ bảo trì và mở rộng**
+
+- Muốn thay đổi implementation? Chỉ cần sửa trong [[DI Container]]
+- Không phải sửa ở từng page riêng lẻ
 
 ```csharp
-// Chỉ cần sửa ở một nơi - trong DI Container
-container.Register<IEmail, Email_new>();  // Thay Email bằng Email_new
-container.Register<IDb, DB_new>();        // Thay DB bằng DB_new
+// Thay đổi implementation chỉ ở một nơi:
+services.AddScoped<IDb, DB_New>(); // Từ DB sang DB_New
+services.AddScoped<IEmail, Email_New>(); // Từ Email sang Email_New
 ```
 
-**Kết quả:**
 
-- Tất cả các trang tự động nhận implementation mới
-- Không cần sửa code ở 30 hay 300 trang
-- **Email và Database đã liên kết lỏng lẻo** với các lớp khác
+#### 3. **Tự động quản lý object lifecycle**
+
+- Framework tự tạo, inject và dispose object
+- Developer không cần quan tâm đến memory management
 
 
-### Tích hợp trong .NET Framework
+### DI trong .NET Framework
 
-- **Dependency Injection được tích hợp sẵn** trong .NET Framework
-- Chỉ cần **đăng ký dịch vụ** (register services)
-- Framework tự động xử lý việc còn lại
+- **[[Dependency Injection]]** được tích hợp sẵn trong .NET
+- Chỉ cần đăng ký service trong [[DI Container]]
+- Framework sẽ tự động xử lý việc injection
 
 
 ### Ghi chú thêm
 
-- DI là một **khái niệm quan trọng** trong kiến trúc phần mềm hiện đại
-- Giúp code **dễ bảo trì, kiểm thử và mở rộng**
-- Là nền tảng cho nhiều framework và thư viện .NET
-
-*Liên kết: [[.NET Framework]], [[Design Patterns]], [[Software Architecture]]*
+- DI giúp code clean, dễ test và maintainable
+- Là một trong những nguyên tắc quan trọng của [[SOLID Principles]]
+- Thường được sử dụng cùng với [[Interface]] để đạt hiệu quả tối đa
+- Câu hỏi phỏng vấn: Hãy chuẩn bị ví dụ thực tế để giải thích concept này
 

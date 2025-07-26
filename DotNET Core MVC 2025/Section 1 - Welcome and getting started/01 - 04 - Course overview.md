@@ -1,126 +1,164 @@
-# Tổng quan khóa học .NET Core
+## Tổng quan nội dung khóa học .NET Core MVC
 
-## Giới thiệu chung
+### Kiến trúc ứng dụng thực tế
 
-Khóa học này sẽ xây dựng một ứng dụng thực tế (real-world application) với kiến trúc hoàn chỉnh, bao gồm nhiều công nghệ và tính năng nâng cao.
+#### Thiết kế hệ thống
 
-## Kiến trúc và cơ sở dữ liệu
+- **Xây dựng ứng dụng thế giới thực** với kiến trúc hoàn chình
+- **Kiến trúc tầng** (layered architecture) chuyên nghiệp
+- **Best practices** trong phát triển enterprise application
 
-## Entity Framework và các mẫu thiết kế
 
-- Sử dụng **Repository Pattern** để quản lý truy cập dữ liệu
-    
-- Triển khai **Unit of Work Pattern** để quản lý các giao dịch cơ sở dữ liệu
-    
-- Làm việc với Entity Framework Core
-    
+#### Entity Framework \& Database
 
-## Quản lý dữ liệu trong .NET Core
+- **Repository Pattern** - mẫu thiết kế quản lý dữ liệu
+- **Unit of Work** - quản lý transaction và consistency
+- **Database design** cho ứng dụng e-commerce
 
-- **TempData**: Truyền dữ liệu tạm thời giữa các request
-    
-- **ViewBag**: Truyền dữ liệu từ Controller đến View
-    
-- **ViewData**: Cách khác để truyền dữ liệu đến View
-    
-- Phân tích sự khác biệt và khi nào nên sử dụng từng loại
-    
 
-## Controllers và Views
+### Quản lý dữ liệu trong MVC
 
-## Các loại Controller
+#### So sánh các phương thức truyền dữ liệu
 
-- **API Controllers**: Xây dựng Web API
-    
-- **Razor Pages**: Tạo giao diện web với Razor Pages
-    
-- So sánh và lựa chọn phương pháp phù hợp
-    
+- **TempData** - dữ liệu tạm thời giữa các request
+- **ViewBag** - dữ liệu dynamic từ controller đến view
+- **ViewData** - dictionary-based data transfer
+- **Khi nào sử dụng** từng phương thức
 
-## Tích hợp JavaScript và thư viện nâng cao
 
-## Các gói JavaScript được tích hợp
+### API và Razor Pages
 
-- **Sweet Alerts**: Thông báo và cảnh báo đẹp mắt
-    
-- **Rich Text Editor**: Trình soạn thảo văn bản phong phú
-    
-- **Data Tables**: Bảng dữ liệu với tính năng tìm kiếm, sắp xếp, phân trang
-    
+#### Đa dạng công nghệ web
 
-## Bảo mật và xác thực
+- **API Controllers** - xây dựng RESTful APIs
+- **Razor Pages** - page-based development model
+- **Tích hợp** cả MVC và Razor Pages trong một ứng dụng
 
-## .NET Identity
 
-- Triển khai hệ thống xác thực với .NET Identity
-    
-- Quản lý **Roles** (vai trò người dùng)
-    
-- Triển khai **Authorization** (phân quyền) trong ứng dụng
-    
+### Tích hợp JavaScript nâng cao
 
-## Đăng nhập xã hội (Social Login)
+#### Các thư viện JavaScript
 
-- Tích hợp đăng nhập qua **Facebook**
-    
-- Giảm thiểu thông tin người dùng cần nhập khi đăng ký
-    
+- **Sweet Alerts** - thông báo đẹp và tương tác
+- **Rich Text Editor** - soạn thảo nội dung phong phú
+- **DataTables** - bảng dữ liệu với tìm kiếm, phân trang, sắp xếp
+- **Tích hợp packages** với .NET Core
 
-## Thanh toán và giao dịch
 
-## Stripe Payment Integration
+### Bảo mật và xác thực
 
-- Tích hợp thanh toán qua **Stripe**
-    
-- Xử lý thanh toán trực tuyến
-    
-- Triển khai tính năng **hoàn tiền (refund)** sử dụng Stripe
-    
+#### .NET Identity
 
-## Tính năng nâng cao
+- **Hệ thống xác thực** built-in của Microsoft
+- **Roles và Authorization** - phân quyền người dùng
+- **Security best practices** trong web development
 
-## Quản lý phiên và email
 
-- Làm việc với **Sessions** trong .NET Core
-    
-- Gửi email sử dụng **SendGrid**
-    
+#### Phân quyền ứng dụng
 
-## Quản lý người dùng
+- **Role-based authorization**
+- **Claims-based security**
+- **Bảo vệ controllers và actions**
 
-- Xây dựng hệ thống quản lý người dùng (User Management)
-    
-- Chuyển đổi vai trò người dùng một cách linh hoạt (toggle roles dynamically)
-    
 
-## Các khái niệm nâng cao
+### Thanh toán trực tuyến
 
-- **View Components**: Thành phần giao diện có thể tái sử dụng
-    
-- **DB Initializer**: Khởi tạo và seed dữ liệu cho cơ sở dữ liệu
-    
+#### Stripe Integration
 
-## Triển khai ứng dụng
+- **Stripe Payment** - cổng thanh toán quốc tế
+- **Xử lý thanh toán** an toàn
+- **Process refunds** - hoàn tiền tự động
+- **Webhook handling** - xử lý sự kiện từ Stripe
 
-## Deployment to Azure
 
-- Triển khai ứng dụng hoàn chỉnh lên **Azure**
-    
-- Học cách deploy ứng dụng .NET Core lên cloud
-    
-- Có được kinh nghiệm thực tế về việc triển khai ứng dụng
-    
+### Communication và Session
 
-## Kết luận
+#### Quản lý phiên làm việc
 
-Đây là tổng quan ở mức độ cao (10,000 ft overview) về nội dung khóa học. Khóa học sẽ cung cấp kiến thức toàn diện về phát triển ứng dụng web với .NET Core, từ cơ bản đến nâng cao, bao gồm cả việc triển khai thực tế trên cloud platform.
+- **Sessions trong .NET Core** - lưu trữ tạm thời
+- **Session configuration** và best practices
 
-## Mục tiêu khóa học
 
-- Xây dựng ứng dụng thương mại điện tử hoàn chỉnh
-    
-- Nắm vững các công nghệ và mẫu thiết kế hiện đại
-    
-- Có kinh nghiệm triển khai ứng dụng thực tế
-    
-- Hiểu sâu về bảo mật và tích hợp thanh toán
+#### Email Service
+
+- **SendGrid integration** - dịch vụ gửi email chuyên nghiệp
+- **Email templates** và notification system
+- **Transactional emails** cho e-commerce
+
+
+### Quản lý người dùng
+
+#### User Management System
+
+- **Quản lý tất cả users** trong hệ thống
+- **Toggle roles dynamically** - thay đổi quyền real-time
+- **User administration** interface
+
+
+#### Social Authentication
+
+- **Facebook Login** integration
+- **OAuth flow** và security considerations
+- **Giảm ma sát** trong quá trình đăng ký
+
+
+### Concepts nâng cao
+
+#### View Components
+
+- **View Components** - thành phần UI có thể tái sử dụng
+- **Khác biệt** với Partial Views
+- **Sử dụng** trong các tình huống phức tạp
+
+
+#### Database Initialization
+
+- **DB Initializer** - khởi tạo dữ liệu
+- **Seed data** cho development và production
+- **Migration strategies**
+
+
+### Deployment và Production
+
+#### Azure Deployment
+
+- **Deploy ứng dụng hoàn chỉnh** lên Azure
+- **Production environment** setup
+- **Kinh nghiệm thực tế** trong deployment process
+- **Configuration management** cho production
+
+
+### Mức độ tổng quan
+
+#### Phạm vi khóa học
+
+- **Tổng quan ở độ cao 10,000 ft** - big picture view
+- **Chi tiết sẽ được đi sâu** trong từng video
+- **Kiến thức toàn diện** từ cơ bản đến nâng cao
+
+
+#### Kết quả đạt được
+
+- **Ứng dụng e-commerce** hoàn chỉnh và professional
+- **Kinh nghiệm thực tế** với các công nghệ hiện đại
+- **Nền tảng vững chắc** cho sự nghiệp .NET Developer
+
+
+### Roadmap học tập
+
+```
+Nền tảng MVC → Database & Entity Framework → 
+Frontend Integration → Security & Authentication → 
+Payment & Communication → Advanced Features → 
+Deployment & Production
+```
+
+
+### Ghi chú thêm
+
+- **Khóa học thực hành** với dự án thực tế
+- **Bao phủ full-stack** development với .NET Core
+- **Chuẩn bị sẵn sàng** cho môi trường làm việc chuyên nghiệp
+
+*Liên kết: [[Repository Pattern]], [[Unit of Work]], [[.NET Identity]], [[Stripe Integration]], [[Azure Deployment]], [[Social Authentication]]*
+

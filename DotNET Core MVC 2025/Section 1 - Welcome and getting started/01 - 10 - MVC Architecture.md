@@ -1,118 +1,99 @@
-# Kiến trúc MVC trong ASP.NET Core
+## Kiến trúc MVC (Model-View-Controller) trong .NET Core
 
-## Giới thiệu về MVC
+### Cấu trúc thư mục trong Solution Explorer
 
-Khi mở Solution Explorer và xem file Program.cs, bạn sẽ thấy trong phần routing (định tuyến) có các từ khóa quan trọng là **controller** và **action**.
+Khi mở **Solution Explorer**, bạn sẽ thấy 3 thư mục chính:
 
-Trong Solution Explorer, chúng ta có các thư mục:
+- **Controllers**: chứa các controller
+- **Models**: chứa các model
+- **Views**: chứa các view
 
-- **Controllers** (Bộ điều khiển)
-    
-- **Models** (Mô hình)
-    
-- **Views** (Giao diện)
-    
+→ Đây chính là **3 thành phần cốt lõi** của [[MVC Architecture]]
 
-Đây chính là định nghĩa của từ khóa **MVC**: Models, Views và Controllers.
+### Định nghĩa MVC Architecture
 
-## Các thành phần của MVC
+**MVC** = **Model-View-Controller**
 
-## 1. Model (Mô hình)
+#### 1. Model - Đại diện cho dữ liệu (Data Shape)
 
-- **Vai trò**: Đại diện cho hình dạng của dữ liệu (shape of the data)
-    
-- **Nội dung**: Chứa tất cả các bảng (tables) hoặc các lớp (classes)
-    
-- **Ví dụ**: Trong ứng dụng thương mại điện tử, Model sẽ chứa các lớp như:
-    
-    - Products (Sản phẩm)
-        
-    - Orders (Đơn hàng)
-        
-    - Order Details (Chi tiết đơn hàng)
-        
-    - Shopping Cart (Giỏ hàng)
-        
+- **Vai trò**: định nghĩa cấu trúc và hình dạng của dữ liệu
+- **Nội dung**: chứa các class, table trong database
+- **Ví dụ** (ứng dụng e-commerce):
+    - Products (sản phẩm)
+    - Orders (đơn hàng)
+    - Order Details (chi tiết đơn hàng)
+    - Shopping Cart (giỏ hàng)
+- **Tóm tắt**: Model = tất cả các class files chứa dữ liệu
 
-## 2. View (Giao diện)
 
-- **Vai trò**: Đại diện cho giao diện người dùng (user interface)
-    
-- **Nội dung**: Tất cả những gì bạn thấy trên màn hình
-    
-- **Chức năng**: Kiểm soát các phần tử HTML trong dự án web
-    
-- **Ví dụ**: Form, biểu đồ, bảng dữ liệu hiển thị trên trình duyệt
-    
+#### 2. View - Giao diện người dùng (User Interface)
 
-## 3. Controller (Bộ điều khiển)
+- **Vai trò**: hiển thị những gì người dùng nhìn thấy trên màn hình
+- **Nội dung**:
+    - Form nhập liệu
+    - Biểu đồ (charts)
+    - Bảng dữ liệu
+    - Tất cả HTML elements
+- **Tóm tắt**: View = giao diện HTML của ứng dụng web
 
-- **Vai trò**: Trái tim của ứng dụng MVC
-    
-- **Chức năng chính**:
-    
-    - Xử lý yêu cầu của người dùng (handle user request)
-        
-    - Hoạt động như giao diện giữa Model và View
-        
-    - Lấy dữ liệu từ cơ sở dữ liệu thông qua Model
-        
-    - Truyền dữ liệu đến View để hiển thị
-        
 
-## Quy trình hoạt động của MVC
+#### 3. Controller - Trái tim của ứng dụng (Application Heart)
 
-## Luồng xử lý yêu cầu:
+- **Vai trò**: xử lý request từ người dùng
+- **Chức năng**: làm cầu nối giữa [[Model]] và [[View]]
+- **Nhiệm vụ**:
+    - Xử lý logic nghiệp vụ
+    - Fetch dữ liệu từ database
+    - Xử lý và chuyển đổi dữ liệu
+    - Truyền dữ liệu cho View
 
-1. **Người dùng tương tác**: Click nút hoặc mở website
-    
-2. **Controller nhận yêu cầu**: Yêu cầu đầu tiên được gửi đến Controller
-    
-3. **Controller xử lý**:
-    
-    - Xác định Model nào cần lấy dữ liệu
-        
-    - Truy xuất tất cả dữ liệu cần thiết
-        
-    - Xử lý và chuyển đổi dữ liệu nếu cần
-        
-4. **Truyền dữ liệu đến View**: Controller gửi dữ liệu đã xử lý đến View
-    
-5. **View tạo HTML**:
-    
-    - Thêm dữ liệu vào định dạng HTML
-        
-    - Tạo nội dung hoàn chỉnh
-        
-6. **Trả về kết quả**: View gửi HTML hoàn chỉnh về Controller
-    
-7. **Hiển thị cho người dùng**: Controller gửi phản hồi cuối cùng đến màn hình người dùng
-    
 
-## Action Methods (Phương thức hành động)
+### Luồng xử lý Request trong MVC
 
-- **Định nghĩa**: Các phương thức trong Controller định nghĩa các endpoints (điểm cuối)
-    
-- **Vai trò**: Xác định các hành động cụ thể mà Controller có thể thực hiện
-    
+```
+User Request → Controller → Model → Controller → View → Controller → User Response
+```
 
-## Routing mặc định
+**Các bước chi tiết**:
 
-Trong cấu hình routing mặc định:
+1. **User gửi request** (click button, mở website)
+2. **Controller nhận request** và xác định cần xử lý gì
+3. **Controller fetch dữ liệu** từ Model hoặc database
+4. **Controller xử lý dữ liệu** (chuyển đổi, tính toán nếu cần)
+5. **Controller truyền dữ liệu** cho View component
+6. **View tạo HTML** với dữ liệu đã nhận (ví dụ: điền dữ liệu vào table)
+7. **View trả HTML hoàn chỉnh** về Controller
+8. **Controller gửi response** cuối cùng cho User
+9. **User thấy website** hoàn chỉnh trên màn hình
 
-text
+### Khái niệm Action Methods
 
-`Home/Index/{id?}`
+- **Action Methods**: các phương thức trong Controller định nghĩa các endpoints
+- Mỗi Action Method xử lý một loại request cụ thể
+- Sẽ được giải thích chi tiết trong bài học tiếp theo
 
-- **Home**: Tên Controller
-    
-- **Index**: Tên Action Method
-    
-- **{id?}**: Tham số tùy chọn
-    
 
-Nếu không có route cụ thể được định nghĩa, hệ thống sẽ mặc định chuyển đến Home Controller và thực thi Index Action.
+### Liên kết với Default Route
 
-## Tóm tắt quan trọng
+Nhắc lại từ [[Program.cs]]:
 
-**Controller là trái tim của ứng dụng MVC** - đây là điều quan trọng nhất cần nhớ trong kiến trúc MVC. Controller đóng vai trò trung gian, điều phối toàn bộ luồng xử lý từ nhận yêu cầu của người dùng đến trả về kết quả cuối cùng.
+```csharp
+pattern: "{controller=Home}/{action=Index}/{id?}"
+```
+
+- **Controller mặc định**: `Home`
+- **Action mặc định**: `Index`
+- **ID**: tham số tùy chọn
+
+→ Nếu không có route cụ thể, request sẽ đi đến `HomeController.Index()`
+
+### Ghi chú quan trọng
+
+- **Controller là trái tim** của MVC application
+- MVC architecture có thể phức tạp với người mới bắt đầu
+- **Nguyên tắc cốt lõi**: Controller điều phối tất cả - nhận request, xử lý dữ liệu, tạo response
+- **Luồng dữ liệu**: User → Controller → Model → Controller → View → Controller → User
+
+---
+**Liên kết**: [[Program.cs]], [[Routing]], [[Action Methods]], [[Controllers]], [[Models]], [[Views]]
+

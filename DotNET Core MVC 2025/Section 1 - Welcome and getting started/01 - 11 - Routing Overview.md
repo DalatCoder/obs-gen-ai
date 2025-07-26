@@ -1,101 +1,104 @@
-# Định tuyến (Routing) trong ứng dụng MVC
+## Routing trong MVC Application
 
-## Khái niệm về Routing
+### Khái niệm Routing
 
-**Định tuyến (Routing)** xác định rằng khi bạn nhập một URL, yêu cầu sẽ được gửi đến đâu trong ứng dụng. Trong ứng dụng MVC, chúng ta có một mẫu (pattern) nhất định để xử lý việc này.
+- **[[Routing]]**: định nghĩa khi người dùng nhập URL, request sẽ được gửi đến đâu
+- Đã cấu hình **default route** trong [[Program.cs]], nhưng MVC có pattern cụ thể
 
-## Cấu trúc URL Pattern trong MVC
 
-## Phân tích URL
+### Cấu trúc URL Pattern trong MVC
 
-Khi xem xét routing, chúng ta cần loại bỏ phần tên miền (domain name) và chỉ tập trung vào phần sau đó:
+#### Phần bỏ qua khi xử lý routing:
 
-- **Tên miền**: `localhost`, `google.com`, `.netmastery.com` (được loại bỏ khỏi pattern routing)
-    
-- **Phần routing**: Mọi thứ sau tên miền và số cổng
-    
+- **Domain name**: `localhost`, `google.com`, `.netmastery.com`
+- **Port number**: `:3000`, `:5000`
 
-## Mẫu định tuyến cơ bản
 
-Trong ứng dụng MVC, mẫu định tuyến điển hình là:
+#### Pattern chính sau domain:
 
-text
+```
+/{controller}/{action}/{id?}
+```
 
-`/{controller}/{action}/{id?}`
+**Hai từ khóa quan trọng cần nhớ**:
 
-**Hai từ khóa quan trọng nhất cần ghi nhớ:**
+1. **Controller**: điều khiển logic
+2. **Action**: phương thức xử lý trong controller
 
-1. **Controller** (Bộ điều khiển)
-    
-2. **Action** (Hành động)
-    
+### Ví dụ phân tích URL
 
-## Cách phân tích URL
+#### URL: `localhost:5000/category/index/3`
 
-## Cấu trúc tiêu chuẩn:
+**Phân tích**:
 
-1. **Phần đầu tiên** sau tên miền = **Tên Controller**
-    
-2. **Phần thứ hai** = **Tên Action Method**
-    
-3. **Phần thứ ba** (tùy chọn) = **ID**
-    
+- **Domain**: `localhost:5000` (bỏ qua)
+- **Controller**: `category` (phần đầu tiên sau domain)
+- **Action**: `index` (phần thứ hai)
+- **ID**: `3` (tham số tùy chọn)
 
-## Ví dụ phân tích URL:
 
-|URL|Controller|Action|ID|
-|---|---|---|---|
-|`/category/index/3`|category|index|3|
-|`/category`|category|index (mặc định)|null|
-|`/category/edit/3`|category|edit|3|
-|`/product/details/3`|product|details|3|
+### Bài tập phân tích URL Patterns
 
-## Quy tắc mặc định
+| URL | Controller | Action | ID |
+| :-- | :-- | :-- | :-- |
+| `/category/index` | `category` | `index` | `null` |
+| `/category` | `category` | `index` (mặc định) | `null` |
+| `/category/edit/3` | `category` | `edit` | `3` |
+| `/product/details/3` | `product` | `details` | `3` |
 
-## Action mặc định
+### Quy tắc mặc định
 
-- Nếu không có action được định nghĩa trong URL, hệ thống sẽ tự động sử dụng **action "Index"**
-    
-- Ví dụ: `/category` sẽ được hiểu là `/category/index`
-    
+#### Khi không có Action:
 
-## Route mặc định trong Program.cs
+- Nếu chỉ có `/category` → Action tự động là `index`
+- **Nguyên tắc**: Action mặc định luôn là `index`
 
-text
 
-`Home/Index/{id?}`
+#### Khi không có gì sau domain:
 
-**Ý nghĩa:**
+- URL: `localhost:5000/`
+- **Controller mặc định**: `Home`
+- **Action mặc định**: `Index`
+- **Cấu hình trong Program.cs**:
 
-- **Controller mặc định**: Home
-    
-- **Action mặc định**: Index
-    
-- **ID**: Tùy chọn (ký hiệu `?`)
-    
+```csharp
+pattern: "{controller=Home}/{action=Index}/{id?}"
+```
 
-Khi không có gì được định nghĩa sau tên miền, ứng dụng sẽ tự động chuyển đến Home Controller và thực thi Index Action Method.
 
-## Tầm quan trọng của việc hiểu Routing
+### Tầm quan trọng của việc hiểu Routing
 
-## Lợi ích khi nắm vững routing:
+- **Kỹ năng quan trọng**: nhìn vào URL MVC, có thể xác định:
+    - Controller name
+    - Action name
+    - Tham số ID (nếu có)
+- **Ứng dụng thực tế**: debug, phát triển và bảo trì ứng dụng MVC
 
-- **Đọc hiểu URL**: Có thể xác định controller và action từ URL của ứng dụng MVC
-    
-- **Tùy chỉnh định tuyến**: Có thể thay đổi route mặc định nếu cần thiết
-    
-- **Kiểm soát luồng ứng dụng**: Hiểu cách ứng dụng điều hướng các yêu cầu
-    
 
-## Ghi chú quan trọng:
+### Default Route Configuration
 
-- Đây là **mẫu mặc định** được đội ngũ .NET cấu hình
-    
-- Có thể **tùy chỉnh** và **thay đổi** routing pattern trong các video sau
-    
-- **Controller** và **Action** là hai khái niệm cốt lõi cần ghi nhớ tuyệt đối
-    
+```csharp
+// Trong Program.cs
+app.MapControllerRoute(
+    name: "default", 
+    pattern: "{controller=Home}/{action=Index}/{id?}");
+```
 
-## Kết luận
+**Ý nghĩa**:
 
-Hiểu về routing là nền tảng quan trọng để làm việc với ứng dụng MVC. Từ việc phân tích URL, bạn có thể xác định được ứng dụng sẽ gọi controller nào và action method nào, giúp kiểm soát tốt hơn luồng xử lý của ứng dụng.
+- Nếu không định nghĩa gì sau domain → đi đến `HomeController.Index()`
+- Có thể thay đổi default route này nếu cần
+- **Dấu `?`**: tham số `id` là tùy chọn (có thể null)
+
+
+### Ghi chú quan trọng
+
+- **Pattern cố định**: `/{controller}/{action}/{id?}`
+- **Thứ tự quan trọng**: Controller → Action → ID
+- **Action mặc định**: luôn là `Index` khi không chỉ định
+- **ID**: luôn là tham số tùy chọn
+- Có thể customize routing pattern trong các bài học sau
+
+---
+**Liên kết**: [[Program.cs]], [[MVC Architecture]], [[Controllers]], [[Action Methods]], [[URL Pattern]]
+

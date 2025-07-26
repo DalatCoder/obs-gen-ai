@@ -1,143 +1,78 @@
-# File Program.cs trong ASP.NET Core MVC
+## Program.cs - File cấu hình chính trong .NET Core MVC
 
-## Tổng quan về Program.cs
+### Khái niệm tổng quan
 
-File **Program.cs** là file chính trong ứng dụng ASP.NET Core. Trong các phiên bản cũ hơn của .NET Core, chúng ta có hai file riêng biệt:
+- Trong các phiên bản .NET Core cũ: sử dụng 2 file riêng biệt là `Program.cs` và `Startup.cs`
+- Phiên bản mới: đội ngũ .NET đã gộp cả hai file thành một file duy nhất là `Program.cs`
 
-- **Program.cs**
-    
-- **Startup.cs**
-    
 
-Tuy nhiên, với phiên bản mới hơn, nhóm phát triển .NET đã kết hợp cả hai file này thành một file duy nhất là **Program.cs**.
+### Hai nhiệm vụ chính khi cấu hình ứng dụng .NET
 
-## Hai nhiệm vụ chính của Program.cs
+#### 1. Thêm services vào container (Services Registration)
 
-Khi cấu hình ứng dụng .NET, có hai việc quan trọng cần thực hiện:
+- Sử dụng `builder.Services` để đăng ký các dịch vụ
+- Ví dụ: `builder.Services.AddControllersWithViews()` - đăng ký dịch vụ [[MVC]] với controllers và views
+- Trong tương lai sẽ thêm nhiều services khác qua [[Dependency Injection]]
 
-## 1. Thêm Services vào Container
 
-- Sử dụng `builder.Services` để thêm các dịch vụ (services)
-    
-- Ví dụ: `AddControllersWithViews()` để hỗ trợ kiến trúc MVC
-    
-- Nơi để thêm các dependency injection (tiêm phụ thuộc) trong tương lai
-    
+#### 2. Cấu hình request pipeline (Request Pipeline Configuration)
 
-## 2. Cấu hình Request Pipeline
+- [[Pipeline]] = cách xử lý request khi nó đến ứng dụng
+- Sử dụng các middleware để xử lý request theo thứ tự
 
-- Định nghĩa cách xử lý các yêu cầu (requests) đến ứng dụng
-    
-- Sử dụng các middleware để xử lý pipeline
-    
 
-## Chi tiết cấu hình trong Program.cs
+### Cấu hình Environment Variables
 
-## Tạo Builder và thêm Services
+```csharp
+if (!app.Environment.IsDevelopment())
+{
+    app.UseExceptionHandler("/Home/Error");
+}
+```
 
-csharp
+- `IsDevelopment()`: kiểm tra môi trường development (từ [[launch settings]])
+- Các helper khác: `IsProduction()`, `IsStaging()`, `IsEnvironment("tên-môi-trường")`
+- **Logic**:
+    - Môi trường **không phải** development: sử dụng exception handler, redirect về trang lỗi
+    - Môi trường development: hiển thị exception trực tiếp để debug
 
-`var builder = WebApplication.CreateBuilder(); builder.Services.AddControllersWithViews();`
 
-## Cấu hình Environment
+### Cấu hình Request Pipeline
 
-csharp
+Thứ tự các middleware quan trọng:
 
-`app.Environment.IsDevelopment()`
+1. **HTTPS Redirection**: `app.UseHttpsRedirection()`
+2. **Static Files**: `app.UseStaticFiles()` - cấu hình thư mục `wwwroot` cho các file tĩnh
+3. **Routing**: `app.UseRouting()` - kích hoạt routing
+4. **Authorization**: `app.UseAuthorization()` - xử lý phân quyền (sẽ học sau)
 
-Hệ thống cung cấp các helper methods:
+### Default Route Pattern
 
-- `IsDevelopment()`: Kiểm tra môi trường phát triển
-    
-- `IsProduction()`: Kiểm tra môi trường sản xuất
-    
-- `IsStaging()`: Kiểm tra môi trường staging
-    
-- `IsEnvironment()`: Kiểm tra môi trường tùy chỉnh
-    
+```csharp
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}");
+```
 
-## Xử lý Exception (Ngoại lệ)
+- **Controller mặc định**: `Home`
+- **Action mặc định**: `Index`
+- **ID parameter**: tùy chọn (dấu `?` = có thể null)
+- **Ý nghĩa**: nếu không định nghĩa route cụ thể, sẽ đi đến `HomeController.Index()`
 
-- **Môi trường Development**: Hiển thị chi tiết lỗi
-    
-- **Môi trường khác**: Chuyển hướng đến trang lỗi (`/Home/Error`)
-    
 
-## Cấu hình Pipeline
+### Khởi chạy ứng dụng
 
-## Static Files (File tĩnh)
+- `app.Run()`: khởi chạy ứng dụng và lắng nghe request
 
-csharp
 
-`app.UseStaticFiles();`
+### Ghi chú quan trọng
 
-- Cấu hình đường dẫn **wwwroot**
-    
-- Cho phép truy cập các file tĩnh trong ứng dụng
-    
+- **Điều cần nhớ**: `Program.cs` là nơi duy nhất để:
+    - Thêm services vào container
+    - Cấu hình [[middleware]] pipeline
+- Nội dung chi tiết sẽ được giải thích rõ hơn trong các bài học tiếp theo
+- Hiện tại chỉ cần hiểu **vai trò** và **vị trí** của file này trong kiến trúc ứng dụng
 
-## HTTPS Redirect
+---
+**Liên kết**: [[MVC Architecture]], [[Dependency Injection]], [[Middleware Pipeline]], [[Environment Variables]]
 
-csharp
-
-`app.UseHttpsRedirection();`
-
-## Routing và Authorization
-
-csharp
-
-`app.UseRouting(); app.UseAuthorization();`
-
-## Cấu hình Route mặc định
-
-csharp
-
-`app.MapControllerRoute(     name: "default",    pattern: "{controller=Home}/{action=Index}/{id?}" );`
-
-**Giải thích pattern**:
-
-- `{controller=Home}`: Controller mặc định là Home
-    
-- `{action=Index}`: Action mặc định là Index
-    
-- `{id?}`: ID là tùy chọn (dấu `?` có nghĩa là có thể null)
-    
-
-## Chạy ứng dụng
-
-csharp
-
-`app.Run();`
-
-## Tóm tắt quan trọng
-
-## Điểm cần nhớ
-
-- **Program.cs** là file trung tâm để cấu hình ứng dụng
-    
-- Hai nhiệm vụ chính: **thêm services** và **cấu hình pipeline**
-    
-- Khi cần cấu hình gì đó cho ứng dụng, hãy tìm đến file **Program.cs**
-    
-
-## Lời khuyên cho người học
-
-- Nếu bạn chưa hiểu hết các khái niệm như middleware pipeline, đừng lo lắng
-    
-- Điều quan trọng là biết **Program.cs** là nơi để cấu hình ứng dụng
-    
-- Khi tiến triển trong khóa học, mọi thứ sẽ trở nên rõ ràng hơn
-    
-
-## Thuật ngữ quan trọng
-
-- **Services Container**: Nơi chứa các dịch vụ của ứng dụng
-    
-- **Request Pipeline**: Chuỗi xử lý các yêu cầu HTTP
-    
-- **Middleware**: Các thành phần xử lý trong pipeline
-    
-- **Dependency Injection**: Kỹ thuật tiêm phụ thuộc quan trọng trong .NET Core
-    
-
-> **Mục tiêu học tập**: Hiểu rằng Program.cs là file cấu hình chính và biết nơi để thêm services cũng như cấu hình pipeline khi cần thiết.

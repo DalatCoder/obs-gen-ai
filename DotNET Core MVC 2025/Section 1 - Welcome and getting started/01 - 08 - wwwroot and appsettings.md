@@ -1,94 +1,116 @@
-# Thư mục wwwroot và File Cấu hình trong ASP.NET Core MVC
+## Cấu trúc dự án .NET MVC - wwwroot và App Settings
 
-## Thư mục wwwroot
+### wwwroot Folder - Thư mục quan trọng
 
-Thư mục **wwwroot** là một thư mục quan trọng trong ứng dụng ASP.NET Core, có chức năng lưu trữ tất cả nội dung tĩnh (static content) của dự án.
+#### Khái niệm
 
-## Nội dung tĩnh là gì?
+- Là thư mục quan trọng trong ứng dụng .NET Core
+- Chứa tất cả **nội dung tĩnh (static content)** của dự án
 
-Nội dung tĩnh bao gồm:
 
-- File CSS
-    
-- File JavaScript
-    
-- Các gói NuGet (NuGet packages) hoặc thư viện bên thứ ba (third party libraries)
-    
-- Hình ảnh, file PDF, PowerPoint và các file khác
-    
-- Bất kỳ nội dung nào không chứa mã HTML
-    
+#### Static Content là gì?
 
-## Cấu trúc mặc định của thư mục wwwroot
+**Nội dung tĩnh** bao gồm tất cả những file không chứa mã HTML:
 
-Khi tạo ứng dụng MVC mới, thư mục wwwroot sẽ có sẵn:
+- CSS files
+- JavaScript files
+- NuGet packages hoặc thư viện bên thứ ba (third party libraries)
+- Hình ảnh (images)
+- Files, PDFs, PowerPoint
+- Bất kỳ nội dung tĩnh nào khác
 
-- **site.css**: File CSS toàn cục đã được sử dụng trong ứng dụng
-    
-- **site.js**: File JavaScript (trống, chỉ có template cơ bản)
-    
-- **Thư mục lib**: Chứa các thư viện như Bootstrap, jQuery, jQuery Validation
-    
 
-> **Lưu ý quan trọng**: Mọi nội dung tĩnh trong tương lai đều phải được thêm vào thư mục wwwroot.
+### Cấu trúc wwwroot mặc định
 
-## File Appsettings.json
+#### CSS
 
-## Mục đích sử dụng
+- `global.site.css` - file CSS toàn cục đã được sử dụng trong ứng dụng
+- Có thể thêm styling tùy chỉnh vào file này
 
-File **appsettings.json** là nơi lưu trữ:
 
-- Chuỗi kết nối cơ sở dữ liệu (connection strings)
-    
-- Các khóa bí mật (secret keys) của ứng dụng
-    
-- Cấu hình email (ví dụ: SendGrid)
-    
-- Thông tin kết nối Azure Blob Storage hoặc Azure Storage Account
-    
+#### JavaScript
 
-## Lợi ích của việc tập trung cấu hình
+- `site.js` - file JavaScript mặc định (hiện tại chỉ có template cơ bản)
 
-Việc lưu trữ tất cả cấu hình ở một nơi giúp:
 
-- Dễ dàng thay đổi kết nối mà không cần tìm kiếm trong toàn bộ mã nguồn
-    
-- Quản lý tập trung các thông tin nhạy cảm
-    
-- Bảo mật tốt hơn cho ứng dụng
-    
+#### Thư mục lib
 
-## Cấu hình theo môi trường
+Chứa các thư viện được bao gồm mặc định khi tạo ứng dụng MVC:
 
-ASP.NET Core hỗ trợ các file cấu hình khác nhau cho từng môi trường:
+- **Bootstrap** - framework CSS
+- **jQuery** - thư viện JavaScript
+- **jQuery Validations** - thư viện validation
 
-- **appsettings.json**: Cấu hình chung
-    
-- **appsettings.development.json**: Cấu hình cho môi trường phát triển (development)
-    
-- **appsettings.production.json**: Cấu hình cho môi trường sản xuất (production)
-    
 
-## Cách hoạt động
+### Quy tắc quan trọng
 
-Hệ thống sẽ tự động chọn file cấu hình phù hợp dựa trên biến môi trường **ASP.NET Core Environment** được định nghĩa trong file **launchsettings.json**.
+> **Luôn nhớ**: Tất cả nội dung tĩnh (hình ảnh, files, thư viện) trong tương lai đều phải được thêm vào **wwwroot folder**
 
-Ví dụ:
+### Controllers, Models và Views
 
-- Nếu môi trường là "Development" → sử dụng appsettings.development.json
-    
-- Nếu môi trường là "Production" → sử dụng appsettings.production.json
-    
+- Sẽ được đề cập chi tiết trong các video tiếp theo
 
-## Tóm tắt
 
-- **Thư mục wwwroot**: Lưu trữ tất cả nội dung tĩnh (CSS, JS, hình ảnh, v.v.)
-    
-- **File appsettings.json**: Lưu trữ chuỗi kết nối và các khóa bí mật
-    
-- **Cấu hình theo môi trường**: Hỗ trợ nhiều file cấu hình cho các môi trường khác nhau
-    
-- **Quản lý tập trung**: Giúp dễ dàng bảo trì và thay đổi cấu hình
-    
+### App Settings - Cấu hình ứng dụng
 
-Trong video tiếp theo sẽ tìm hiểu về file **Program.cs** - một file quan trọng khác trong ứng dụng.
+#### Appsettings.json
+
+- **Mục đích chính**: Lưu trữ tất cả **connection strings** và **secret keys** của ứng dụng
+
+
+#### Các loại thông tin lưu trữ
+
+- **Connection strings** cho database
+- **Secret keys** cho email (ví dụ: SendGrid)
+- **Azure Blob Storage** connection strings
+- **Azure Storage Account** credentials
+- Bất kỳ secret key nào khác của ứng dụng
+
+
+#### Lợi ích tập trung hóa
+
+- Khi cần thay đổi connection, chỉ cần vào `Appsettings.json`
+- Không cần tìm kiếm khắp code base
+- Tất cả connection và secret keys được quản lý ở một nơi
+
+
+### Environment-based Configuration
+
+#### Cấu trúc files
+
+- `appsettings.json` - cấu hình chung
+- `appsettings.development.json` - cấu hình cho môi trường phát triển
+- `appsettings.production.json` - cấu hình cho môi trường production
+
+
+#### Cách hoạt động
+
+- Dựa trên biến `ASPNETCORE_ENVIRONMENT` trong [[Launch Settings]]
+- .NET Core tự động chọn file cấu hình phù hợp:
+    - **Development environment** → sử dụng `appsettings.development.json`
+    - **Production environment** → sử dụng `appsettings.production.json`
+
+
+#### Ví dụ tạo file production
+
+```json
+// appsettings.production.json
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "production-connection-string"
+  }
+}
+```
+
+
+### Ghi chú thêm
+
+- Tính năng environment-based configuration rất thông minh và linh hoạt
+- Chi tiết cụ thể sẽ được đề cập trong các video sau
+- File `Program.cs` sẽ được phân tích trong video tiếp theo (là file quan trọng)
+
+
+### Nguyên tắc cơ bản cần nhớ
+
+> Tất cả **secrets** và **connection strings** phải được lưu trong file `appsettings.json`
+

@@ -1,175 +1,111 @@
-# Khám phá cấu trúc dự án và chạy ứng dụng lần đầu
+## Chạy Ứng Dụng và Khám Phá Project File
 
-## Chạy ứng dụng mặc định
+### Chạy ứng dụng lần đầu
 
-## Khởi chạy ứng dụng
+- Nhấn nút **HTTPS** trong Visual Studio để build và chạy project
+- Ứng dụng sẽ tự động mở trong trình duyệt với giao diện mặc định
 
-- Nhấn nút **HTTPS** để build dự án và mở trong trình duyệt
-    
-- Ứng dụng sẽ được build và tự động mở trong browser
-    
 
-## Giao diện mặc định
+### Giao diện mặc định của ứng dụng MVC
 
-Ứng dụng mặc định bao gồm các thành phần sau:
+**Các thành phần có sẵn**:
 
-- **Header (tiêu đề)**: Chứa navigation menu
-    
-- **Navigation (điều hướng)**: Đã được cấu hình sẵn
-    
-    - **Home page**: Hiển thị trang chào mừng
-        
-    - **Privacy page**: Hiển thị trang riêng tư khác
-        
-- **Body (nội dung chính)**: Khu vực hiển thị nội dung
-    
-- **Footer (chân trang)**: Phần cuối trang
-    
+- **Header (đầu trang)**: Chứa thanh điều hướng với 2 liên kết chính
+    - `Home`: Trang chủ hiển thị thông điệp chào mừng
+    - `Privacy`: Trang riêng tư với nội dung khác
+- **Body (nội dung chính)**: Khu vực hiển thị nội dung trang
+- **Footer (chân trang)**: Phần cuối trang web
+- **Navigation (điều hướng)**: Hệ thống menu đã được cấu hình sẵn
 
-## Ưu điểm
 
-- Layout cơ bản đã được thiết lập sẵn bởi .NET project mặc định
-    
-- Tiết kiệm thời gian thiết lập ban đầu
-    
+### Phân biệt Solution và Project
 
-## Hiểu về Project và Solution
+**Solution (giải pháp)**:
 
-## Khái niệm cơ bản
+- Tên: `Bulky`
+- Có thể chứa nhiều project con
+- Là container tổng thể cho toàn bộ ứng dụng
 
-- **Solution (giải pháp)**: `bulky` - có thể chứa nhiều project
-    
-- **Project (dự án)**: `bulky web` - hiện tại chỉ có một project trong solution
-    
+**Project (dự án)**:
 
-## Cấu trúc phân cấp
+- Tên: `BulkyWeb`
+- Thuộc về solution `Bulky`
+- Hiện tại chỉ có 1 project duy nhất
 
-text
 
-`Solution: bulky └── Project: bulky web`
+### Khám phá Project File
 
-## Kiểm tra Project File
+**Cách truy cập**:
 
-## Cách truy cập Project File
+- Chuột phải vào tên project (`BulkyWeb`)
+- Chọn **"Edit Project File"**
 
-1. Right-click vào **Project** (bulky web), không phải solution
-    
-2. Chọn **"Edit Project File"**
-    
+**Cấu trúc Project File**:
 
-## Nội dung Project File
+```xml
+<PropertyGroup>
+  <TargetFramework>net8.0</TargetFramework>
+  <Nullable>enable</Nullable>
+  <ImplicitUsings>enable</ImplicitUsings>
+</PropertyGroup>
+```
 
-## Cấu trúc đơn giản
 
-- Project file trong .NET 8 đã được đơn giản hóa đáng kể
-    
-- Phiên bản cũ của .NET Core phức tạp hơn nhiều
-    
+### Các thuộc tính quan trọng trong Project File
 
-## Các thuộc tính chính trong PropertyGroup
+**Target Framework (framework mục tiêu)**:
 
-**1. Target Framework (Framework đích)**
+- `<TargetFramework>net8.0</TargetFramework>`
+- Xác định ứng dụng sử dụng .NET 8 framework
+- Đây là thuộc tính quan trọng nhất
 
-xml
+**Nullable (nullable reference types)**:
 
-`<TargetFramework>net8.0</TargetFramework>`
-
-- Xác định đang sử dụng .NET 8.0 framework
-    
-- Thuộc tính quan trọng nhất trong project file
-    
-
-**2. Nullable**
-
-xml
-
-`<Nullable>enable</Nullable>`
-
+- `<Nullable>enable</Nullable>`
 - Tính năng được giới thiệu từ .NET 6
-    
 - Chi tiết sẽ được giải thích trong các video sau
-    
 
-**3. Implicit Using Statements (Câu lệnh using ngầm định)**
+**Implicit Usings (using statements ngầm định)**:
 
-xml
+- `<ImplicitUsings>enable</ImplicitUsings>`
+- Tự động bao gồm các using statements mặc định từ thư viện .NET
+- **Lợi ích**: Không cần viết thủ công các import statements cơ bản
+- **Nếu disable**: Phải explicitly thêm các import statements
 
-`<ImplicitUsings>enable</ImplicitUsings>`
 
-## Giải thích Implicit Using Statements
+### So sánh với phiên bản cũ
 
-## Khái niệm
+- **Phiên bản cũ của .NET Core**: Project file phức tạp hơn nhiều
+- **Phiên bản mới**: Được đơn giản hóa đáng kể
+- Dễ đọc và dễ quản lý hơn
 
-- Tương tự như **import statements** trong các framework frontend khác
-    
-- Cho phép import các thư viện từ bên ngoài
-    
 
-## Khi được bật (enabled)
+### Ghi chú về việc mở rộng project
 
-- Các using statements mặc định từ .NET libraries sẽ được tự động include
-    
-- Không cần viết các import statements thủ công
-    
+**Khi thêm NuGet packages**:
 
-## Khi được tắt (disabled)
-
-- Phải explicitly thêm import statements
-    
-- Tăng độ phức tạp nhưng cho phép kiểm soát chi tiết hơn
-    
-
-## Khuyến nghị
-
-- Giữ nguyên setting **enabled** để thuận tiện trong phát triển
-    
-
-## Vai trò của Project File
-
-## Chức năng chính
-
-- Chứa tất cả **project properties** được thiết lập bởi .NET
-    
-- Nơi thêm các **NuGet packages** và **NPM packages**
-    
-
-## Cập nhật tự động
-
-- Khi thêm NuGet package, project file sẽ được cập nhật tự động
-    
+- Project file sẽ được cập nhật tự động
+- Các dependencies sẽ được liệt kê trong file này
 - Sẽ được trình bày chi tiết trong các video tiếp theo
-    
 
-## Tóm tắt
+**Khi thêm NPM packages**:
 
-## Nội dung đã đề cập
+- Cũng cần cập nhật trong project file
+- Quản lý dependencies front-end
 
-1. **Ứng dụng mặc định**: Layout cơ bản với header, navigation, body, footer
-    
-2. **Project structure**: Hiểu về solution và project
-    
-3. **Project file**: Cấu trúc đơn giản với các thuộc tính chính:
-    
-    - Target Framework (.NET 8)
-        
-    - Nullable (sẽ giải thích sau)
-        
-    - Implicit Using Statements (thuận tiện cho development)
-        
 
-## Điểm quan trọng
+### Tầm quan trọng của Project File
 
-- Project file đã được đơn giản hóa trong các phiên bản mới
-    
-- .NET 8 framework là nền tảng chính
-    
-- Implicit using giúp giảm boilerplate code
-    
+- Chứa tất cả **project properties (thuộc tính dự án)** được .NET thiết lập
+- Là nơi quản lý **dependencies** và **packages**
+- Xác định **framework version** và **project settings**
+- Sẽ trở nên phức tạp hơn khi thêm nhiều tính năng vào project
 
-## Bước tiếp theo
 
-- Khám phá chi tiết các files và folders khác trong dự án
-    
-- Tìm hiểu cách project file được cập nhật khi thêm packages
-    
-- Giải thích chi tiết về Nullable feature
+### Kế hoạch tiếp theo
+
+- Khám phá chi tiết các files và folders trong project
+- Tìm hiểu về Nullable reference types
+- Học cách thêm và quản lý NuGet packages
+- Xem project file thay đổi như thế nào khi mở rộng tính năng
+

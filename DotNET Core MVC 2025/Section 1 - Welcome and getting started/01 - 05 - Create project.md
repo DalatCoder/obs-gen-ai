@@ -1,109 +1,69 @@
-# Tạo dự án ASP.NET Core MVC với Visual Studio 2022
+## Tạo Dự Án ASP.NET Core MVC trong Visual Studio 2022
 
-## Bước 1: Khởi tạo dự án mới
+### Khởi tạo dự án mới
 
-## Mở Visual Studio 2022
+- Mở **Visual Studio 2022**
+- Chọn **"Create a new project"** ở phía bên trái
+- Tìm kiếm từ khóa **"MVC"** trong thanh tìm kiếm
+- Chọn template **"ASP.NET Core Web App"** với mô tả **Model View Controller**
 
-- Khởi động Visual Studio 2022
-    
-- Chọn **"Create a new project"** ở phía bên trái màn hình
-    
 
-## Tìm kiếm template MVC
+### Lưu ý quan trọng khi chọn template
 
-- Trong phần recent project templates (các mẫu dự án gần đây), tìm kiếm **"MVC"**
-    
-- Kết quả sẽ hiển thị **ASP.NET Core Web App**
-    
+- **Chọn đúng template**: Đảm bảo chọn template có ghi chú "Model View and Controller"
+- **Tránh nhầm lẫn**: Không chọn template "Web app" sử dụng Razor Pages (không có MVC)
 
-## Lựa chọn template phù hợp
 
-- **Chọn đúng template**: ASP.NET Core Web App có **Model View và Controller (MVC)**
-    
-- **Không chọn**: Web app không có MVC (sử dụng Razor Pages)
-    
+### Cấu hình thông tin dự án
 
-## Bước 2: Cấu hình dự án
-
-## Thông tin cơ bản
-
-- **Tên dự án (Project name)**: `bulky web`
-    
+- **Tên dự án (Project name)**: `BulkyWeb`
 - **Vị trí lưu trữ (Location)**: Chọn thư mục mong muốn
-    
-- **Tên solution (Solution name)**: `bulky`
-    
-    - Lý do: Solution sẽ chứa nhiều project khác nhau
-        
+- **Tên solution (Solution name)**: `Bulky`
+    - Lý do: Sẽ chứa nhiều project con trong solution này
 
-## Cấu hình framework và tùy chọn
 
-- **Framework**: Chọn **.NET 8**
-    
-- **Authentication type (Loại xác thực)**: Chọn **"None"**
-    
-    - Lý do: Sẽ thêm authentication sau, hiện tại giữ đơn giản
-        
-- **Configure for HTTPS**: Giữ nguyên cài đặt mặc định
-    
-- **Do not use top level statements**: Không chọn
-    
-    - Lý do: Chỉ thêm using statements ở đầu file, không quan trọng lắm
-        
+### Cấu hình framework và tùy chọn
 
-## Hoàn tất tạo dự án
+**Framework**:
 
-- Nhấn nút **"Create"** để tạo dự án
-    
-- Visual Studio sẽ tự động tạo các files và folders mặc định
-    
+- Chọn **.NET 8** làm framework chính
 
-## Bước 3: Thêm vào source control (Git)
+**Authentication (Xác thực)**:
 
-## Thiết lập Git repository
+- Để **"None"** ở thời điểm hiện tại
+- Lý do: Sẽ thêm authentication sau, giữ đơn giản ban đầu
 
-- Thêm dự án vào source control (kiểm soát mã nguồn)
-    
-- Đăng nhập vào Git repository (nếu chưa đăng nhập)
-    
+**Các tùy chọn khác**:
 
-## Cấu hình repository
+- **Configure for HTTPS**: Để mặc định (được tích)
+- **Do not use top-level statements**: Không tích chọn
+    - Lý do: Tùy chọn này chỉ thêm using statements ở đầu file, không quan trọng lắm
 
-- **Tên repository**: `bulky_MVC`
-    
-- **Loại repository**: Private (riêng tư)
-    
-    - Lưu ý: Sẽ chuyển thành public (công khai) sau khi khóa học được phát hành
-        
-- Nhấn **"Create and Push"**
-    
 
-## Commit code
+### Tạo dự án và quản lý mã nguồn
 
-- Hệ thống hiển thị **2 outgoing changes** (2 thay đổi cần đẩy lên)
-    
-- Thực hiện push để đưa code lên repository
-    
-- Hoàn tất việc tạo dự án và commit code lên Git
-    
+**Tạo dự án**:
 
-## Tóm tắt
+- Nhấn nút **"Create"** để hoàn tất việc tạo dự án
+- Visual Studio sẽ tự động tạo cấu trúc thư mục và file mặc định
 
-Đã hoàn thành việc tạo dự án ASP.NET Core MVC với các đặc điểm:
+**Thêm vào source control**:
 
-- Sử dụng .NET 8 framework
-    
-- Template MVC (Model-View-Controller)
-    
-- Chưa có authentication (sẽ thêm sau)
-    
-- Đã được lưu trữ trên Git repository
-    
-- Sẵn sàng cho việc phát triển tiếp theo
-    
+- Tên repository: `bulky_MVC`
+- Loại repository: **Private** (sẽ chuyển thành public sau khi khóa học ra mắt)
+- Nhấn **"Create and Push"** để tạo và đẩy code lên Git repository
 
-## Bước tiếp theo
 
-- Khám phá các files và folders được tạo mặc định
-    
-- Bắt đầu phát triển các tính năng của ứng dụng
+### Kết quả
+
+- Dự án ASP.NET Core MVC đã được tạo thành công
+- Code đã được commit và push lên Git repository
+- Sẵn sàng để khám phá cấu trúc file và thư mục mặc định của dự án MVC
+
+
+### Ghi chú thêm
+
+- Solution được đặt tên `Bulky` vì sẽ chứa nhiều project con
+- Authentication sẽ được thêm vào ở các bài học sau
+- Framework .NET 8 cung cấp các tính năng mới nhất cho ứng dụng web
+
